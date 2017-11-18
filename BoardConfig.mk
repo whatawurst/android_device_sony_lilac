@@ -18,6 +18,8 @@ include device/sony/yoshino/BoardConfigPlatform.mk
 
 DEVICE_PATH := device/sony/lilac
 
+PRODUCT_PLATFORM := yoshino
+
 ### BOOTLOADER
 TARGET_BOOTLOADER_BOARD_NAME := G8441
 
