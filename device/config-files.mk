@@ -28,4 +28,14 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/config/audio/sound_trigger_mixer_paths_wcd9330.xml:vendor/etc/sound_trigger_mixer_paths_wcd9330.xml \
     $(DEVICE_PATH)/config/audio/sound_trigger_mixer_paths_wcd9340.xml:vendor/etc/sound_trigger_mixer_paths_wcd9340.xml \
     $(DEVICE_PATH)/config/audio/sound_trigger_platform_info.xml:vendor/etc/sound_trigger_platform_info.xml
+
+# Audio calibration
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/config/audio-calibration/Bluetooth_cal.acdb:vendor/etc/acdbdata/Bluetooth_cal.acdb \
+    $(DEVICE_PATH)/config/audio-calibration/General_cal.acdb:vendor/etc/acdbdata/General_cal.acdb \
+    $(DEVICE_PATH)/config/audio-calibration/Global_cal.acdb:vendor/etc/acdbdata/Global_cal.acdb \
+    $(DEVICE_PATH)/config/audio-calibration/Handset_cal.acdb:vendor/etc/acdbdata/Handset_cal.acdb \
+    $(DEVICE_PATH)/config/audio-calibration/Hdmi_cal.acdb:vendor/etc/acdbdata/Hdmi_cal.acdb \
+    $(DEVICE_PATH)/config/audio-calibration/Headset_cal.acdb:vendor/etc/acdbdata/Headset_cal.acdb \
+    $(DEVICE_PATH)/config/audio-calibration/Speaker_cal.acdb:vendor/etc/acdbdata/Speaker_cal.acdb
 endif
