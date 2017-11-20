@@ -89,3 +89,7 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/config/camera/s5k3m3sm_chromatix.xml:system/etc/camera/s5k3m3sm_chromatix.xml \
     $(DEVICE_PATH)/config/camera/s5k3p3sm_chromatix.xml:system/etc/camera/s5k3p3sm_chromatix.xml \
     $(DEVICE_PATH)/config/camera/s5k3p8sp_chromatix.xml:system/etc/camera/s5k3p8sp_chromatix.xml
+
+### TERMANAGER
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/config/thermanager/thermanager.xml:system/etc/thermanager.xml
