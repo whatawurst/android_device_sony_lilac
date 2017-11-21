@@ -8,4 +8,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.lilac
 
+### NFC
+PRODUCT_PACKAGES += \
+    nfc_nci.lilac
+
 endif

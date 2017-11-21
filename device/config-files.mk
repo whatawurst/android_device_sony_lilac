@@ -93,3 +93,8 @@ PRODUCT_COPY_FILES += \
 ### TERMANAGER
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/config/thermanager/thermanager.xml:system/etc/thermanager.xml
+
+### NFC
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/config/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    $(DEVICE_PATH)/config/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf
