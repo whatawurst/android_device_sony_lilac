@@ -9,4 +9,7 @@ $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk
 
 DEVICE_PATH := device/sony/lilac
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(DEVICE_PATH)/overlay
+
 include $(DEVICE_PATH)/device/*.mk
