@@ -1,1 +1,7 @@
 # system prop for lilac
+
+### DISPLAY
+ro.sf.lcd_density=320
+
+### USB
+ro.usb.pid_suffix=1F4
