@@ -38,6 +38,11 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/config/audio-calibration/Hdmi_cal.acdb:vendor/etc/acdbdata/Hdmi_cal.acdb \
     $(DEVICE_PATH)/config/audio-calibration/Headset_cal.acdb:vendor/etc/acdbdata/Headset_cal.acdb \
     $(DEVICE_PATH)/config/audio-calibration/Speaker_cal.acdb:vendor/etc/acdbdata/Speaker_cal.acdb
+
+### SDM
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/config/sdm/qdcm_calib_data_5.xml:vendor/etc/qdcm_calib_data_5.xml \
+    $(DEVICE_PATH)/config/sdm/qdcm_calib_data_8.xml:vendor/etc/qdcm_calib_data_8.xml
 endif
 
 ### CAMERA
