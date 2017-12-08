@@ -586,6 +586,28 @@ LensInfo : Information of the lens present in the module.
       <MinFocusDistance>0.1</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
+  <CameraModuleConfig>
+    <CameraId>3</CameraId>
+    <SensorName>irs1645</SensorName>
+    <FlashName>pmic</FlashName>
+    <ModesSupported>1</ModesSupported>
+    <Position>BACK</Position>
+    <MountAngle>90</MountAngle>
+    <CSIInfo>
+      <CSIDCore>3</CSIDCore>
+      <LaneMask>0x7</LaneMask>
+      <LaneAssign>0x20</LaneAssign>
+      <ComboMode>1</ComboMode>
+    </CSIInfo>
+    <LensInfo>
+      <FocalLength>4.73</FocalLength>
+      <FNumber>2.2</FNumber>
+      <TotalFocusDistance>1.98</TotalFocusDistance>
+      <HorizontalViewAngle>68.0</HorizontalViewAngle>
+      <VerticalViewAngle>51.0</VerticalViewAngle>
+      <MinFocusDistance>0.1</MinFocusDistance>
+    </LensInfo>
+  </CameraModuleConfig>
   <StereoConfig>
     <SensorNode>
       <CameraId>3</CameraId>
