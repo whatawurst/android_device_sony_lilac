@@ -37,3 +37,6 @@ persist.radio.mt_sms_ack=19
 
 # System props for single SIM phone (not DSDS products)
 persist.radio.block_allow_data=1
+
+# First released API level
+ro.product.first_api_level=26
