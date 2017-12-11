@@ -40,3 +40,17 @@ persist.radio.block_allow_data=1
 
 # First released API level
 ro.product.first_api_level=26
+
+# Settings to enable sensors
+#Device Orientation sensor
+ro.vendor.sensors.dev_ori=true
+#Persistent Motion Detector
+ro.vendor.sensors.pmd=true
+#Stationary Detector
+ro.vendor.sensors.sta_detect=true
+#Motion Detector
+ro.vendor.sensors.mot_detect=true
+#Device Position Classifier
+ro.vendor.sensors.dpc=true
+#MultiShake sensor
+ro.vendor.sensors.multishake=true
