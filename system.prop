@@ -69,3 +69,15 @@ ro.semc.version.fs=GENERIC
 ro.semc.version.fs_revision=47.1.A.7.1
 ro.semc.product.name=Xperia XZ1 Compact
 ro.semc.product.device=G84
+
+# secd/suntory
+# FIDO key provision state and version
+persist.keyprovd.fido.prov=false
+persist.keyprovd.fido.version=0
+
+# Attestation Key provision state and version
+persist.keyprovd.attest.prov=false
+persist.keyprovd.attest.version=0
+
+# Suntory BLOBs have been processing state
+persist.keyprovd.suntory.prov=false
