@@ -1,0 +1,110 @@
+# Build dependencies
+-vendor/lib/libaudio_log_utils.so
+-vendor/lib64/libaudio_log_utils.so
+-vendor/lib/libgpustats.so
+-vendor/lib64/libgpustats.so
+-vendor/lib/libta.so
+-vendor/lib64/libta.so
+
+# Bluetooth
+lib64/libaptXHD_encoder.so
+lib64/libaptX_encoder.so
+
+# Camera
+bin/cacaoserver
+lib/libcacao_client.so
+lib/libcacao_pal.so
+lib/libcacao_process_ctrl_gateway.so
+lib/libcacao_service.so
+lib/vendor.qti.hardware.camera.device@1.0.so
+lib/vendor.somc.hardware.camera.cacao@1.0.so
+lib/vendor.somc.hardware.camera.cacao@2.0.so
+lib/vendor.somc.hardware.camera.cacao@3.0.so
+lib/vendor.somc.hardware.camera.device@1.0.so
+lib/vendor.somc.hardware.camera.provider@1.0.so
+lib64/libcacao_client.so
+lib64/libcacao_pal.so
+lib64/vendor.qti.hardware.camera.device@1.0.so
+
+# Display
+lib64/hw/libdisplay.default.so
+lib64/libsdm-disp-apis.so
+lib64/libsys-utils-system.so
+lib64/vendor.display.color@1.0.so
+lib64/vendor.display.config@1.0.so
+lib64/vendor.display.postproc@1.0.so
+
+# DRM
+lib/vendor.semc.hardware.drm@1.0.so
+lib64/vendor.semc.hardware.drm@1.0.so
+
+# Framework dependencies
+etc/permissions/com.sonyericsson.idd.xml
+etc/permissions/com.sonymobile.getmore.api.xml
+framework/com.sonyericsson.idd_impl.jar
+framework/com.sonymobile.getmore.api.jar
+
+# FM
+lib/vendor.qti.hardware.fm@1.0.so
+lib64/vendor.qti.hardware.fm@1.0.so
+
+# GNSS
+lib/vendor.qti.gnss@1.0.so
+lib64/vendor.qti.gnss@1.0.so
+
+# IDD
+lib/vendor.semc.system.idd@1.0.so
+lib64/vendor.semc.system.idd@1.0.so
+
+# IMPROVETOUCH
+lib/vendor.qti.hardware.improvetouch.blobmanager@1.0.so
+lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so
+lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
+lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0.so
+lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so
+lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
+
+# IMS
+-app/ims/ims.apk
+etc/permissions/qti-vzw-ims-internal.xml
+lib64/libimscamera_jni.so
+lib64/libimscamera_jni.so:app/ims/lib/arm64/libimscamera_jni.so
+lib64/libimsmedia_jni.so
+lib64/libimsmedia_jni.so:app/ims/lib/arm64/libimsmedia_jni.so
+lib64/vendor.qti.imsrtpservice@1.0.so
+
+# IOP
+lib/vendor.qti.hardware.iop@1.0.so
+lib64/vendor.qti.hardware.iop@1.0.so
+
+# MISCTA
+lib/vendor.somc.hardware.miscta@1.0.so
+lib64/vendor.somc.hardware.miscta@1.0.so
+
+# NFC
+lib64/vendor.nxp.nxpnfc@1.0.so
+
+# PERF
+lib/vendor.qti.hardware.perf@1.0.so
+lib64/vendor.qti.hardware.perf@1.0.so
+
+# QCRIL
+-app/QtiTelephonyService/QtiTelephonyService.apk
+etc/permissions/privapp-permissions-sony.xml
+etc/permissions/qcrilhook.xml
+etc/permissions/telephonyservice.xml
+etc/sysconfig/qti_whitelist.xml
+-framework/qcrilhook.jar
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+
+# QTEE
+lib/vendor.qti.hardware.qteeconnector@1.0.so
+lib64/vendor.qti.hardware.qteeconnector@1.0.so
+
+# SECD
+lib/vendor.semc.hardware.secd@1.0.so
+lib64/vendor.semc.hardware.secd@1.0.so
+
+# TOF SENSOR
+lib/sensors.hal.tof.so
+lib64/sensors.hal.tof.so
