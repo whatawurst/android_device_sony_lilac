@@ -37,7 +37,7 @@ How to build LineageOS
         <project name="cryptomilk/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" />
         <project name="cryptomilk/android_device_sony_lilac" path="device/sony/lilac" remote="github" />
 
-        <project name="cryptomilk/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" />
+        <project name="cryptomilk/proprietary_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" />
     </manifest>
 
 * Sync the repo:
