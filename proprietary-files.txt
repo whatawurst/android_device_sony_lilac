@@ -105,6 +105,12 @@ lib64/vendor.qti.hardware.qteeconnector@1.0.so
 lib/vendor.semc.hardware.secd@1.0.so
 lib64/vendor.semc.hardware.secd@1.0.so
 
+# SECD_DRM
+vendor/bin/secd:bin/secd|33073eaff6e0499d8700d32e000a9c06089d8506
+vendor/etc/init/init.secd.rc:etc/init/init.secd.rc|cce4b0eb2322a08f648c8b8d48329227b602483e
+vendor/lib64/drmfix.so:lib64/drm/drmfix.so|c52de0e43143a0f395d17625624a1893811069ff
+vendor/lib64/drmfuck.so:lib64/drm/drmfuck.so|dd13c368de1d846e393d542773ba9e8457fc7aa9
+
 # TOF SENSOR
 lib/sensors.hal.tof.so
 lib64/sensors.hal.tof.so
