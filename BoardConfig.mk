@@ -15,6 +15,7 @@
 
 ### INHERIT FROM YOSHIRO
 include device/sony/yoshino/BoardConfigPlatform.mk
+include vendor/sony/lilac/BoardConfigVendor.mk
 
 DEVICE_PATH := device/sony/lilac
 
