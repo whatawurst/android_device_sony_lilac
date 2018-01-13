@@ -1,11 +1,3 @@
-# BUILD_DEPENDENCIES
--vendor/lib/libaudio_log_utils.so
--vendor/lib64/libaudio_log_utils.so
--vendor/lib/libgpustats.so
--vendor/lib64/libgpustats.so
--vendor/lib/libta.so
--vendor/lib64/libta.so
-
 # BLUETOOTH
 lib64/libaptXHD_encoder.so
 lib64/libaptX_encoder.so
@@ -25,6 +17,12 @@ lib/vendor.somc.hardware.camera.provider@1.0.so
 lib64/libcacao_client.so
 lib64/libcacao_pal.so
 lib64/vendor.qti.hardware.camera.device@1.0.so
+
+# CNE
+etc/permissions/com.quicinc.cne.xml
+framework/com.quicinc.cne.api-V1.0-java.jar
+framework/com.quicinc.cne.jar
+-priv-app/CNEService/CNEService.apk
 
 # DISPLAY
 lib64/hw/libdisplay.default.so
@@ -90,6 +88,9 @@ lib64/vendor.qti.hardware.perf@1.0.so
 
 # QCRIL
 -app/QtiTelephonyService/QtiTelephonyService.apk
+-app/embms/embms.apk
+-app/datastatusnotification/datastatusnotification.apk
+etc/permissions/embms.xml
 etc/permissions/privapp-permissions-sony.xml
 etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
@@ -104,12 +105,6 @@ lib64/vendor.qti.hardware.qteeconnector@1.0.so
 # SEMC_SECD
 lib/vendor.semc.hardware.secd@1.0.so
 lib64/vendor.semc.hardware.secd@1.0.so
-
-# SECD_DRM
-vendor/bin/secd:bin/secd|33073eaff6e0499d8700d32e000a9c06089d8506
-vendor/etc/init/init.secd.rc:etc/init/init.secd.rc|cce4b0eb2322a08f648c8b8d48329227b602483e
-vendor/lib64/drmfix.so:lib64/drm/drmfix.so|c52de0e43143a0f395d17625624a1893811069ff
-vendor/lib64/drmfuck.so:lib64/drm/drmfuck.so|dd13c368de1d846e393d542773ba9e8457fc7aa9
 
 # TOF SENSOR
 lib/sensors.hal.tof.so

@@ -42,7 +42,8 @@ setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT"
 # Copyright headers and guards
 write_headers
 
-write_makefiles "$MY_DIR"/proprietary-files.txt
+write_makefiles "$MY_DIR"/proprietary-files.txt true
+write_makefiles "$MY_DIR"/proprietary-files-vendor.txt true
 write_makefiles "$MY_DIR"/proprietary-files-rootfs.txt
 
 # Blobs for TWRP data decryption
