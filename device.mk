@@ -21,3 +21,4 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
 include $(DEVICE_PATH)/device/*.mk
+include $(DEVICE_PATH)/vendor_prop.mk
