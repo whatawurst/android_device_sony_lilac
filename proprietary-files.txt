@@ -32,27 +32,38 @@ lib64/vendor.display.color@1.0.so
 lib64/vendor.display.config@1.0.so
 lib64/vendor.display.postproc@1.0.so
 
-# DRM
-lib/vendor.semc.hardware.drm@1.0.so
-lib64/vendor.semc.hardware.drm@1.0.so
-
 # FRAMEWORK_DEPENDENCIES
 etc/permissions/com.sonyericsson.idd.xml
 etc/permissions/com.sonymobile.getmore.api.xml
 framework/com.sonyericsson.idd_impl.jar
 framework/com.sonymobile.getmore.api.jar
 
-# QTI_FM
-lib/vendor.qti.hardware.fm@1.0.so
-lib64/vendor.qti.hardware.fm@1.0.so
+# NXP_NFC
+lib64/vendor.nxp.nxpnfc@1.0.so
+
+# QCRIL
+-app/QtiTelephonyService/QtiTelephonyService.apk
+-app/embms/embms.apk
+-app/datastatusnotification/datastatusnotification.apk
+etc/permissions/embms.xml
+etc/permissions/privapp-permissions-sony.xml
+etc/permissions/qcrilhook.xml
+etc/permissions/telephonyservice.xml
+etc/sysconfig/qti_whitelist.xml
+-framework/qcrilhook.jar
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+
+# QTI_ESEPOWERMANAGER
+lib/vendor.qti.esepowermanager@1.0.so
+lib64/vendor.qti.esepowermanager@1.0.so
+
+# QTI_QTEECONNECTOR
+lib/vendor.qti.hardware.qteeconnector@1.0.so
+lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # QTI_GNSS
 lib/vendor.qti.gnss@1.0.so
 lib64/vendor.qti.gnss@1.0.so
-
-# SEMC_IDD
-lib/vendor.semc.system.idd@1.0.so
-lib64/vendor.semc.system.idd@1.0.so
 
 # QTI_IMPROVETOUCH
 lib/vendor.qti.hardware.improvetouch.blobmanager@1.0.so
@@ -75,36 +86,33 @@ lib64/vendor.qti.imsrtpservice@1.0.so
 lib/vendor.qti.hardware.iop@1.0.so
 lib64/vendor.qti.hardware.iop@1.0.so
 
-# SOMC_MISCTA
-lib/vendor.somc.hardware.miscta@1.0.so
-lib64/vendor.somc.hardware.miscta@1.0.so
-
-# NXP_NFC
-lib64/vendor.nxp.nxpnfc@1.0.so
-
 # QTI_PERF
 lib/vendor.qti.hardware.perf@1.0.so
 lib64/vendor.qti.hardware.perf@1.0.so
 
-# QCRIL
--app/QtiTelephonyService/QtiTelephonyService.apk
--app/embms/embms.apk
--app/datastatusnotification/datastatusnotification.apk
-etc/permissions/embms.xml
-etc/permissions/privapp-permissions-sony.xml
-etc/permissions/qcrilhook.xml
-etc/permissions/telephonyservice.xml
-etc/sysconfig/qti_whitelist.xml
--framework/qcrilhook.jar
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
-
-# QTI_QTEE
+# QTI_QTEECONNECTOR
 lib/vendor.qti.hardware.qteeconnector@1.0.so
 lib64/vendor.qti.hardware.qteeconnector@1.0.so
+
+# QTI_RADIO
+lib/vendor.qti.hardware.fm@1.0.so
+lib64/vendor.qti.hardware.fm@1.0.so
+
+# SEMC_DRM
+lib/vendor.semc.hardware.drm@1.0.so
+lib64/vendor.semc.hardware.drm@1.0.so
+
+# SEMC_IDD
+lib/vendor.semc.system.idd@1.0.so
+lib64/vendor.semc.system.idd@1.0.so
 
 # SEMC_SECD
 lib/vendor.semc.hardware.secd@1.0.so
 lib64/vendor.semc.hardware.secd@1.0.so
+
+# SOMC_MISCTA
+lib/vendor.somc.hardware.miscta@1.0.so
+lib64/vendor.somc.hardware.miscta@1.0.so
 
 # TOF SENSOR
 lib/sensors.hal.tof.so
