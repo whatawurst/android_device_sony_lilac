@@ -151,7 +151,6 @@ vendor/lib64/libbtnv.so
 
 # CAMERA
 vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service
-vendor/etc/flashled_calc_parameters.cfg
 vendor/camera/CHI08BS0/color_ctrl.dat
 vendor/camera/CHI08BS0/dataflow.dat
 vendor/camera/CHI08BS0/exposure_ctrl.dat
@@ -274,8 +273,9 @@ vendor/camera/snapshot.dat
 vendor/camera/streaming.dat
 vendor/camera/supported.dat
 vendor/camera/version.dat
-vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc
 vendor/etc/flashled_calc_parameters.cfg
+vendor/etc/flashled_calc_parameters.cfg
+vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc
 vendor/firmware/cpp_firmware_v1_10_0.fw
 vendor/firmware/cpp_firmware_v1_12_0.fw
 vendor/firmware/cpp_firmware_v1_1_1.fw
@@ -322,10 +322,21 @@ vendor/lib/libcammw_util.so
 vendor/lib/libexcal_core.so
 vendor/lib/libexcal_pal.so
 vendor/lib/libexcal_system.so
+vendor/lib/libjpegdhw.so
+vendor/lib/libjpegdmahw.so
+vendor/lib/libjpegehw.so
+vendor/lib/libmmcamera2_cpp_module.so
+vendor/lib/libmmcamera2_mct.so
+vendor/lib/libmmcamera2_pp_buf_mgr.so
+vendor/lib/libmmcamera_dbg.so
+vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_interface.so
+vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmjpeg.so
 vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmlib2d_interface.so
+vendor/lib/libmmqjpeg_codec.so
+vendor/lib/libmmqjpegdma.so
 vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
@@ -376,6 +387,7 @@ vendor/lib/vendor.somc.hardware.camera.device@1.0_vendor.so
 vendor/lib/vendor.somc.hardware.camera.provider@1.0_vendor.so
 vendor/lib64/libcameralight.so
 vendor/lib64/libcammw_util.so
+vendor/lib64/libmmcamera_tintless_algo.so
 
 # CAMERA_CACAO
 vendor/lib/vendor.somc.hardware.camera.cacao@1.0_vendor.so
