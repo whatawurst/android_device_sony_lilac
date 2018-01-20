@@ -651,7 +651,9 @@ vendor/lib64/vendor.semc.system.idd@1.0_vendor.so
 # ILLUMINATION
 vendor/bin/hw/illumination_service
 vendor/etc/init/init.illumination_service.rc
+vendor/lib/hw/lights.default.so
 vendor/lib/libsys-utils.so
+vendor/lib64/hw/lights.default.so
 vendor/lib64/libsys-utils.so
 
 # IPA
