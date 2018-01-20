@@ -20,5 +20,9 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
+ifeq ($(WITH_TWRP),true)
+include $(DEVICE_PATH)/device/init.mk
+else # WITH_TWRP
 include $(DEVICE_PATH)/device/*.mk
 include $(DEVICE_PATH)/vendor_prop.mk
+endif # WITH_TWRP
