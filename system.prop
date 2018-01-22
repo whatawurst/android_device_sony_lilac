@@ -91,3 +91,7 @@ persist.keyprovd.suntory.prov=false
 camera.aux.packagelist=org.codeaurora.snapcam,org.cyanogenmod.snap
 persist.camera.camera2=true
 persist.camera.is_type=3
+
+### SDCARD
+# Make sdcards visibile in StorageManager
+persist.sys.sdcard_visible=true
