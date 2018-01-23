@@ -1104,20 +1104,20 @@ vendor/etc/firmware/tztpm.b05
 vendor/etc/firmware/tztpm.b06
 vendor/etc/firmware/tztpm.b07
 vendor/etc/firmware/tztpm.mdt
-vendor/etc/init/init.secd.rc|db17fd39cc2e3c993d92e7713da44b03617a123d
+vendor/etc/init/init.secd.rc|12ee81ee0ba3df1251d72228425f88d9edc9daeb
 vendor/etc/init/vendor.semc.hardware.secd@1.0-service.rc
 vendor/lib/libcredential-manager-service.so
 vendor/lib/libdevice_security.so
 vendor/lib/libdevice_security_vendor.so
 vendor/lib/libsuntory.so
+vendor/lib/libta_drm_ext.so|def802a5eef691a9b48a191f56116c8da900fdd3
 vendor/lib/vendor.semc.hardware.secd@1.0_vendor.so
-vendor/lib64/drm/drmfix.so|c52de0e43143a0f395d17625624a1893811069ff
-vendor/lib64/drm/drmfuck.so|dd13c368de1d846e393d542773ba9e8457fc7aa9
 vendor/lib64/libcredential-manager-service.so
 vendor/lib64/libdevice_security.so
 vendor/lib64/libdevice_security_vendor.so
 vendor/lib64/libstartup-reason.so
 vendor/lib64/libsuntory.so
+vendor/lib64/libta_drm_ext.so|5e180b417ae93862862219d2a1be0a4f708a5394
 vendor/lib64/vendor.semc.hardware.secd@1.0_vendor.so
 
 # SCT
