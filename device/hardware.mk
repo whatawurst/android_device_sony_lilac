@@ -1,6 +1,6 @@
 ### NFC
 PRODUCT_PACKAGES += \
-    nfc_nci.lilac
+    nfc_nci.msm8998
 
 ### HIDL
 PRODUCT_PACKAGES += \
