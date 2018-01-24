@@ -34,10 +34,6 @@ vendor/lib64/libqisl.so:recovery/root/vendor/lib64/libqisl.so
 vendor/lib64/libspl.so:recovery/root/vendor/lib64/libspl.so
 vendor/lib64/libGPreqcancel.so:recovery/root/vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so:recovery/root/vendor/lib64/libGPreqcancel_svc.so
-vendor/lib64/libsecureui.so:recovery/root/vendor/lib64/libsecureui.so
-vendor/lib64/lib-sec-disp.so:recovery/root/vendor/lib64/lib-sec-disp.so
-vendor/lib64/libStDrvInt.so:recovery/root/vendor/lib64/libStDrvInt.so
-vendor/lib64/libsecureui_svcsock.so:recovery/root/vendor/lib64/libsecureui_svcsock.so
 
 vendor/bin/qseecomd:recovery/root/sbin/qseecomd
 
