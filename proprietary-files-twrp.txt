@@ -1,10 +1,10 @@
 # RECOVERY
 
-# touchscreen firmware
+# RECOVERY_TOUCHSCREEN_FIRMWARE
 etc/firmware/touch_module_id_0xf0.img:recovery/root/etc/firmware/touch_module_id_0xf0.img
 etc/firmware/touch_module_id_0xf1.img:recovery/root/etc/firmware/touch_module_id_0xf1.img
 
-# qseecom firmware
+# RECOVERY_QSEECOM_FIRMWARE
 etc/firmware/cmnlib.b00:recovery/root/vendor/firmware/cmnlib.b00
 etc/firmware/cmnlib.b01:recovery/root/vendor/firmware/cmnlib.b01
 etc/firmware/cmnlib.b02:recovery/root/vendor/firmware/cmnlib.b02
@@ -22,7 +22,7 @@ etc/firmware/cmnlib64.b05:recovery/root/vendor/firmware/cmnlib64.b05
 etc/firmware/cmnlib64.b06:recovery/root/vendor/firmware/cmnlib64.b06
 etc/firmware/cmnlib64.mdt:recovery/root/vendor/firmware/cmnlib64.mdt
 
-# qseecomd
+# RECOVERY_QSEECOMD
 vendor/lib64/libQSEEComAPI.so:recovery/root/vendor/lib64/libQSEEComAPI.so
 vendor/lib64/libdiag.so:recovery/root/vendor/lib64/libdiag.so
 vendor/lib64/librpmb.so:recovery/root/vendor/lib64/librpmb.so
@@ -37,12 +37,12 @@ vendor/lib64/libGPreqcancel_svc.so:recovery/root/vendor/lib64/libGPreqcancel_svc
 
 vendor/bin/qseecomd:recovery/root/sbin/qseecomd
 
-# gatekeeper
+# RECOVERY_GATEKEEPER
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:recovery/root/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:recovery/root/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:recovery/root/sbin/android.hardware.gatekeeper@1.0-service-qti
 
-# keymaster
+# RECOVERY_KEYMASTER
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:recovery/root/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib64/libkeymasterdeviceutils.so:recovery/root/vendor/lib64/libkeymasterdeviceutils.so
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:recovery/root/sbin/android.hardware.keymaster@3.0-service-qti
