@@ -1271,9 +1271,6 @@ vendor/lib/libmiscta.so
 vendor/lib64/libmiscta.so
 vendor/lib64/vendor.somc.hardware.miscta@1.0_vendor.so
 
-# UEVENTD
-vendor/ueventd.rc
-
 # WIFI
 vendor/bin/hw/vendor.somc.hardware.wifi@1.0-service
 vendor/etc/init/vendor.somc.hardware.wifi@1.0-service.rc
