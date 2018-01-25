@@ -94,4 +94,4 @@ persist.camera.is_type=3
 
 ### SDCARD
 # Make sdcards visibile in StorageManager
-persist.sys.sdcard_visible=true
+persist.sys.adoptable_fbe=true
