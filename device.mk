@@ -3,8 +3,8 @@ $(call inherit-product, device/sony/yoshino/platform.mk)
 ### PROPRIETARY VENDOR FILES
 $(call inherit-product, vendor/sony/lilac/lilac-vendor.mk)
 
-ifeq ($(WITH_MICROG),true)
-$(call inherit-product, vendor/microg/microg-vendor.mk)
+ifeq ($(WITH_FDROID),true)
+$(call inherit-product, vendor/fdroid/fdroid-vendor.mk)
 endif
 
 ### DALVIK/HWUI
