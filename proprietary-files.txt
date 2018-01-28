@@ -84,8 +84,10 @@ framework/com.quicinc.cne.jar
 -priv-app/CNEService/CNEService.apk
 
 # DISPLAY
+lib/hw/libdisplay.default.so:vendor/lib/hw/libdisplay.default.so
 lib/libsd_sdk_display.so:vendor/lib/libsd_sdk_display.so
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so
+lib64/hw/libdisplay.default.so:vendor/lib64/hw/libdisplay.default.so
 lib64/libsd_sdk_display.so:vendor/lib64/libsd_sdk_display.so
 lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so
 lib64/libsys-utils-system.so
