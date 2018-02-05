@@ -14,3 +14,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Library for power balancing
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so
+
+# Radio DPM
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.dpm.feature=3

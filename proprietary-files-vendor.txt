@@ -507,6 +507,11 @@ vendor/lib64/vendor.display.color@1.0_vendor.so
 vendor/lib64/vendor.display.config@1.0_vendor.so
 vendor/lib64/vendor.display.postproc@1.0_vendor.so
 
+# DPM
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0_vendor.so
+vendor/lib64/libdpmqmihal.so
+vendor/bin/dpmQmiMgr
+
 # DRM
 vendor/bin/hw/android.hardware.drm@1.0-service.widevine
 vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc
