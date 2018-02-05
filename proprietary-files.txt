@@ -116,6 +116,9 @@ etc/sysconfig/qti_whitelist.xml
 -framework/qcrilhook.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
+# QTI_QMI
+etc/permissions/qti_libpermissions.xml:vendor/etc/permissions/qti_libpermissions.xml
+
 # QTI_ESEPOWERMANAGER
 lib/vendor.qti.esepowermanager@1.0.so
 lib64/vendor.qti.esepowermanager@1.0.so
