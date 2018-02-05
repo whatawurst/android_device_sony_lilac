@@ -961,7 +961,6 @@ vendor/lib64/libkeymasterutils.so
 
 # QTI_PERF
 vendor/bin/energy-awareness
-vendor/bin/gamed
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
 vendor/etc/perf/perf-profile0.conf
@@ -976,11 +975,13 @@ vendor/lib/libfeedbackhandler.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libqti-perfd-client.so
 vendor/lib/libqti-perfd.so
+vendor/lib/libqti-util.so
 vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so
 vendor/lib64/libfeedbackhandler.so
 vendor/lib64/libperfgluelayer.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
+vendor/lib64/libqti-util.so
 vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so
 
 # QTI_QTEECONNECTOR
