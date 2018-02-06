@@ -11,11 +11,21 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
+### PERFORMANCE
 # Library for power balancing
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so
 
-# Radio DPM
+# Enable sched colocation
+PRODUCT_PROPERTY_OVERRIDES += \
+    sched.colocate.enable=1
+
+# Min/max cpu in core control
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.core_ctl_min_cpu=2 \
+    ro.vendor.qti.core_ctl_max_cpu=4
+
+### Radio DPM
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.dpm.feature=3
 
