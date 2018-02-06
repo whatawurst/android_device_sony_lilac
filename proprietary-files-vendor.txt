@@ -161,6 +161,16 @@ vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so
 
+# AUDIO_SOUNDTRIGGER
+vendor/lib/hw/sound_trigger.primary.msm8998.so
+vendor/lib/libadiertac.so
+vendor/lib/libaudcal.so
+vendor/lib/vendor.qti.voiceprint@1.0.so
+vendor/lib64/hw/sound_trigger.primary.msm8998.so
+vendor/lib64/libadiertac.so
+vendor/lib64/libaudcal.so
+vendor/lib64/vendor.qti.voiceprint@1.0.so
+
 # BLUETOOTH
 vendor/bin/btnvtool
 vendor/bin/hci_qcomm_init
@@ -1172,20 +1182,6 @@ vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.finger-pickup.so
 vendor/lib64/sensors.ssc.so
-
-# SOUNDTRIGGER
-vendor/etc/sound_trigger_mixer_paths.xml
-vendor/etc/sound_trigger_mixer_paths_wcd9330.xml
-vendor/etc/sound_trigger_mixer_paths_wcd9340.xml
-vendor/etc/sound_trigger_platform_info.xml
-vendor/lib/hw/sound_trigger.primary.msm8998.so
-vendor/lib/libadiertac.so
-vendor/lib/libaudcal.so
-vendor/lib/vendor.qti.voiceprint@1.0.so
-vendor/lib64/hw/sound_trigger.primary.msm8998.so
-vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
-vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # SSR
 vendor/bin/ssr_diag
