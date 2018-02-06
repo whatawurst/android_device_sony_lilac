@@ -18,3 +18,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Radio DPM
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.dpm.feature=3
+
+# Nfc
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.nfc.port=I2C \
+    ro.nfc.se.sim.enable=true \
+    ro.nfc.se.smx.enable=false \
+    ro.nfc.on.default=false \
