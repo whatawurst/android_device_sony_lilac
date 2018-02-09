@@ -166,10 +166,6 @@ lib64/libimsmedia_jni.so:app/ims/lib/arm64/libimsmedia_jni.so
 lib64/librcc.so
 lib64/vendor.qti.imsrtpservice@1.0.so
 
-# QTI_IOP
-lib/vendor.qti.hardware.iop@1.0.so
-lib64/vendor.qti.hardware.iop@1.0.so
-
 # QTI_PERF
 lib/libqti-perfd-client_system.so
 lib/libqti-util_system.so
