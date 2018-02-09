@@ -1303,7 +1303,6 @@ vendor/lib64/vendor.somc.hardware.miscta@1.0_vendor.so
 # WIFI
 vendor/bin/hw/vendor.somc.hardware.wifi@1.0-service
 vendor/etc/init/vendor.somc.hardware.wifi@1.0-service.rc
-vendor/etc/wifi/WCNSS_qcom_cfg.ini
 vendor/etc/wifi/bdwlan.bin
 vendor/etc/wifi/fstman.ini
 vendor/lib64/vendor.somc.hardware.wifi.supplicant@1.0_vendor.so
