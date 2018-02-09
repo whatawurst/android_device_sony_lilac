@@ -140,12 +140,20 @@ vendor/lib/libadm.so
 vendor/lib/libaudcal.so
 vendor/lib/libaudioalsa.so
 -vendor/lib/libaudio_log_utils.so
+vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
+vendor/lib/librebuffering.so
+vendor/lib/libsmwrapper.so
+vendor/lib/libsurround_3mic_proc.so
+vendor/lib/libznr.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
 vendor/lib/soundfx/libshoebox.so
+vendor/lib/soundfx/libsonypostprocbundle.so
+vendor/lib/soundfx/libsonysweffect.so
+vendor/lib/soundfx/libznrwrapper.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbmapper.so
@@ -155,11 +163,32 @@ vendor/lib64/libaudcal.so
 vendor/lib64/libaudioalsa.so
 -vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libqtigef.so
+vendor/lib64/librebuffering.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so
+
+# AUDIO_EFFECTS
+vendor/etc/sony_effect/clearphase_sp_param.bin
+vendor/etc/sony_effect/effect_params.data
+vendor/etc/sony_effect/sforce_param_arm.bin
+vendor/etc/sony_effect/sforce_param_qdsp.bin
+vendor/etc/sony_effect/xloud_param_arm.bin
+vendor/etc/sony_effect/xloud_param_qdsp.bin
+vendor/etc/sony_effect/znr_param_44k_MainCam.tbl
+vendor/etc/sony_effect/znr_param_44k_MainSubSemCam.tbl
+vendor/etc/sony_effect/znr_param_44k_MainSubSoiCam.tbl
+vendor/etc/sony_effect/znr_param_44k_NoCam.tbl
+vendor/etc/sony_effect/znr_param_44k_SubSemCam.tbl
+vendor/etc/sony_effect/znr_param_44k_SubSoiCam.tbl
+vendor/etc/sony_effect/znr_param_48k_MainCam.tbl
+vendor/etc/sony_effect/znr_param_48k_MainSubSemCam.tbl
+vendor/etc/sony_effect/znr_param_48k_MainSubSoiCam.tbl
+vendor/etc/sony_effect/znr_param_48k_NoCam.tbl
+vendor/etc/sony_effect/znr_param_48k_SubSemCam.tbl
+vendor/etc/sony_effect/znr_param_48k_SubSoiCam.tbl
 
 # AUDIO_SOUNDTRIGGER
 vendor/lib/hw/sound_trigger.primary.msm8998.so
