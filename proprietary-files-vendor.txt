@@ -1054,7 +1054,6 @@ vendor/lib/libsettings.so
 vendor/lib/libsystem_health_mon.so
 vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so
 vendor/lib/vendor.qti.hardware.radio.am@1.0_vendor.so
-vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so
 vendor/lib/vendor.qti.hardware.radio.lpa@1.0_vendor.so
 vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so
 vendor/lib/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so
@@ -1087,7 +1086,6 @@ vendor/lib64/libsystem_health_mon.so
 vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0_vendor.so
-vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.radio.lpa@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.radio.qtiradio@1.0_vendor.so
@@ -1117,6 +1115,7 @@ vendor/lib/lib-rtpsl.so
 vendor/lib/libdsi_netctrl.so
 vendor/lib/libidl.so
 vendor/lib/libqdi.so
+vendor/lib/vendor.qti.hardware.radio.ims@1.0_vendor.so
 vendor/lib/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib/vendor.qti.imsrtpservice@1.0_vendor.so
 vendor/lib64/lib-dplmedia.so
@@ -1132,6 +1131,7 @@ vendor/lib64/lib-rtpsl.so
 vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libidl.so
 vendor/lib64/libqdi.so
+vendor/lib64/vendor.qti.hardware.radio.ims@1.0_vendor.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so
 
