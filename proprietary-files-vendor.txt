@@ -633,7 +633,6 @@ vendor/lib/hw/vulkan.msm8998.so
 vendor/lib/libC2D2.so
 vendor/lib/libCB.so
 vendor/lib/libOpenCL.so
-vendor/lib/libRSDriver_adreno.so
 vendor/lib/libadreno_utils.so
 vendor/lib/libc2d30-a5xx.so
 vendor/lib/libc2d30_bltlib.so
@@ -643,8 +642,6 @@ vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
 vendor/lib/libllvm-qgl.so
 vendor/lib/libqseed3.so
-vendor/lib/librs_adreno.so
-vendor/lib/librs_adreno_sha1.so
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
@@ -657,7 +654,6 @@ vendor/lib64/hw/vulkan.msm8998.so
 vendor/lib64/libC2D2.so
 vendor/lib64/libCB.so
 vendor/lib64/libOpenCL.so
-vendor/lib64/libRSDriver_adreno.so
 vendor/lib64/libadreno_utils.so
 vendor/lib64/libc2d30-a5xx.so
 vendor/lib64/libc2d30_bltlib.so
@@ -667,6 +663,14 @@ vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 vendor/lib64/libllvm-qgl.so
 vendor/lib64/libqseed3.so
+
+# GRAPHICS_RENDERSCRIPT
+vendor/lib/libRSDriver_adreno.so
+vendor/lib/libbccQTI.so
+vendor/lib/librs_adreno.so
+vendor/lib/librs_adreno_sha1.so
+vendor/lib64/libRSDriver_adreno.so
+vendor/lib64/libbccQTI.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/librs_adreno_sha1.so
 
