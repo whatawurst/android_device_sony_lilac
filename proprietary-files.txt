@@ -8,7 +8,6 @@ lib/libcacao_client.so
 lib/libcacao_pal.so
 lib/libcacao_process_ctrl_gateway.so
 lib/libcacao_service.so
-lib/vendor.qti.hardware.camera.device@1.0.so
 lib/vendor.somc.hardware.camera.cacao@1.0.so
 lib/vendor.somc.hardware.camera.cacao@2.0.so
 lib/vendor.somc.hardware.camera.cacao@3.0.so
@@ -16,7 +15,6 @@ lib/vendor.somc.hardware.camera.device@1.0.so
 lib/vendor.somc.hardware.camera.provider@1.0.so
 lib64/libcacao_client.so
 lib64/libcacao_pal.so
-lib64/vendor.qti.hardware.camera.device@1.0.so
 
 # CAMERA_POSTPROCESSING
 lib/libblurbuster.so:vendor/lib/libblurbuster.so
