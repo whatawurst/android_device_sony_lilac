@@ -851,6 +851,7 @@ vendor/bin/qns
 # QSEECOMD
 vendor/bin/qseecom_sample_client
 vendor/bin/qseecomd
+vendor/lib/libQSEEComAPI.so
 vendor/lib/libcppf.so
 vendor/lib/libdiag.so
 vendor/lib/libdrmfs.so
