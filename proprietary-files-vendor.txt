@@ -532,7 +532,6 @@ vendor/lib/libsdmextension.so
 vendor/lib/libsdmutils.so
 vendor/lib/libtinyxml2_1.so
 vendor/lib/vendor.display.color@1.0_vendor.so
-vendor/lib/vendor.display.config@1.0_vendor.so
 vendor/lib/vendor.display.postproc@1.0_vendor.so
 vendor/lib64/libdisp-aba.so
 vendor/lib64/libsdm-color.so
@@ -543,7 +542,6 @@ vendor/lib64/libsdmextension.so
 vendor/lib64/libsdmutils.so
 vendor/lib64/libtinyxml2_1.so
 vendor/lib64/vendor.display.color@1.0_vendor.so
-vendor/lib64/vendor.display.config@1.0_vendor.so
 vendor/lib64/vendor.display.postproc@1.0_vendor.so
 
 # DPM
