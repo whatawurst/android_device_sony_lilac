@@ -351,6 +351,7 @@ lib/libdiag_system.so
 lib/libimscamera_jni.so:vendor/lib/libimscamera_jni.so
 lib/libimsmedia_jni.so:vendor/lib/libimsmedia_jni.so
 lib/librcc.so
+lib/vendor.qti.imsrtpservice@1.0.so
 lib64/com.qualcomm.qti.imscmservice@1.0.so
 lib64/lib-imscamera.so
 lib64/lib-imsvideocodec.so
