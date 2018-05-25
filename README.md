@@ -35,15 +35,15 @@ How to build LineageOS
 
         repo sync
 
-* Setup the environment
-
-        source build/envsetup.sh
-        lunch lineage_lilac-userdebug
-
 * Extract vendor blobs
 
         cd device/sony/lilac
         ./extract-files.sh
+
+* Setup the environment
+
+        source build/envsetup.sh
+        lunch lineage_lilac-userdebug
 
 * Build LineageOS
 
