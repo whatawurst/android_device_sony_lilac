@@ -29,6 +29,9 @@ How to build LineageOS
             <project name="cryptomilk/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" />
             <project name="cryptomilk/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" />
             <project name="cryptomilk/android_device_sony_lilac" path="device/sony/lilac" remote="github" />
+
+            <!-- Pinned blobs for lilac -->
+            <project name="cryptomilk/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" />
         </manifest>
 
 * Sync the repo:
