@@ -826,6 +826,9 @@ vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libvpphvx.so
 vendor/lib64/libvpplibrary.so
 
+# MODEM
+vendor/bin/sony-modem-switcher
+
 # MSM
 vendor/bin/msm_irqbalance
 vendor/etc/msm_irqbalance.conf
