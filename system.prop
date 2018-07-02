@@ -27,6 +27,7 @@ persist.radio.oem_socket=true
 
 # System props for telephony
 ro.com.android.dataroaming=false
+ro.telephony.default_network=10
 persist.ims.disableUserAgent=1
 
 # Modem power save enabled
