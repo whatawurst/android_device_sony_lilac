@@ -348,8 +348,8 @@ lib/lib-imsvideocodec.so
 lib/lib-imsvtextutils.so
 lib/lib-imsvtutils.so
 lib/libdiag_system.so
-lib/libimscamera_jni.so:vendor/lib/libimscamera_jni.so
-lib/libimsmedia_jni.so:vendor/lib/libimsmedia_jni.so
+lib/libimscamera_jni.so
+lib/libimsmedia_jni.so
 lib/librcc.so
 lib/vendor.qti.imsrtpservice@1.0.so
 lib64/com.qualcomm.qti.imscmservice@1.0.so
@@ -359,9 +359,9 @@ lib64/lib-imsvt.so
 lib64/lib-imsvtextutils.so
 lib64/lib-imsvtutils.so
 lib64/libdiag_system.so
-lib64/libimscamera_jni.so:vendor/lib64/libimscamera_jni.so
+lib64/libimscamera_jni.so
 lib64/libimscamera_jni.so:app/ims/lib/arm64/libimscamera_jni.so
-lib64/libimsmedia_jni.so:vendor/lib64/libimsmedia_jni.so
+lib64/libimsmedia_jni.so
 lib64/libimsmedia_jni.so:app/ims/lib/arm64/libimsmedia_jni.so
 lib64/librcc.so
 lib64/vendor.qti.imsrtpservice@1.0.so
