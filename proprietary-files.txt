@@ -360,9 +360,7 @@ lib64/lib-imsvtextutils.so
 lib64/lib-imsvtutils.so
 lib64/libdiag_system.so
 lib64/libimscamera_jni.so
-lib64/libimscamera_jni.so:app/ims/lib/arm64/libimscamera_jni.so
 lib64/libimsmedia_jni.so
-lib64/libimsmedia_jni.so:app/ims/lib/arm64/libimsmedia_jni.so
 lib64/librcc.so
 lib64/vendor.qti.imsrtpservice@1.0.so
 
