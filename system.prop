@@ -72,7 +72,7 @@ ro.semc.version.sw_type=user
 ro.semc.product.model=G8441
 ro.semc.ms_type_id=PM-1061-BV
 ro.semc.version.fs=GENERIC
-ro.semc.version.fs_revision=47.1.A.12.205
+ro.semc.version.fs_revision=47.1.A.12.270
 ro.semc.product.name=Xperia XZ1 Compact
 ro.semc.product.device=G84
 
