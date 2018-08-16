@@ -1203,7 +1203,6 @@ vendor/etc/init/sct_service.rc
 
 # SENSORS
 vendor/bin/sensors.qcom
-vendor/etc/sap.conf
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/etc/sensors/sensor_def_somc_platform.conf
