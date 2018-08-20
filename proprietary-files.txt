@@ -2,6 +2,24 @@
 lib64/libaptXHD_encoder.so
 lib64/libaptX_encoder.so
 
+# CAMERA_APP
+-app/CameraAddonPermission-release/CameraAddonPermission-release.apk
+-app/CameraCommonPermission-release/CameraCommonPermission-release.apk
+-app/CameraExtensionPermission-release/CameraExtensionPermission-release.apk
+-app/ImageProcessorPermission-release/ImageProcessorPermission-release.apk
+etc/permissions/com.sonymobile.camera.addon.xml
+etc/permissions/com.sonymobile.imageprocessor.xml
+framework/com.sonymobile.camera.addon_impl.jar
+framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar
+lib/libimageprocessorjni.so
+lib64/libimageprocessorjni.so
+-priv-app/CameraCommon/CameraCommon.apk
+-priv-app/SemcCameraUI-jniLibs64-xhdpi-release/SemcCameraUI-jniLibs64-xhdpi-release.apk
+priv-app/SemcCameraUI-jniLibs64-xhdpi-release/arm64/libarcsoft_handsigns.so|bc6dac4e9870eae84fa2192d2f1958ca3a7a09a7
+priv-app/SemcCameraUI-jniLibs64-xhdpi-release/arm64/libhandsigns_jni.so|1c7472e25394fa99116cd550388c5014c2f43956
+priv-app/SemcCameraUI-jniLibs64-xhdpi-release/arm64/libimage_converter.so|e43966ffefce9e788a45d7a7e2f314ee75fe02be
+priv-app/SemcCameraUI-jniLibs64-xhdpi-release/arm64/libmpbase.so|e61d7a7fd34180bbcc937576dd388182c261a2c1
+
 # CAMERA
 bin/cacaoserver
 lib/libcacao_client.so
