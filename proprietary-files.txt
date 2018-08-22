@@ -19,6 +19,7 @@ priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libarcsoft_handsigns.so|
 priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libhandsigns_jni.so|1c7472e25394fa99116cd550388c5014c2f43956
 priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libimage_converter.so|e43966ffefce9e788a45d7a7e2f314ee75fe02be
 priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libmpbase.so|e61d7a7fd34180bbcc937576dd388182c261a2c1
+-priv-app/SomcMovieCreator-release/SomcMovieCreator-release.apk
 
 # CAMERA
 bin/cacaoserver
