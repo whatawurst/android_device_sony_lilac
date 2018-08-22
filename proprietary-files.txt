@@ -13,6 +13,9 @@ framework/com.sonymobile.camera.addon_impl.jar
 framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar
 lib/libimageprocessorjni.so
 lib64/libimageprocessorjni.so
+-priv-app/ArtFilterCamera-xhdpi-release/ArtFilterCamera-xhdpi-release.apk
+priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libnativeeffectengine.so|79cef66ba4e10a119b71f927b41ac312eea9c04d
+priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libyuvframe.so|f1d85c7201460aa82dac2d4baf0df7604343efaf
 -priv-app/CameraCommon/CameraCommon.apk
 -priv-app/SemcCameraUI-jniLibs64-xhdpi-release/SemcCameraUI-jniLibs64-xhdpi-release.apk
 priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libarcsoft_handsigns.so|bc6dac4e9870eae84fa2192d2f1958ca3a7a09a7
