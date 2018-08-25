@@ -17,6 +17,11 @@ lib64/libimageprocessorjni.so
 priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libnativeeffectengine.so|79cef66ba4e10a119b71f927b41ac312eea9c04d
 priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libyuvframe.so|f1d85c7201460aa82dac2d4baf0df7604343efaf
 -priv-app/CameraCommon/CameraCommon.apk
+-priv-app/CameraPanorama-release/CameraPanorama-release.apk
+priv-app/CameraPanorama-release/lib/arm64/libmorpho_jpeg_io.so|265aabc69c3791ab860e23e741be06bbefe277ca
+priv-app/CameraPanorama-release/lib/arm64/libmorpho_memory_allocator.so|858cc9a5de81c75567039afbf8063dfdea42b706
+priv-app/CameraPanorama-release/lib/arm64/libmorpho_panorama_gp2.so|9037585df50c7c08ba982739d3c8b6fb7a346f7e
+priv-app/CameraPanorama-release/lib/arm64/libmorpho_sensor_fusion.so|5269b21e858e04f5733fb1beb55111beafb9087a
 -priv-app/SemcCameraUI-jniLibs64-xhdpi-release/SemcCameraUI-jniLibs64-xhdpi-release.apk
 priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libarcsoft_handsigns.so|bc6dac4e9870eae84fa2192d2f1958ca3a7a09a7
 priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libhandsigns_jni.so|1c7472e25394fa99116cd550388c5014c2f43956
