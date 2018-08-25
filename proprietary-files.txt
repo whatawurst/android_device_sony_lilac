@@ -28,6 +28,10 @@ priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libhandsigns_jni.so|1c74
 priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libimage_converter.so|e43966ffefce9e788a45d7a7e2f314ee75fe02be
 priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libmpbase.so|e61d7a7fd34180bbcc937576dd388182c261a2c1
 -priv-app/SomcMovieCreator-release/SomcMovieCreator-release.apk
+-priv-app/SoundPhotoCamera-xhdpi-release/SoundPhotoCamera-xhdpi-release.apk
+priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libmpo.so|7fd6f39ad0b7719958bba27bfbc628d7004f2858
+priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libnativebytebuffer.so|ff0a3667027426c29ed0dc446f3740de1884b50f
+priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libspf.so|204cddad65953b3a91d9e1adf761da2c3ba9d74c
 
 # CAMERA
 bin/cacaoserver
