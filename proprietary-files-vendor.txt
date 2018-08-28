@@ -1320,8 +1320,8 @@ vendor/bin/hw/vendor.somc.hardware.miscta@1.0-service
 vendor/bin/updatemiscta
 vendor/etc/init/updatemiscta.rc
 vendor/etc/init/vendor.somc.hardware.miscta@1.0-service.rc
-vendor/lib/libmiscta.so
-vendor/lib64/libmiscta.so
+-vendor/lib/libmiscta.so
+-vendor/lib64/libmiscta.so
 vendor/lib64/vendor.somc.hardware.miscta@1.0_vendor.so
 
 # WIFI
