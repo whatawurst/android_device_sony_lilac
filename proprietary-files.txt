@@ -146,6 +146,15 @@ framework/com.quicinc.cne.api-V1.0-java.jar
 framework/com.quicinc.cne.jar
 -priv-app/CNEService/CNEService.apk
 
+# CustomizationSelector
+etc/permissions/com.sonymobile.miscta.xml
+framework/com.sonymobile.miscta_impl.jar
+lib/libMiscTAApi.so
+lib64/libMiscTAApi.so
+lib/libMiscTaWrapper.so
+lib64/libMiscTaWrapper.so
+-priv-app/CustomizationSelector/CustomizationSelector.apk|ada2ca656cae1b6c31f7f4a09a9c7afcb676da01
+
 # DISPLAY
 lib/hw/libdisplay.default.so:vendor/lib/hw/libdisplay.default.so
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so
