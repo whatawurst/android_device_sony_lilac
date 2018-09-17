@@ -66,7 +66,7 @@ ro.vendor.sensors.multishake=true
 ##### Add values MiscTA #####
 # /system/etc/prop.default
 ro.semc.version.sw=1307-7511
-ro.semc.version.sw_revision=47.1.A.12.270
+ro.semc.version.sw_revision=47.1.A.16.20
 ro.semc.version.sw_variant=GLOBAL-LTE4A
 ro.semc.version.sw_type=user
 
@@ -74,7 +74,7 @@ ro.semc.version.sw_type=user
 ro.semc.product.model=G8441
 ro.semc.ms_type_id=PM-1061-BV
 ro.semc.version.fs=GENERIC
-ro.semc.version.fs_revision=47.1.A.12.270
+ro.semc.version.fs_revision=47.1.A.16.20
 ro.semc.product.name=Xperia XZ1 Compact
 ro.semc.product.device=G84
 
