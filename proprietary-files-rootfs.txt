@@ -1,2 +1,2 @@
 # ROOTFS_TRIMAREA
--sbin/tad_static;rootfs|00586a0b55f734fb2539e14e9e54fb2d10cc4538
+-sbin/tad_static;rootfs

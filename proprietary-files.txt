@@ -1,37 +1,39 @@
 # BLUETOOTH
+lib/com.qualcomm.qti.bluetooth_audio@1.0.so
+lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
 lib64/libaptXHD_encoder.so
 lib64/libaptX_encoder.so
 
 # CAMERA_APP
--app/CameraAddonPermission-release/CameraAddonPermission-release.apk
--app/CameraCommonPermission-release/CameraCommonPermission-release.apk
--app/CameraExtensionPermission-release/CameraExtensionPermission-release.apk
--app/ImageProcessorPermission-release/ImageProcessorPermission-release.apk
-etc/permissions/com.sonymobile.camera.addon.xml
-etc/permissions/com.sonymobile.imageprocessor.xml
-framework/com.sonymobile.camera.addon_impl.jar
-framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar
-lib/libimageprocessorjni.so
-lib64/libimageprocessorjni.so
--priv-app/ArtFilterCamera-xhdpi-release/ArtFilterCamera-xhdpi-release.apk
-priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libnativeeffectengine.so|79cef66ba4e10a119b71f927b41ac312eea9c04d
-priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libyuvframe.so|f1d85c7201460aa82dac2d4baf0df7604343efaf
--priv-app/CameraCommon/CameraCommon.apk
--priv-app/CameraPanorama-release/CameraPanorama-release.apk
-priv-app/CameraPanorama-release/lib/arm64/libmorpho_jpeg_io.so|265aabc69c3791ab860e23e741be06bbefe277ca
-priv-app/CameraPanorama-release/lib/arm64/libmorpho_memory_allocator.so|858cc9a5de81c75567039afbf8063dfdea42b706
-priv-app/CameraPanorama-release/lib/arm64/libmorpho_panorama_gp2.so|9037585df50c7c08ba982739d3c8b6fb7a346f7e
-priv-app/CameraPanorama-release/lib/arm64/libmorpho_sensor_fusion.so|5269b21e858e04f5733fb1beb55111beafb9087a
--priv-app/SemcCameraUI-jniLibs64-xhdpi-release/SemcCameraUI-jniLibs64-xhdpi-release.apk
-priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libarcsoft_handsigns.so|bc6dac4e9870eae84fa2192d2f1958ca3a7a09a7
-priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libhandsigns_jni.so|1c7472e25394fa99116cd550388c5014c2f43956
-priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libimage_converter.so|e43966ffefce9e788a45d7a7e2f314ee75fe02be
-priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libmpbase.so|e61d7a7fd34180bbcc937576dd388182c261a2c1
--priv-app/SomcMovieCreator-release/SomcMovieCreator-release.apk
--priv-app/SoundPhotoCamera-xhdpi-release/SoundPhotoCamera-xhdpi-release.apk
-priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libmpo.so|7fd6f39ad0b7719958bba27bfbc628d7004f2858
-priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libnativebytebuffer.so|ff0a3667027426c29ed0dc446f3740de1884b50f
-priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libspf.so|204cddad65953b3a91d9e1adf761da2c3ba9d74c
+#-app/CameraAddonPermission-release/CameraAddonPermission-release.apk
+#-app/CameraCommonPermission-release/CameraCommonPermission-release.apk
+#-app/CameraExtensionPermission-release/CameraExtensionPermission-release.apk
+#-app/ImageProcessorPermission-release/ImageProcessorPermission-release.apk
+#etc/permissions/com.sonymobile.camera.addon.xml
+#etc/permissions/com.sonymobile.imageprocessor.xml
+#framework/com.sonymobile.camera.addon_impl.jar
+#framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar
+#lib/libimageprocessorjni.so
+#lib64/libimageprocessorjni.so
+#-priv-app/ArtFilterCamera-xhdpi-release/ArtFilterCamera-xhdpi-release.apk
+#priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libnativeeffectengine.so|79cef66ba4e10a119b71f927b41ac312eea9c04d
+#priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libyuvframe.so|f1d85c7201460aa82dac2d4baf0df7604343efaf
+#-priv-app/CameraCommon/CameraCommon.apk
+#-priv-app/CameraPanorama-release/CameraPanorama-release.apk
+#priv-app/CameraPanorama-release/lib/arm64/libmorpho_jpeg_io.so|265aabc69c3791ab860e23e741be06bbefe277ca
+#priv-app/CameraPanorama-release/lib/arm64/libmorpho_memory_allocator.so|858cc9a5de81c75567039afbf8063dfdea42b706
+#priv-app/CameraPanorama-release/lib/arm64/libmorpho_panorama_gp2.so|9037585df50c7c08ba982739d3c8b6fb7a346f7e
+#priv-app/CameraPanorama-release/lib/arm64/libmorpho_sensor_fusion.so|5269b21e858e04f5733fb1beb55111beafb9087a
+#-priv-app/SemcCameraUI-jniLibs64-xhdpi-release/SemcCameraUI-jniLibs64-xhdpi-release.apk
+#priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libarcsoft_handsigns.so|bc6dac4e9870eae84fa2192d2f1958ca3a7a09a7
+#priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libhandsigns_jni.so|1c7472e25394fa99116cd550388c5014c2f43956
+#priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libimage_converter.so|e43966ffefce9e788a45d7a7e2f314ee75fe02be
+#priv-app/SemcCameraUI-jniLibs64-xhdpi-release/lib/arm64/libmpbase.so|e61d7a7fd34180bbcc937576dd388182c261a2c1
+#-priv-app/SomcMovieCreator-release/SomcMovieCreator-release.apk
+#-priv-app/SoundPhotoCamera-xhdpi-release/SoundPhotoCamera-xhdpi-release.apk
+#priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libmpo.so|7fd6f39ad0b7719958bba27bfbc628d7004f2858
+#priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libnativebytebuffer.so|ff0a3667027426c29ed0dc446f3740de1884b50f
+#priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libspf.so|204cddad65953b3a91d9e1adf761da2c3ba9d74c
 
 # CAMERA
 bin/cacaoserver
@@ -42,101 +44,106 @@ lib/libcacao_service.so
 lib/vendor.somc.hardware.camera.cacao@1.0.so
 lib/vendor.somc.hardware.camera.cacao@2.0.so
 lib/vendor.somc.hardware.camera.cacao@3.0.so
+lib/vendor.somc.hardware.camera.cacao@3.1.so
 lib/vendor.somc.hardware.camera.device@1.0.so
 lib/vendor.somc.hardware.camera.provider@1.0.so
 lib64/libcacao_client.so
 lib64/libcacao_pal.so
 
 # CAMERA_POSTPROCESSING
-lib/libblurbuster.so:vendor/lib/libblurbuster.so
+#lib/libblurbuster.so:vendor/lib/libblurbuster.so
 lib/libchromaflash.so:vendor/lib/libchromaflash.so
-lib/libhazebuster.so:vendor/lib/libhazebuster.so
-lib/libjni_blurbuster.so:vendor/lib/libjni_blurbuster.so
-lib/libjni_chromaflash.so:vendor/lib/libjni_chromaflash.so
-lib/libjni_dualcamera.so:vendor/lib/libjni_dualcamera.so
-lib/libjni_filtergenerator.so:vendor/lib/libjni_filtergenerator.so
-lib/libjni_hazebuster.so:vendor/lib/libjni_hazebuster.so
+#lib/libhazebuster.so:vendor/lib/libhazebuster.so
+#lib/libjni_blurbuster.so:vendor/lib/libjni_blurbuster.so
+#lib/libjni_chromaflash.so:vendor/lib/libjni_chromaflash.so
+#lib/libjni_dualcamera.so:vendor/lib/libjni_dualcamera.so
+#lib/libjni_filtergenerator.so:vendor/lib/libjni_filtergenerator.so
+#lib/libjni_hazebuster.so:vendor/lib/libjni_hazebuster.so
 lib/libjni_imageutil.so:vendor/lib/libjni_imageutil.so
-lib/libjni_makeupV2.so:vendor/lib/libjni_makeupV2.so
-lib/libjni_optizoom.so:vendor/lib/libjni_optizoom.so
-lib/libjni_panorama.so:vendor/lib/libjni_panorama.so
-lib/libjni_seestraight.so:vendor/lib/libjni_seestraight.so
-lib/libjni_sharpshooter.so:vendor/lib/libjni_sharpshooter.so
+#lib/libjni_makeupV2.so:vendor/lib/libjni_makeupV2.so
+#lib/libjni_optizoom.so:vendor/lib/libjni_optizoom.so
+#lib/libjni_panorama.so:vendor/lib/libjni_panorama.so
+#lib/libjni_seestraight.so:vendor/lib/libjni_seestraight.so
+#lib/libjni_sharpshooter.so:vendor/lib/libjni_sharpshooter.so
 lib/libjni_snapcammosaic.so:vendor/lib/libjni_snapcammosaic.so
 lib/libjni_snapcamtinyplanet.so:vendor/lib/libjni_snapcamtinyplanet.so
-lib/libjni_stillmore.so:vendor/lib/libjni_stillmore.so
-lib/libjni_trackingfocus.so:vendor/lib/libjni_trackingfocus.so
-lib/libjni_trueportrait.so:vendor/lib/libjni_trueportrait.so
-lib/libjni_truescanner_v2.so:vendor/lib/libjni_truescanner_v2.so
-lib/libjni_ubifocus.so:vendor/lib/libjni_ubifocus.so
+#lib/libjni_stillmore.so:vendor/lib/libjni_stillmore.so
+#lib/libjni_trackingfocus.so:vendor/lib/libjni_trackingfocus.so
+#lib/libjni_trueportrait.so:vendor/lib/libjni_trueportrait.so
+#lib/libjni_truescanner_v2.so:vendor/lib/libjni_truescanner_v2.so
+#lib/libjni_ubifocus.so:vendor/lib/libjni_ubifocus.so
 lib/liboptizoom.so:vendor/lib/liboptizoom.so
 lib/libscveBlobDescriptor.so:vendor/lib/libscveBlobDescriptor.so
-lib/libscveBlobDescriptor_skel.so:vendor/lib/libscveBlobDescriptor_skel.so
+#lib/libscveBlobDescriptor_skel.so:vendor/lib/libscveBlobDescriptor_skel.so
 lib/libscveBlobDescriptor_stub.so:vendor/lib/libscveBlobDescriptor_stub.so
 lib/libscveCommon.so:vendor/lib/libscveCommon.so
 lib/libscveCommon_stub.so:vendor/lib/libscveCommon_stub.so
-lib/libscveFaceLandmark_skel.so:vendor/lib/libscveFaceLandmark_skel.so
-lib/libscveFaceLandmarks.so:vendor/lib/libscveFaceLandmarks.so
-lib/libscveFaceLandmarks_stub.so:vendor/lib/libscveFaceLandmarks_stub.so
+#lib/libscveFaceLandmark_skel.so:vendor/lib/libscveFaceLandmark_skel.so
+#lib/libscveFaceLandmarks.so:vendor/lib/libscveFaceLandmarks.so
+#lib/libscveFaceLandmarks_stub.so:vendor/lib/libscveFaceLandmarks_stub.so
 lib/libscveFaceRecognition.so:vendor/lib/libscveFaceRecognition.so
-lib/libscveImageCorrection.so:vendor/lib/libscveImageCorrection.so
+#lib/libscveImageCorrection.so:vendor/lib/libscveImageCorrection.so
 lib/libscveObjectSegmentation.so:vendor/lib/libscveObjectSegmentation.so
 lib/libscveObjectTracker.so:vendor/lib/libscveObjectTracker.so
 lib/libscveObjectTracker_stub.so:vendor/lib/libscveObjectTracker_stub.so
 lib/libscvePanorama.so:vendor/lib/libscvePanorama.so
 lib/libscvePanorama_lite.so:vendor/lib/libscvePanorama_lite.so
-lib/libscveT2T_skel.so:vendor/lib/libscveT2T_skel.so
+#lib/libscveT2T_skel.so:vendor/lib/libscveT2T_skel.so
 lib/libseemore.so:vendor/lib/libseemore.so
-lib/libseestraight.so:vendor/lib/libseestraight.so
-lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
-lib/libtruescanner.so:vendor/lib/libtruescanner.so
+#lib/libseestraight.so:vendor/lib/libseestraight.so
+#lib/libtrueportrait.so:vendor/lib/libtrueportrait.so
+#lib/libtruescanner.so:vendor/lib/libtruescanner.so
 lib/libubifocus.so:vendor/lib/libubifocus.so
-lib64/libblurbuster.so:vendor/lib64/libblurbuster.so
+#lib64/libblurbuster.so:vendor/lib64/libblurbuster.so
 lib64/libchromaflash.so:vendor/lib64/libchromaflash.so
-lib64/libclearsight.so:vendor/lib64/libclearsight.so
-lib64/libhazebuster.so:vendor/lib64/libhazebuster.so
-lib64/libjni_blurbuster.so:vendor/lib64/libjni_blurbuster.so
-lib64/libjni_chromaflash.so:vendor/lib64/libjni_chromaflash.so
-lib64/libjni_clearsight.so:vendor/lib64/libjni_clearsight.so
-lib64/libjni_dualcamera.so:vendor/lib64/libjni_dualcamera.so
-lib64/libjni_filtergenerator.so:vendor/lib64/libjni_filtergenerator.so
+#lib64/libclearsight.so:vendor/lib64/libclearsight.so
+#lib64/libhazebuster.so:vendor/lib64/libhazebuster.so
+#lib64/libjni_blurbuster.so:vendor/lib64/libjni_blurbuster.so
+#lib64/libjni_chromaflash.so:vendor/lib64/libjni_chromaflash.so
+#lib64/libjni_clearsight.so:vendor/lib64/libjni_clearsight.so
+#lib64/libjni_dualcamera.so:vendor/lib64/libjni_dualcamera.so
+#lib64/libjni_filtergenerator.so:vendor/lib64/libjni_filtergenerator.so
 lib64/libjni_gallery_eglfence.so:vendor/lib64/libjni_gallery_eglfence.so
 lib64/libjni_gallery_filters.so:vendor/lib64/libjni_gallery_filters.so
 lib64/libjni_gallery_jpegstream.so:vendor/lib64/libjni_gallery_jpegstream.so
-lib64/libjni_hazebuster.so:vendor/lib64/libjni_hazebuster.so
+#lib64/libjni_hazebuster.so:vendor/lib64/libjni_hazebuster.so
 lib64/libjni_imageutil.so:vendor/lib64/libjni_imageutil.so
-lib64/libjni_makeupV2.so:vendor/lib64/libjni_makeupV2.so
-lib64/libjni_optizoom.so:vendor/lib64/libjni_optizoom.so
+#lib64/libjni_makeupV2.so:vendor/lib64/libjni_makeupV2.so
+#lib64/libjni_optizoom.so:vendor/lib64/libjni_optizoom.so
 lib64/libjni_pacprocessor.so:vendor/lib64/libjni_pacprocessor.so
-lib64/libjni_panorama.so:vendor/lib64/libjni_panorama.so
-lib64/libjni_seestraight.so:vendor/lib64/libjni_seestraight.so
-lib64/libjni_sharpshooter.so:vendor/lib64/libjni_sharpshooter.so
+#lib64/libjni_panorama.so:vendor/lib64/libjni_panorama.so
+#lib64/libjni_seestraight.so:vendor/lib64/libjni_seestraight.so
+#lib64/libjni_sharpshooter.so:vendor/lib64/libjni_sharpshooter.so
 lib64/libjni_snapcammosaic.so:vendor/lib64/libjni_snapcammosaic.so
 lib64/libjni_snapcamtinyplanet.so:vendor/lib64/libjni_snapcamtinyplanet.so
-lib64/libjni_stillmore.so:vendor/lib64/libjni_stillmore.so
-lib64/libjni_trackingfocus.so:vendor/lib64/libjni_trackingfocus.so
-lib64/libjni_trueportrait.so:vendor/lib64/libjni_trueportrait.so
-lib64/libjni_truescanner_v2.so:vendor/lib64/libjni_truescanner_v2.so
-lib64/libjni_ubifocus.so:vendor/lib64/libjni_ubifocus.so
+#lib64/libjni_stillmore.so:vendor/lib64/libjni_stillmore.so
+#lib64/libjni_trackingfocus.so:vendor/lib64/libjni_trackingfocus.so
+#lib64/libjni_trueportrait.so:vendor/lib64/libjni_trueportrait.so
+#lib64/libjni_truescanner_v2.so:vendor/lib64/libjni_truescanner_v2.so
+#lib64/libjni_ubifocus.so:vendor/lib64/libjni_ubifocus.so
 lib64/liboptizoom.so:vendor/lib64/liboptizoom.so
 lib64/libscveBlobDescriptor.so:vendor/lib64/libscveBlobDescriptor.so
 lib64/libscveBlobDescriptor_stub.so:vendor/lib64/libscveBlobDescriptor_stub.so
 lib64/libscveCommon.so:vendor/lib64/libscveCommon.so
 lib64/libscveCommon_stub.so:vendor/lib64/libscveCommon_stub.so
-lib64/libscveFaceLandmarks.so:vendor/lib64/libscveFaceLandmarks.so
-lib64/libscveFaceLandmarks_stub.so:vendor/lib64/libscveFaceLandmarks_stub.so
+#lib64/libscveFaceLandmarks.so:vendor/lib64/libscveFaceLandmarks.so
+#lib64/libscveFaceLandmarks_stub.so:vendor/lib64/libscveFaceLandmarks_stub.so
 lib64/libscveFaceRecognition.so:vendor/lib64/libscveFaceRecognition.so
-lib64/libscveImageCorrection.so:vendor/lib64/libscveImageCorrection.so
+#lib64/libscveImageCorrection.so:vendor/lib64/libscveImageCorrection.so
 lib64/libscveObjectSegmentation.so:vendor/lib64/libscveObjectSegmentation.so
 lib64/libscveObjectTracker.so:vendor/lib64/libscveObjectTracker.so
 lib64/libscveObjectTracker_stub.so:vendor/lib64/libscveObjectTracker_stub.so
 lib64/libscvePanorama.so:vendor/lib64/libscvePanorama.so
 lib64/libscvePanorama_lite.so:vendor/lib64/libscvePanorama_lite.so
 lib64/libseemore.so:vendor/lib64/libseemore.so
-lib64/libseestraight.so:vendor/lib64/libseestraight.so
-lib64/libtrueportrait.so:vendor/lib64/libtrueportrait.so
-lib64/libtruescanner.so:vendor/lib64/libtruescanner.so
+#lib64/libseestraight.so:vendor/lib64/libseestraight.so
+#lib64/libtrueportrait.so:vendor/lib64/libtrueportrait.so
+#lib64/libtruescanner.so:vendor/lib64/libtruescanner.so
 lib64/libubifocus.so:vendor/lib64/libubifocus.so
+
+# CLEANLOSTFOUND
+etc/cleanlostfound.sh
+etc/init/cleanlostfound.rc
 
 # CNE
 etc/permissions/cneapiclient.xml
@@ -144,13 +151,15 @@ etc/permissions/com.quicinc.cne.xml
 framework/cneapiclient.jar
 framework/com.quicinc.cne.api-V1.0-java.jar
 framework/com.quicinc.cne.jar
+lib/com.quicinc.cne.server@1.0.so
+lib64/com.quicinc.cne.server@1.0.so
 -priv-app/CNEService/CNEService.apk
 
 # CustomizationSelector
 etc/permissions/com.sonymobile.miscta.xml
 framework/com.sonymobile.miscta_impl.jar
-lib/libMiscTAApi.so
-lib64/libMiscTAApi.so
+lib/libMiscTAApi.sony.so
+lib64/libMiscTAApi.sony.so
 lib/libMiscTaWrapper.so
 lib64/libMiscTaWrapper.so
 -priv-app/CustomizationSelector/CustomizationSelector.apk|ada2ca656cae1b6c31f7f4a09a9c7afcb676da01
@@ -158,9 +167,37 @@ lib64/libMiscTaWrapper.so
 # DISPLAY
 lib/hw/libdisplay.default.so:vendor/lib/hw/libdisplay.default.so
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so
+lib/vendor.display.color@1.0.so
+lib/vendor.display.color@1.1.so
+lib/vendor.display.color@1.2.so
+lib/vendor.display.postproc@1.0.so
+lib/libsys-utils-system.so
+lib/vendor.qti.hardware.qdutils_disp@1.0.so
 lib64/hw/libdisplay.default.so:vendor/lib64/hw/libdisplay.default.so
 lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so
+lib64/vendor.display.color@1.0.so
+lib64/vendor.display.color@1.1.so
+lib64/vendor.display.color@1.2.so
+lib64/vendor.display.postproc@1.0.so
 lib64/libsys-utils-system.so
+lib64/vendor.qti.hardware.qdutils_disp@1.0.so
+
+# DPM
+lib/com.qualcomm.qti.dpm.api@1.0.so
+lib64/com.qualcomm.qti.dpm.api@1.0.so
+
+# DRM
+lib/android.hardware.drm@1.0.so
+lib/android.hardware.drm@1.1.so
+lib64/android.hardware.drm@1.0.so
+lib64/android.hardware.drm@1.1.so
+
+# FFU
+lib/firmware/ufs/01AD-483238553632333031414D5220202020-D003.bin:system/etc/firmware
+
+# FINGERPRINT_EXTENSION
+etc/permissions/com.fingerprints.extension.xml
+-framework/com.fingerprints.extension.jar
 
 # FRAMEWORK_DEPENDENCIES
 etc/permissions/com.sonyericsson.idd.xml
@@ -169,10 +206,17 @@ framework/com.sonyericsson.idd_impl.jar
 framework/com.sonymobile.getmore.api.jar
 
 # IDD
-lib/libiddjni.so
-lib64/libiddjni.so
+bin/startup-logger
+etc/init/startup-logger.rc
+#lib/libiddjni.so
+#lib64/libiddjni.so
+
+# LIGHT
+lib/vendor.semc.hardware.light@1.0.so
+lib64/vendor.semc.hardware.light@1.0.so
 
 # MODEM
+bin/sony-modem-switcher
 etc/customization/modem/amss_fs_empty.mbn
 etc/customization/modem/amss_fsg_lilac_a1_austria_volte_vowifi_tar.mbn
 etc/customization/modem/amss_fsg_lilac_airtel_in_ims_tar.mbn
@@ -342,6 +386,10 @@ etc/customization/modem/amss_fsg_lilac_vodafone_uk_tar.mbn
 etc/customization/modem/amss_fsg_lilac_vodafone_uk_volte_vowifi_tar.mbn
 etc/customization/modem/amss_fsg_lilac_wind_canada_tar.mbn
 
+# MSS
+bin/mssconfig
+etc/init/mssconfig.rc
+
 # NXP_NFC
 lib64/vendor.nxp.nxpnfc@1.0.so
 
@@ -359,6 +407,10 @@ framework/embmslibrary.jar
 framework/qti-telephony-common.jar|e080a3e800bf43c894c6653954e2f4e1415e645c
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
+# QTI_ANT
+lib/com.qualcomm.qti.ant@1.0.so
+lib64/com.qualcomm.qti.ant@1.0.so
+
 # QTI_QMI
 etc/permissions/qti_libpermissions.xml:vendor/etc/permissions/qti_libpermissions.xml
 etc/permissions/qti_permissions.xml:vendor/etc/permissions/qti_permissions.xml
@@ -373,19 +425,27 @@ lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # QTI_GNSS
 lib/vendor.qti.gnss@1.0.so
+lib/vendor.qti.gnss@1.1.so
+lib/vendor.qti.gnss@1.2.so
+lib/vendor.qti.gnss@2.0.so
+lib/vendor.qti.gnss@2.1.so
 lib64/vendor.qti.gnss@1.0.so
+lib64/vendor.qti.gnss@1.1.so
+lib64/vendor.qti.gnss@1.2.so
+lib64/vendor.qti.gnss@2.0.so
+lib64/vendor.qti.gnss@2.1.so
 
 # QTI_IMPROVETOUCH
-lib/vendor.qti.hardware.improvetouch.blobmanager@1.0.so
-lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so
-lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
-lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0.so
-lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so
-lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
+#lib/vendor.qti.hardware.improvetouch.blobmanager@1.0.so
+#lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so
+#lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
+#lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0.so
+#lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so
+#lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
 
 # QTI_IMS
--app/ims/ims.apk
-etc/permissions/qti-vzw-ims-internal.xml
+-priv-app/ims/ims.apk
+#etc/permissions/qti-vzw-ims-internal.xml
 lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/lib-imscamera.so
 lib/lib-imsvideocodec.so
@@ -395,6 +455,10 @@ lib/libdiag_system.so
 lib/libimscamera_jni.so
 lib/libimsmedia_jni.so
 lib/librcc.so
+lib/vendor.qti.hardware.radio.ims@1.0.so
+lib/vendor.qti.hardware.radio.ims@1.1.so
+lib/vendor.qti.hardware.radio.ims@1.2.so
+lib/vendor.qti.hardware.radio.ims@1.3.so
 lib/vendor.qti.imsrtpservice@1.0.so
 lib64/com.qualcomm.qti.imscmservice@1.0.so
 lib64/lib-imscamera.so
@@ -406,6 +470,10 @@ lib64/libdiag_system.so
 lib64/libimscamera_jni.so
 lib64/libimsmedia_jni.so
 lib64/librcc.so
+lib64/vendor.qti.hardware.radio.ims@1.0.so
+lib64/vendor.qti.hardware.radio.ims@1.1.so
+lib64/vendor.qti.hardware.radio.ims@1.2.so
+lib64/vendor.qti.hardware.radio.ims@1.3.so
 lib64/vendor.qti.imsrtpservice@1.0.so
 
 # QTI_PERF
@@ -423,25 +491,71 @@ lib/vendor.qti.hardware.qteeconnector@1.0.so
 lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # QTI_RADIO
+lib/android.hardware.radio.config@1.0.so
 lib/vendor.qti.hardware.fm@1.0.so
+lib/vendor.qti.hardware.radio.am@1.0.so
+lib/vendor.qti.hardware.radio.lpa@1.0.so
+lib/vendor.qti.hardware.radio.qcrilhook@1.0.so
+lib/vendor.qti.hardware.radio.qtiradio@1.0.so
+lib/vendor.qti.hardware.radio.uim@1.0.so
+lib/vendor.qti.hardware.radio.uim@1.1.so
+lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so
+lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so
+lib/vndk-28/android.hardware.radio.config@1.0.so
+lib64/android.hardware.radio.config@1.0.so
 lib64/vendor.qti.hardware.fm@1.0.so
+lib64/vendor.qti.hardware.radio.am@1.0.so
+lib64/vendor.qti.hardware.radio.lpa@1.0.so
+lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
+lib64/vendor.qti.hardware.radio.qtiradio@1.0.so
+lib64/vendor.qti.hardware.radio.uim@1.0.so
+lib64/vendor.qti.hardware.radio.uim@1.1.so
+lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
+lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
+lib64/vndk-28/android.hardware.radio.config@1.0.so
 
 # SEMC_DRM
-lib/vendor.semc.hardware.drm@1.0.so
-lib64/vendor.semc.hardware.drm@1.0.so
+#lib/vendor.semc.hardware.drm@1.0.so
+#lib64/vendor.semc.hardware.drm@1.0.so
 
 # SEMC_IDD
 lib/vendor.semc.system.idd@1.0.so
 lib64/vendor.semc.system.idd@1.0.so
 
 # SEMC_SECD
-lib/vendor.semc.hardware.secd@1.0.so
-lib64/vendor.semc.hardware.secd@1.0.so
+#lib/vendor.semc.hardware.secd@1.0.so
+#lib64/vendor.semc.hardware.secd@1.0.so
 
 # SOMC_MISCTA
 lib/vendor.somc.hardware.miscta@1.0.so
 lib64/vendor.somc.hardware.miscta@1.0.so
 
+# SSR
+bin/bt_ssr_dumper
+bin/ssr_dumper
+etc/init.ssr_level.sh
+etc/ssrdumper_config.xml
+etc/ssrdumper_target.xml
+etc/init/ssr_dumper.rc
+lib/libdumpframework.so
+lib/libsnappy.so
+lib/libtlcore.so
+lib64/libdumpframework.so
+lib64/libsnappy.so
+lib64/libtlcore.so
+
 # TOF SENSOR
-lib/sensors.hal.tof.so
-lib64/sensors.hal.tof.so
+#lib/sensors.hal.tof.so
+#lib64/sensors.hal.tof.so
+
+# TRIMAREA
+etc/init/taimport.rc
+
+# UDATEMISCTA
+bin/taimport
+bin/updatemiscta
+etc/init/updatemiscta.rc
+
+# WIFIDISPLAY
+lib/com.qualcomm.qti.wifidisplayhal@1.0.so
+lib64/com.qualcomm.qti.wifidisplayhal@1.0.so
