@@ -162,7 +162,7 @@ lib/libMiscTAApi.sony.so
 lib64/libMiscTAApi.sony.so
 lib/libMiscTaWrapper.so
 lib64/libMiscTaWrapper.so
--priv-app/CustomizationSelector/CustomizationSelector.apk|ada2ca656cae1b6c31f7f4a09a9c7afcb676da01
+#-priv-app/CustomizationSelector/CustomizationSelector.apk|ada2ca656cae1b6c31f7f4a09a9c7afcb676da01
 
 # DISPLAY
 lib/hw/libdisplay.default.so:vendor/lib/hw/libdisplay.default.so
