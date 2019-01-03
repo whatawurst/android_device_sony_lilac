@@ -1070,7 +1070,7 @@ vendor/lib/libqcmaputils.so
 vendor/lib/libqdp.so
 vendor/lib/libqmi.so
 -vendor/lib/libqmiservices.so
-vendor/lib/libqmi_cci.so
+-vendor/lib/libqmi_cci.so
 vendor/lib/libqmi_client_helper.so
 vendor/lib/libqmi_client_qmux.so
 vendor/lib/libqmi_csi.so
@@ -1104,7 +1104,7 @@ vendor/lib64/libqcmaputils.so
 vendor/lib64/libqdp.so
 vendor/lib64/libqmi.so
 -vendor/lib64/libqmiservices.so
-vendor/lib64/libqmi_cci.so
+-vendor/lib64/libqmi_cci.so
 vendor/lib64/libqmi_client_helper.so
 vendor/lib64/libqmi_client_qmux.so
 vendor/lib64/libqmi_csi.so
@@ -1147,7 +1147,7 @@ vendor/lib/lib-rtpcore.so
 vendor/lib/lib-rtpdaemoninterface.so
 vendor/lib/lib-rtpsl.so
 vendor/lib/lib-uceservice.so
-vendor/lib/libdsi_netctrl.so
+-vendor/lib/libdsi_netctrl.so
 vendor/lib/libidl.so
 vendor/lib/libqdi.so
 vendor/lib/vendor.qti.hardware.radio.ims@1.0.so
@@ -1168,7 +1168,7 @@ vendor/lib64/lib-rtpcore.so
 vendor/lib64/lib-rtpdaemoninterface.so
 vendor/lib64/lib-rtpsl.so
 vendor/lib64/lib-uceservice.so
-vendor/lib64/libdsi_netctrl.so
+-vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libidl.so
 vendor/lib64/libqdi.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so
@@ -1224,7 +1224,7 @@ vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/etc/sensors/sensor_def_somc_platform.conf
 vendor/etc/sensors/sensor_def_somc_product.conf
-vendor/lib/libqmi_common_so.so
+-vendor/lib/libqmi_common_so.so
 vendor/lib/libsdsprpc.so
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
@@ -1232,7 +1232,7 @@ vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/sensor_calibrate.so
 vendor/lib/sensors.finger-pickup.so
 vendor/lib/sensors.ssc.so
-vendor/lib64/libqmi_common_so.so
+-vendor/lib64/libqmi_common_so.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
