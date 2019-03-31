@@ -6,17 +6,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/sony/lilac/device.mk)
 
 ### BOOTANIMATION
-# vendor/lineage/config/common_full_phone.mk
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 720
-# vendor/lineage/config/common.mk
 TARGET_BOOTANIMATION_HALF_RES := true
 
-### LINEAGE
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+### OMNI
+$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_lilac
+PRODUCT_NAME := omni_lilac
 PRODUCT_DEVICE := lilac
 PRODUCT_BRAND := Sony
 PRODUCT_MODEL := G8441
