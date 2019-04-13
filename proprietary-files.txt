@@ -145,6 +145,14 @@ lib64/libubifocus.so:vendor/lib64/libubifocus.so
 etc/cleanlostfound.sh
 etc/init/cleanlostfound.rc
 
+# CND
+lib/vendor.qti.ims.rcsconfig@1.0.so
+lib/vendor.qti.hardware.data.latency@1.0.so
+lib/vendor.qti.latency@2.0.so
+lib64/vendor.qti.ims.rcsconfig@1.0.so
+lib64/vendor.qti.hardware.data.latency@1.0.so
+lib64/vendor.qti.latency@2.0.so
+
 # CNE
 etc/permissions/cneapiclient.xml
 etc/permissions/com.quicinc.cne.xml
@@ -192,12 +200,72 @@ lib/android.hardware.drm@1.1.so
 lib64/android.hardware.drm@1.0.so
 lib64/android.hardware.drm@1.1.so
 
-# FFU
-lib/firmware/ufs/01AD-483238553632333031414D5220202020-D003.bin:system/etc/firmware
-
 # FINGERPRINT_EXTENSION
 etc/permissions/com.fingerprints.extension.xml
 -framework/com.fingerprints.extension.jar
+
+# FIRMWARE
+etc/firmware/cmnlib64.b00
+etc/firmware/cmnlib64.b01
+etc/firmware/cmnlib64.b02
+etc/firmware/cmnlib64.b03
+etc/firmware/cmnlib64.b04
+etc/firmware/cmnlib64.b05
+etc/firmware/cmnlib64.b06
+etc/firmware/cmnlib64.mdt
+etc/firmware/cmnlib.b00
+etc/firmware/cmnlib.b01
+etc/firmware/cmnlib.b02
+etc/firmware/cmnlib.b03
+etc/firmware/cmnlib.b04
+etc/firmware/cmnlib.b05
+etc/firmware/cmnlib.b06
+etc/firmware/cmnlib.mdt
+etc/firmware/fidocfg.b00
+etc/firmware/fidocfg.b01
+etc/firmware/fidocfg.b02
+etc/firmware/fidocfg.b03
+etc/firmware/fidocfg.b04
+etc/firmware/fidocfg.b05
+etc/firmware/fidocfg.b06
+etc/firmware/fidocfg.b07
+etc/firmware/fidocfg.mdt
+etc/firmware/fidocrypto.b00
+etc/firmware/fidocrypto.b01
+etc/firmware/fidocrypto.b02
+etc/firmware/fidocrypto.b03
+etc/firmware/fidocrypto.b04
+etc/firmware/fidocrypto.b05
+etc/firmware/fidocrypto.b06
+etc/firmware/fidocrypto.b07
+etc/firmware/fidocrypto.mdt
+etc/firmware/tzattest.b00
+etc/firmware/tzattest.b01
+etc/firmware/tzattest.b02
+etc/firmware/tzattest.b03
+etc/firmware/tzattest.b04
+etc/firmware/tzattest.b05
+etc/firmware/tzattest.b06
+etc/firmware/tzattest.b07
+etc/firmware/tzattest.mdt
+etc/firmware/tzsuntory.b00
+etc/firmware/tzsuntory.b01
+etc/firmware/tzsuntory.b02
+etc/firmware/tzsuntory.b03
+etc/firmware/tzsuntory.b04
+etc/firmware/tzsuntory.b05
+etc/firmware/tzsuntory.b06
+etc/firmware/tzsuntory.b07
+etc/firmware/tzsuntory.mdt
+etc/firmware/tztpm.b00
+etc/firmware/tztpm.b01
+etc/firmware/tztpm.b02
+etc/firmware/tztpm.b03
+etc/firmware/tztpm.b04
+etc/firmware/tztpm.b05
+etc/firmware/tztpm.b06
+etc/firmware/tztpm.b07
+etc/firmware/tztpm.mdt
 
 # FRAMEWORK_DEPENDENCIES
 etc/permissions/com.sonyericsson.idd.xml
@@ -390,9 +458,6 @@ etc/customization/modem/amss_fsg_lilac_wind_canada_tar.mbn
 bin/mssconfig
 etc/init/mssconfig.rc
 
-# NXP_NFC
-lib64/vendor.nxp.nxpnfc@1.0.so
-
 # QCRIL_RADIO
 -app/QtiTelephonyService/QtiTelephonyService.apk
 -app/embms/embms.apk
@@ -406,6 +471,10 @@ etc/sysconfig/qti_whitelist.xml
 framework/embmslibrary.jar
 framework/qti-telephony-common.jar|e080a3e800bf43c894c6653954e2f4e1415e645c
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+
+# QSEECOMD
+lib/vendor.qti.hardware.tui_comm@1.0.so
+lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # QTI_ANT
 lib/com.qualcomm.qti.ant@1.0.so
@@ -447,6 +516,9 @@ lib64/vendor.qti.gnss@2.1.so
 -priv-app/ims/ims.apk
 #etc/permissions/qti-vzw-ims-internal.xml
 lib/com.qualcomm.qti.imscmservice@1.0.so
+lib/com.qualcomm.qti.imscmservice@2.0.so
+lib/com.qualcomm.qti.imscmservice@2.1.so
+lib/com.qualcomm.qti.uceservice@2.0.so
 lib/lib-imscamera.so
 lib/lib-imsvideocodec.so
 lib/lib-imsvtextutils.so
@@ -455,12 +527,18 @@ lib/libdiag_system.so
 lib/libimscamera_jni.so
 lib/libimsmedia_jni.so
 lib/librcc.so
+lib/vendor.qti.hardware.data.dynamicdds@1.0.so
 lib/vendor.qti.hardware.radio.ims@1.0.so
 lib/vendor.qti.hardware.radio.ims@1.1.so
 lib/vendor.qti.hardware.radio.ims@1.2.so
 lib/vendor.qti.hardware.radio.ims@1.3.so
+lib/vendor.qti.ims.callinfo@1.0.so
+lib/vendor.qti.ims.rcsconfig@1.0.so
 lib/vendor.qti.imsrtpservice@1.0.so
 lib64/com.qualcomm.qti.imscmservice@1.0.so
+lib64/com.qualcomm.qti.imscmservice@2.0.so
+lib64/com.qualcomm.qti.imscmservice@2.1.so
+lib64/com.qualcomm.qti.uceservice@2.0.so
 lib64/lib-imscamera.so
 lib64/lib-imsvideocodec.so
 lib64/lib-imsvt.so
@@ -470,10 +548,13 @@ lib64/libdiag_system.so
 lib64/libimscamera_jni.so
 lib64/libimsmedia_jni.so
 lib64/librcc.so
+lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 lib64/vendor.qti.hardware.radio.ims@1.0.so
 lib64/vendor.qti.hardware.radio.ims@1.1.so
 lib64/vendor.qti.hardware.radio.ims@1.2.so
 lib64/vendor.qti.hardware.radio.ims@1.3.so
+lib64/vendor.qti.ims.callinfo@1.0.so
+lib64/vendor.qti.ims.rcsconfig@1.0.so
 lib64/vendor.qti.imsrtpservice@1.0.so
 
 # QTI_PERF
@@ -525,6 +606,7 @@ lib64/vendor.semc.system.idd@1.0.so
 # SEMC_SECD
 #lib/vendor.semc.hardware.secd@1.0.so
 #lib64/vendor.semc.hardware.secd@1.0.so
+lib64/vendor.somc.hardware.security.secd@1.0.so
 
 # SOMC_MISCTA
 lib/vendor.somc.hardware.miscta@1.0.so
@@ -550,6 +632,7 @@ lib64/libtlcore.so
 
 # TRIMAREA
 etc/init/taimport.rc
+lib64/libdevice_security_client.so
 
 # UDATEMISCTA
 bin/taimport
