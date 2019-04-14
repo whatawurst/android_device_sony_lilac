@@ -1362,8 +1362,10 @@ vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so
 vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
 
 # TA_QMI
+vendor/bin/taimport_vendor
 vendor/bin/ta_qmi_service
 vendor/etc/init/init.taqmi.rc
+vendor/etc/init/taimport_vendor.rc
 #vendor/lib/libsmemlog.so
 -vendor/lib/libta.so
 #vendor/lib64/libsmemlog.so
