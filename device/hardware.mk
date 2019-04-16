@@ -1,3 +1,3 @@
 ### NFC
 PRODUCT_PACKAGES += \
-    nfc_nci.msm8998
+	nfc_nci.nqx.default

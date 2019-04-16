@@ -35,3 +35,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.nfc.se.sim.enable=true \
     ro.nfc.se.smx.enable=false \
     ro.nfc.on.default=false \
+    ro.hardware.nfc_nci=nqx.default \
+    ro.vendor.nfc.ko=nxp_pn553_nfc
