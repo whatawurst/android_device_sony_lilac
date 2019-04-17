@@ -62,6 +62,8 @@ ro.vendor.sensors.mot_detect=true
 ro.vendor.sensors.dpc=true
 #MultiShake sensor
 ro.vendor.sensors.multishake=true
+#support sensor directchannel reporting
+persist.vendor.sensors.direct_channel=true
 
 ##### Add values MiscTA #####
 # /system/etc/prop.default
