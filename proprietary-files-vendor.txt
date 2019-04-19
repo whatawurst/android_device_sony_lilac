@@ -1,7 +1,5 @@
 # BOOT
 vendor/bin/init.qcom.early_boot.sh
-vendor/bin/ffu|9e7507b489ef8cdbc3c0a8d71e988727c44777aa
-vendor/etc/firmware/01AD-483238553632333031414D5220202020-D003.bin|516309bb7438524b2e4555cc3dcd452d94ea1b92
 
 # ADSP
 vendor/bin/adsprpcd
@@ -24,9 +22,7 @@ vendor/lib/rfsa/adsp/libapps_mem_heap.so
 vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
-#vendor/lib/rfsa/adsp/libhvxMathVIO.so
 vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
-#vendor/lib/rfsa/adsp/libscveFaceLandmark_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 vendor/lib/rfsa/adsp/libsomc_alfortlpserv_skel.so
 vendor/lib/rfsa/adsp/libsomc_sumomolpserv_skel.so
@@ -137,7 +133,6 @@ vendor/etc/acdbdata/Sony/Sony_yoshino_Speaker_cal.acdb
 vendor/etc/acdbdata/Sony/workspaceFile_Sony_yoshino.qwsp
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
-#vendor/lib/libacdbmapper.so
 vendor/lib/libacdbrtac.so
 vendor/lib/libadiertac.so
 vendor/lib/libadm.so
@@ -152,15 +147,13 @@ vendor/lib/libsurround_3mic_proc.so
 vendor/lib/libznr.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
-#vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcreverb.so
 vendor/lib/soundfx/libqcvirt.so
-#vendor/lib/soundfx/libshoebox.so
 vendor/lib/soundfx/libsonypostprocbundle.so
 vendor/lib/soundfx/libsonysweffect.so
 vendor/lib/soundfx/libznrwrapper.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
-#vendor/lib64/libacdbmapper.so
 vendor/lib64/libacdbrtac.so
 vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
@@ -170,9 +163,7 @@ vendor/lib64/libqtigef.so
 vendor/lib64/librebuffering.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libqcbassboost.so
-#vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
-#vendor/lib64/soundfx/libshoebox.so
 
 # AUDIO_EFFECTS
 vendor/etc/sony_effect/clearphase_sp_param.bin
@@ -453,6 +444,7 @@ vendor/lib/vendor.somc.hardware.camera.provider@1.0.so
 vendor/lib64/libcameralight.so
 vendor/lib64/libcammw_util.so
 vendor/lib64/libmmcamera_tintless_algo.so
+vendor/lib64/libsensorndkbridge.so
 
 # CAMERA_CACAO
 vendor/lib/vendor.somc.hardware.camera.cacao@1.0.so
@@ -662,12 +654,10 @@ vendor/lib/libC2D2.so
 vendor/lib/libCB.so
 vendor/lib/libOpenCL.so
 vendor/lib/libadreno_utils.so
-#vendor/lib/libc2d30-a5xx.so
 vendor/lib/libc2d30_bltlib.so
 vendor/lib/libgsl.so
 vendor/lib/libllvm-glnext.so
 vendor/lib/libllvm-qcom.so
-#vendor/lib/libllvm-qgl.so
 vendor/lib/libqseed3.so
 vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
@@ -681,12 +671,10 @@ vendor/lib64/libC2D2.so
 vendor/lib64/libCB.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libadreno_utils.so
-#vendor/lib64/libc2d30-a5xx.so
 vendor/lib64/libc2d30_bltlib.so
 vendor/lib64/libgsl.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
-#vendor/lib64/libllvm-qgl.so
 vendor/lib64/libqseed3.so
 
 # GRAPHICS_RENDERSCRIPT
@@ -698,6 +686,10 @@ vendor/lib64/libRSDriver_adreno.so
 vendor/lib64/libbccQTI.so
 vendor/lib64/librs_adreno.so
 vendor/lib64/librs_adreno_sha1.so
+
+# FFU
+vendor/bin/ffu|9e7507b489ef8cdbc3c0a8d71e988727c44777aa
+vendor/etc/firmware/01AD-483238553632333031414D5220202020-D003.bin|516309bb7438524b2e4555cc3dcd452d94ea1b92
 
 # FINGERPRINT
 vendor/bin/hw/fpc_fingerprint@2.1_HIDL-service
@@ -718,13 +710,11 @@ vendor/lib64/lib_fpc_tac_shared.so
 vendor/lib64/com.fingerprints.extension@1.0.so
 
 # IDD
-#vendor/bin/hw/vendor.semc.system.idd.fallback@1.0-service
 vendor/bin/hw/vendor.semc.system.idd@1.0-service
 vendor/bin/idd-logreader
 vendor/bin/iddd
 vendor/etc/idd.conf
 vendor/etc/iddd.conf
-#vendor/etc/init/vendor.semc.system.idd.fallback@1.0-service.rc
 vendor/etc/init/vendor.semc.system.idd@1.0-service.rc
 vendor/etc/security/idd_config.pem
 vendor/etc/security/idd_report.pem
@@ -734,7 +724,6 @@ vendor/lib/vendor.semc.system.idd@1.0.so
 vendor/lib64/libidd.so
 vendor/lib64/libprotobuf-c.so
 vendor/lib64/libprotobuf-c-idd.so
-#vendor/lib64/vendor.semc.system.idd.fallback@1.0_vendor.so
 vendor/lib64/vendor.semc.system.idd@1.0.so
 
 # ILLUMINATION
@@ -837,7 +826,6 @@ vendor/lib/libpn553_fw.so
 # PERIPHERAL_MANAGER
 vendor/bin/pm-proxy
 vendor/bin/pm-service
-#vendor/bin/spdaemon
 vendor/lib/libperipheral_client.so
 vendor/lib/libspcom.so
 vendor/lib64/libperipheral_client.so
@@ -850,7 +838,6 @@ vendor/bin/mlog_qmi_service
 vendor/bin/qns
 
 # QSEECOMD
-#vendor/bin/qseecom_sample_client
 vendor/bin/qseecomd
 vendor/etc/gpfspath_oem_config.xml
 vendor/lib/libGPTEE_vendor.so
@@ -870,7 +857,6 @@ vendor/lib/libspl.so
 vendor/lib/libssd.so
 vendor/lib/libtzdrmgenprov.so
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
-#vendor/lib64/lib-sec-disp.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libGPTEE_vendor.so
@@ -958,8 +944,6 @@ vendor/lib/libloc_api_v02.so
 vendor/lib/libloc_core.so
 vendor/lib/libloc_ds_api.so
 vendor/lib/libloc_externalDr.so
-#vendor/lib/libloc_pla.so
-#vendor/lib/libloc_stub.so
 vendor/lib/liblocation_api.so
 vendor/lib/liblocationservice.so
 vendor/lib/liblocationservice_glue.so
@@ -991,8 +975,6 @@ vendor/lib64/libloc_api_v02.so
 vendor/lib64/libloc_core.so
 vendor/lib64/libloc_ds_api.so
 vendor/lib64/libloc_externalDr.so
-#vendor/lib64/libloc_pla.so
-#vendor/lib64/libloc_stub.so
 vendor/lib64/liblocation_api.so
 vendor/lib64/liblocationservice.so
 vendor/lib64/liblocationservice_glue.so
@@ -1019,9 +1001,6 @@ vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
-# !!!make symlinks instead!!!
-vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:vendor/lib/android.hardware.keymaster@3.0-impl-qti.so
-vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:vendor/lib64/android.hardware.keymaster@3.0-impl-qti.so
 
 # QTI_PERF
 vendor/bin/energy-awareness
@@ -1057,7 +1036,6 @@ vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # RADIO
-#-vendor/app/SVIService/SVIService.apk
 vendor/bin/ATFWD-daemon
 vendor/bin/netmgrd
 vendor/bin/pd-mapper
@@ -1150,7 +1128,6 @@ vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
 vendor/bin/imsrcsd
 vendor/bin/init.qti.ims.sh
-#vendor/framework/qti-vzw-ims-internal.jar
 vendor/lib/com.qualcomm.qti.imscmservice@2.0.so
 vendor/lib/com.qualcomm.qti.imscmservice@2.1.so
 vendor/lib/com.qualcomm.qti.uceservice@2.0.so
@@ -1212,7 +1189,6 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0.so
 
 # SECD
 vendor/bin/hw/vendor.semc.hardware.secd@1.0-service
-#vendor/bin/secd
 vendor/etc/firmware/tzsuntory.b00
 vendor/etc/firmware/tzsuntory.b01
 vendor/etc/firmware/tzsuntory.b02
@@ -1231,20 +1207,12 @@ vendor/etc/firmware/tztpm.b05
 vendor/etc/firmware/tztpm.b06
 vendor/etc/firmware/tztpm.b07
 vendor/etc/firmware/tztpm.mdt
-#vendor/etc/init/init.secd.rc
 vendor/etc/init/vendor.semc.hardware.secd@1.0-service.rc
-#vendor/lib/libcredential-manager-service.so
-#vendor/lib/libdevice_security.so
 vendor/lib/libdevice_security_vendor.so
 vendor/lib/libsuntory.so
-#vendor/lib/vendor.semc.hardware.secd@1.0_vendor.so
 vendor/lib/vendor.somc.hardware.security.secd@1.0.so
-#vendor/lib64/libcredential-manager-service.so
-#vendor/lib64/libdevice_security.so
 vendor/lib64/libdevice_security_vendor.so
-#vendor/lib64/libstartup-reason.so
 vendor/lib64/libsuntory.so
-#vendor/lib64/vendor.semc.hardware.secd@1.0_vendor.so
 vendor/lib64/vendor.somc.hardware.security.secd@1.0.so
 
 # SCT
@@ -1297,9 +1265,7 @@ vendor/lib64/vendor.semc.hardware.thermal@1.0.so
 # TIME
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
-#vendor/lib/libTimeService.so
 -vendor/lib/libtime_genoff.so
-#vendor/lib64/libTimeService.so
 -vendor/lib64/libtime_genoff.so
 
 # TOUCHBACKLIGHT
@@ -1319,20 +1285,12 @@ vendor/firmware/touch_module_id_0xf1.img
 vendor/lib/libhbtpclient.so
 vendor/lib/libhbtpdsp.so
 vendor/lib/libhbtpfrmwk.so
-#vendor/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so
-#vendor/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so
-#vendor/lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0-service.so
-#vendor/lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0_vendor.so
 vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so
 vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
 vendor/lib64/libfastrpc_utf_stub.so
 vendor/lib64/libhbtpclient.so
 vendor/lib64/libhbtpdsp.so
 vendor/lib64/libhbtpfrmwk.so
-#vendor/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so
-#vendor/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so
-#vendor/lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0-service.so
-#vendor/lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so
 vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
 
@@ -1341,9 +1299,7 @@ vendor/bin/taimport_vendor
 vendor/bin/ta_qmi_service
 vendor/etc/init/init.taqmi.rc
 vendor/etc/init/taimport_vendor.rc
-#vendor/lib/libsmemlog.so
 -vendor/lib/libta.so
-#vendor/lib64/libsmemlog.so
 -vendor/lib64/libta.so
 
 # TRIMAREA
@@ -1389,9 +1345,6 @@ vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdmmservice.so
 vendor/lib/libwfdmodulehdcpsession.so
 vendor/lib/hw/com.qualcomm.qti.wifidisplayhal@1.0-impl.so
-#vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so
-#vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0-impl.so
-#vendor/lib64/com.qualcomm.qti.wifidisplayhal@1.0_vendor.so
 vendor/lib64/libhdcprx_module.so
 vendor/lib64/libhdcptx_module.so
 vendor/lib64/libmm-hdcpmgr.so
