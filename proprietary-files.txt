@@ -566,7 +566,6 @@ lib/vendor.qti.hardware.qteeconnector@1.0.so
 lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # QTI_RADIO
-lib/android.hardware.radio.config@1.0.so
 lib/vendor.qti.hardware.fm@1.0.so
 lib/vendor.qti.hardware.radio.am@1.0.so
 lib/vendor.qti.hardware.radio.lpa@1.0.so
@@ -576,8 +575,6 @@ lib/vendor.qti.hardware.radio.uim@1.0.so
 lib/vendor.qti.hardware.radio.uim@1.1.so
 lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-lib/vndk-28/android.hardware.radio.config@1.0.so
-lib64/android.hardware.radio.config@1.0.so
 lib64/vendor.qti.hardware.fm@1.0.so
 lib64/vendor.qti.hardware.radio.am@1.0.so
 lib64/vendor.qti.hardware.radio.lpa@1.0.so
@@ -587,7 +584,6 @@ lib64/vendor.qti.hardware.radio.uim@1.0.so
 lib64/vendor.qti.hardware.radio.uim@1.1.so
 lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-lib64/vndk-28/android.hardware.radio.config@1.0.so
 
 # SEMC_DRM
 #lib/vendor.semc.hardware.drm@1.0.so
