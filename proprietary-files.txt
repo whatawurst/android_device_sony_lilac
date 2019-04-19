@@ -194,12 +194,6 @@ lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 lib/com.qualcomm.qti.dpm.api@1.0.so
 lib64/com.qualcomm.qti.dpm.api@1.0.so
 
-# DRM
-lib/android.hardware.drm@1.0.so
-lib/android.hardware.drm@1.1.so
-lib64/android.hardware.drm@1.0.so
-lib64/android.hardware.drm@1.1.so
-
 # FINGERPRINT_EXTENSION
 etc/permissions/com.fingerprints.extension.xml
 -framework/com.fingerprints.extension.jar
