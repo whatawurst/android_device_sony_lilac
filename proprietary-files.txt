@@ -469,7 +469,7 @@ etc/permissions/telephonyservice.xml
 etc/sysconfig/qti_whitelist.xml
 -framework/qcrilhook.jar
 framework/embmslibrary.jar
-framework/qti-telephony-common.jar|e080a3e800bf43c894c6653954e2f4e1415e645c
+framework/qti-telephony-common.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
 # QSEECOMD
