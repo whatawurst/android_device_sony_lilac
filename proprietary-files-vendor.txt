@@ -395,7 +395,6 @@ vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
-vendor/lib/libsensorndkbridge.so
 vendor/lib/libsomc_alfort.so
 vendor/lib/libsomc_alfortlp.so
 vendor/lib/libsomc_alfortlpserv.so
@@ -444,7 +443,6 @@ vendor/lib/vendor.somc.hardware.camera.provider@1.0.so
 vendor/lib64/libcameralight.so
 vendor/lib64/libcammw_util.so
 vendor/lib64/libmmcamera_tintless_algo.so
-vendor/lib64/libsensorndkbridge.so
 
 # CAMERA_CACAO
 vendor/lib/vendor.somc.hardware.camera.cacao@1.0.so
