@@ -1255,10 +1255,12 @@ vendor/etc/init/vendor.semc.hardware.thermal@1.0-service.rc
 vendor/etc/thermal-engine.conf
 vendor/lib/libthermal_engine.so
 -vendor/lib/libthermalclient.so
+vendor/lib/hw/thermal.somc.so
 vendor/lib64/libthermal_engine.so
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 vendor/lib64/vendor.semc.hardware.thermal@1.0.so
+vendor/lib64/hw/thermal.somc.so
 
 # TIME
 -vendor/app/TimeService/TimeService.apk
