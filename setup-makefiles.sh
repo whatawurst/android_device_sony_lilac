@@ -44,7 +44,7 @@ write_headers
 
 write_makefiles "$MY_DIR"/proprietary-files.txt true
 write_makefiles "$MY_DIR"/proprietary-files-vendor.txt true
-write_makefiles "$MY_DIR"/proprietary-files-rootfs.txt
+#write_makefiles "$MY_DIR"/proprietary-files-rootfs.txt
 
 # Blobs for TWRP data decryption
 cat << EOF >> "$BOARDMK"
