@@ -58,8 +58,8 @@ fi
 # Initialize the helper
 setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT" false "$CLEAN_VENDOR"
 
-extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
-extract "$MY_DIR"/proprietary-files-vendor.txt "$SRC" "$SECTION"
+#extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
+#extract "$MY_DIR"/proprietary-files-vendor.txt "$SRC" "$SECTION"
 #extract "$MY_DIR"/proprietary-files-rootfs.txt "$SRC" "$SECTION"
 extract "$MY_DIR"/proprietary-files-twrp.txt "$SRC" "$SECTION"
 
@@ -83,12 +83,12 @@ function fix_product_path () {
         "$DEVICE_ROOT"/"$1"
 }
 
-fix_product_path product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
-fix_product_path product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
-fix_product_path product/etc/permissions/com.qualcomm.qti.imscmservice.xml
-fix_product_path product/etc/permissions/embms.xml
-fix_product_path product/etc/permissions/lpa.xml
-fix_product_path product/etc/permissions/qcrilhook.xml
-fix_product_path product/etc/permissions/telephonyservice.xml
+#fix_product_path product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
+#fix_product_path product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
+#fix_product_path product/etc/permissions/com.qualcomm.qti.imscmservice.xml
+#fix_product_path product/etc/permissions/embms.xml
+#fix_product_path product/etc/permissions/lpa.xml
+#fix_product_path product/etc/permissions/qcrilhook.xml
+#fix_product_path product/etc/permissions/telephonyservice.xml
 
 "$MY_DIR"/setup-makefiles.sh
