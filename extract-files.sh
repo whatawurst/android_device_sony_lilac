@@ -58,8 +58,8 @@ fi
 # Initialize the helper
 setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT" false "$CLEAN_VENDOR"
 
-extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
-extract "$MY_DIR"/proprietary-files-vendor.txt "$SRC" "$SECTION"
+#extract "$MY_DIR"/proprietary-files.txt "$SRC" "$SECTION"
+#extract "$MY_DIR"/proprietary-files-vendor.txt "$SRC" "$SECTION"
 #extract "$MY_DIR"/proprietary-files-rootfs.txt "$SRC" "$SECTION"
 extract "$MY_DIR"/proprietary-files-twrp.txt "$SRC" "$SECTION"
 
