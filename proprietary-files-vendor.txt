@@ -327,7 +327,6 @@ vendor/camera/streaming.dat
 vendor/camera/supported.dat
 vendor/camera/version.dat
 vendor/etc/flashled_calc_parameters.cfg
-vendor/etc/flashled_calc_parameters.cfg
 vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc
 vendor/firmware/cpp_firmware_v1_10_0.fw
 vendor/firmware/cpp_firmware_v1_12_0.fw
@@ -466,6 +465,12 @@ vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile5.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile6.xml
+vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile1.xml
+vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile2.xml
+vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile3.xml
+vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile4.xml
+vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile5.xml
+vendor/etc/cne/wqeclient/OEM_ORN/OEM_ORN_profile6.xml
 vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml
 vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml
 vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml
@@ -920,6 +925,9 @@ vendor/bin/xtra-daemon
 vendor/bin/xtwifi-client
 vendor/bin/xtwifi-inet-agent
 vendor/etc/apdr.conf
+vendor/etc/api_auth_cacert
+vendor/etc/api_auth_crl
+vendor/etc/cacert_location.pem
 vendor/etc/flp.conf
 vendor/etc/init/vendor.qti.gnss@1.0-service.rc
 vendor/etc/izat.conf
@@ -1005,6 +1013,7 @@ vendor/lib64/libkeymasterutils.so
 vendor/bin/energy-awareness
 vendor/bin/hw/vendor.qti.hardware.perf@1.0-service
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc
+vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/perf-profile0.conf
 vendor/etc/perf/perf-profile1.conf
 vendor/etc/perf/perf-profile2.conf
@@ -1013,6 +1022,8 @@ vendor/etc/perf/perf-profile4.conf
 vendor/etc/perf/perf-profile5.conf
 vendor/etc/perf/perf-profile6.conf
 vendor/etc/perf/perfboostsconfig.xml
+vendor/etc/perf/targetconfig.xml
+vendor/etc/perf/targetresourceconfigs.xml
 vendor/lib/libfeedbackhandler.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libqti-perfd-client.so
@@ -1145,6 +1156,7 @@ vendor/lib/lib-uceservice.so
 -vendor/lib/libdsi_netctrl.so
 vendor/lib/libidl.so
 vendor/lib/libqdi.so
+vendor/lib/lib-siputility.so
 vendor/lib/vendor.qti.data.factory@1.0.so
 vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so
 vendor/lib/vendor.qti.hardware.radio.ims@1.0.so
@@ -1174,6 +1186,7 @@ vendor/lib64/lib-uceservice.so
 -vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libidl.so
 vendor/lib64/libqdi.so
+vendor/lib64/lib-siputility.so
 vendor/lib64/vendor.qti.data.factory@1.0.so
 vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.ims@1.0.so
@@ -1280,6 +1293,7 @@ vendor/bin/hbtp_daemon
 vendor/etc/hbtp/hbtpcfg.dat
 vendor/etc/hbtp/hbtpcfg2.dat
 vendor/etc/hbtp/qtc800h.bin
+vendor/etc/hbtp/qtc800h_8998_660.bin
 vendor/etc/hbtp/qtc800s_dsp.bin
 vendor/firmware/touch_module_id_0xf0.img
 vendor/firmware/touch_module_id_0xf1.img
