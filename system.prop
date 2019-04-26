@@ -81,6 +81,9 @@ ro.vendor.sensors.multishake=true
 #support sensor directchannel reporting
 persist.vendor.sensors.direct_channel=true
 
+# Enable IZAT OptInApp overlay
+persist.vendor.overlay.izat.optin=rro
+
 ##### Add values MiscTA #####
 # /system/etc/prop.default
 ro.semc.version.sw=1307-7511
