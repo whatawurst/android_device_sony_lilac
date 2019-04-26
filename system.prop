@@ -38,27 +38,12 @@ ro.bluetooth.emb_wp_mode=true
 ro.bluetooth.wipower=true
 
 ### RADIO
-# Enable OEM SOCKET
-persist.radio.oem_socket=true
-
 # System props for telephony
 ro.com.android.dataroaming=false
 persist.ims.disableUserAgent=1
 # This will be set by loading
 # /oem/system-properties/config.prop
 # ro.telephony.default_network=9
-
-# Modem power save enabled
-persist.radio.add_power_save=1
-
-# Added system property for PBM, support EF_ECC on APM
-persist.radio.wait_for_pbm=1
-
-# Set sms_ack timer
-persist.radio.mt_sms_ack=19
-
-# System props for single SIM phone (not DSDS products)
-persist.radio.block_allow_data=1
 
 ### API
 # First released API level
