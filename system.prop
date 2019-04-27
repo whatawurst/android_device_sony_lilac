@@ -29,6 +29,14 @@ vendor.display.enable_default_color_mode=1
 ro.sys.colorgamut.supported=true
 persist.sys.colorgamut.mode=1
 
+### BLUETOOTH
+#system prop for A4WP profile support
+ro.bluetooth.a4wp=false
+
+#system prop for wipower support
+ro.bluetooth.emb_wp_mode=true
+ro.bluetooth.wipower=true
+
 ### RADIO
 # Enable OEM SOCKET
 persist.radio.oem_socket=true
