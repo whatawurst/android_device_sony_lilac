@@ -18,7 +18,15 @@ persist.hwc.enable_vds=1
 # Skip HDR Tone map on Lilac
 sys.hwc_disable_hdr=1
 
+# Display Properties as per treble compliance
+vendor.gralloc.enable_fb_ubwc=1
+vendor.display.perf_hint_window=50
+
+#Property to enable display default color mode
+vendor.display.enable_default_color_mode=1
+
 # Gamut
+ro.sys.colorgamut.supported=true
 persist.sys.colorgamut.mode=1
 
 ### RADIO
@@ -68,7 +76,7 @@ persist.vendor.sensors.direct_channel=true
 ##### Add values MiscTA #####
 # /system/etc/prop.default
 ro.semc.version.sw=1307-7511
-ro.semc.version.sw_revision=47.1.A.16.20
+ro.semc.version.sw_revision=47.2.A.10.45
 ro.semc.version.sw_variant=GLOBAL-LTE4A
 ro.semc.version.sw_type=user
 
@@ -76,7 +84,7 @@ ro.semc.version.sw_type=user
 ro.semc.product.model=G8441
 ro.semc.ms_type_id=PM-1061-BV
 ro.semc.version.fs=GENERIC
-ro.semc.version.fs_revision=47.1.A.16.20
+ro.semc.version.fs_revision=47.2.A.10.45
 ro.semc.product.name=Xperia XZ1 Compact
 ro.semc.product.device=G84
 
@@ -96,3 +104,9 @@ persist.keyprovd.suntory.prov=false
 camera.aux.packagelist=org.codeaurora.snapcam,org.cyanogenmod.snap
 persist.camera.camera2=true
 persist.camera.is_type=3
+
+## Assertive Display
+ro.qcom.ad=1
+ro.vendor.display.ad=1
+ro.vendor.display.sensortype=2
+ro.vendor.display.ad.sdr_calib_data=/vendor/etc/ad_calib.cfg
