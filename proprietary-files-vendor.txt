@@ -831,6 +831,7 @@ vendor/lib64/libspcom.so
 
 # QMI
 vendor/bin/mlog_qmi_service
+vendor/etc/init/mlog_qmi_service.rc
 
 # QNS
 vendor/bin/qns
