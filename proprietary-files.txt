@@ -518,6 +518,10 @@ lib64/libdumpframework.so
 lib64/libsnappy.so
 lib64/libtlcore.so
 
+# TOUCH
+somc/touch/images/big_touch.png:vendor/sony/touch/images/big_touch.png
+somc/touch/images/splash.png:vendor/sony/touch/images/splash.png
+
 # TRIMAREA
 etc/init/taimport.rc
 lib64/libdevice_security_client.so
