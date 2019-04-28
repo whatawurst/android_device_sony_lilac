@@ -363,6 +363,9 @@ etc/customization/modem/amss_fsg_lilac_vodafone_uk_tar.mbn
 etc/customization/modem/amss_fsg_lilac_vodafone_uk_volte_vowifi_tar.mbn
 etc/customization/modem/amss_fsg_lilac_wind_canada_tar.mbn
 
+# LOCATION
+etc/permissions/privapp-permissions-com.qualcomm.location.xml:vendor/etc/permissions/privapp-permissions-com.qualcomm.location.xml
+
 # MSS
 bin/mssconfig
 etc/init/mssconfig.rc
