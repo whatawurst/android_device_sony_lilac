@@ -372,7 +372,6 @@ etc/init/mssconfig.rc
 -app/embms/embms.apk
 -app/datastatusnotification/datastatusnotification.apk
 etc/permissions/embms.xml
-etc/permissions/privapp-permissions-sony.xml
 etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 etc/sysconfig/qti_whitelist.xml
