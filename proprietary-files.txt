@@ -4,6 +4,37 @@ lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
 lib64/libaptXHD_encoder.so
 lib64/libaptX_encoder.so
 
+# CAMERA_APP
+-app/CameraAddonPermission-release/CameraAddonPermission-release.apk
+-app/CameraCommonPermission-release/CameraCommonPermission-release.apk
+-app/CameraExtensionPermission-release/CameraExtensionPermission-release.apk
+-app/ImageProcessorPermission-release/ImageProcessorPermission-release.apk
+etc/permissions/com.sonymobile.camera.addon.xml
+etc/permissions/com.sonymobile.imageprocessor.xml
+framework/com.sonymobile.camera.addon_impl.jar
+framework/com.sonymobile.imageprocessor.bypasscamera_impl.jar
+-priv-app/ArtFilterCamera-xhdpi-release/ArtFilterCamera-xhdpi-release.apk
+priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libnativeeffectengine.so|dd45c2d805672b3c7d42357ddd543d3f9e904c6e
+priv-app/ArtFilterCamera-xhdpi-release/lib/armeabi/libyuvframe.so|046d53a07d8ad57b86378a323dc8d88a00fadd1d
+lib/libimageprocessorjni.so
+lib64/libimageprocessorjni.so
+-priv-app/CameraCommon/CameraCommon.apk
+-priv-app/CameraPanorama-release/CameraPanorama-release.apk
+priv-app/CameraPanorama-release/lib/arm64/libmorpho_jpeg_io.so|a34ec70211e6f2094575986597df9e5734bbf7b0
+priv-app/CameraPanorama-release/lib/arm64/libmorpho_memory_allocator.so|f07bb0dc2c2141674668125a38e6c375a9359047
+priv-app/CameraPanorama-release/lib/arm64/libmorpho_panorama_gp2.so|cfa20065f3596bbdb06789ffeff6743f2bc0b37c
+priv-app/CameraPanorama-release/lib/arm64/libmorpho_sensor_fusion.so|7314bb37bf466d26e9edb50961c0464a8d24bb76
+-priv-app/SemcCameraUI-xhdpi-release/SemcCameraUI-xhdpi-release.apk
+priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libarcsoft_handsigns.so|1a404edfbcf6bd54d4afdb3ac5b143bba489ed21
+priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libhandsigns_jni.so|9e3d163d1aea8878ff84ddb6f06cbb0c65610054
+priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libimage_converter.so|a196d0504d27f2eab598ad3822c36d68c5074057
+priv-app/SemcCameraUI-xhdpi-release/lib/arm64/libmpbase.so|941457f34769d5cbf1ff33b13596307689317fc3
+-priv-app/SomcMovieCreator-release/SomcMovieCreator-release.apk
+-priv-app/SoundPhotoCamera-xhdpi-release/SoundPhotoCamera-xhdpi-release.apk
+priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libmpo.so|dc60e4ca74b544f656897017f58114dc7835e65b
+priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libnativebytebuffer.so|288df17ba8c7d21c8412e7787f3d36789858ca39
+priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libspf.so|133c7e94bb6810de647c43e74a6cb981dfc24f4f
+
 # CAMERA
 bin/cacaoserver
 lib/libcacao_client.so
