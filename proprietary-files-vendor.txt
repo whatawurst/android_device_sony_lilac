@@ -455,6 +455,8 @@ vendor/lib64/libcacao_common.so
 
 # CHARGER
 vendor/bin/charge_service
+vendor/bin/chargemon
+vendor/bin/chargemon_shutdown
 vendor/bin/hvdcp_opti
 
 # CND
