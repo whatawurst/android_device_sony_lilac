@@ -395,7 +395,7 @@ etc/customization/modem/amss_fsg_lilac_vodafone_uk_volte_vowifi_tar.mbn
 etc/customization/modem/amss_fsg_lilac_wind_canada_tar.mbn
 
 # LOCATION
-etc/permissions/privapp-permissions-com.qualcomm.location.xml:vendor/etc/permissions/privapp-permissions-com.qualcomm.location.xml
+etc/permissions/privapp-permissions-com.qualcomm.location.xml
 
 # MSS
 bin/mssconfig
@@ -423,8 +423,8 @@ lib/com.qualcomm.qti.ant@1.0.so
 lib64/com.qualcomm.qti.ant@1.0.so
 
 # QTI_QMI
-etc/permissions/qti_libpermissions.xml:vendor/etc/permissions/qti_libpermissions.xml
-etc/permissions/qti_permissions.xml:vendor/etc/permissions/qti_permissions.xml
+etc/permissions/qti_libpermissions.xml
+etc/permissions/qti_permissions.xml
 
 # QTI_ESEPOWERMANAGER
 lib/vendor.qti.esepowermanager@1.0.so
