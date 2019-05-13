@@ -1256,9 +1256,10 @@ vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.finger-pickup.so
 vendor/lib64/sensors.ssc.so
 
-# SSR
+# SSR (subsystem restart)
 vendor/bin/ssr_diag
 vendor/bin/ssr_setup
+vendor/bin/subsystem_ramdump
 
 # TAD
 vendor/bin/tad
