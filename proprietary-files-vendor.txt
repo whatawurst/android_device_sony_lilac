@@ -585,6 +585,8 @@ vendor/bin/dpmQmiMgr
 
 # DRM
 vendor/bin/wvkbd
+vendor/bin/hw/android.hardware.drm@1.1-service.widevine
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
 vendor/firmware/tzwidevine.b00
 vendor/firmware/tzwidevine.b01
 vendor/firmware/tzwidevine.b02
