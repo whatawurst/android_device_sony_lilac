@@ -584,6 +584,7 @@ vendor/lib64/libdpmqmihal.so
 vendor/bin/dpmQmiMgr
 
 # DRM
+vendor/bin/wvkbd
 vendor/firmware/tzwidevine.b00
 vendor/firmware/tzwidevine.b01
 vendor/firmware/tzwidevine.b02
@@ -1049,6 +1050,7 @@ vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # RADIO
 vendor/bin/ATFWD-daemon
+vendor/bin/adpl
 vendor/bin/netmgrd
 vendor/bin/pd-mapper
 vendor/bin/port-bridge

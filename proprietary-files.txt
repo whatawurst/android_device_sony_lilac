@@ -524,6 +524,9 @@ lib64/vendor.qti.hardware.radio.uim@1.1.so
 lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 
+# SCD
+bin/scd
+
 # SEMC_IDD
 lib/vendor.semc.system.idd@1.0.so
 lib64/vendor.semc.system.idd@1.0.so
