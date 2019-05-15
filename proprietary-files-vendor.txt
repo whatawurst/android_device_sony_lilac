@@ -696,8 +696,7 @@ vendor/lib64/librs_adreno.so
 vendor/lib64/librs_adreno_sha1.so
 
 # FFU
-vendor/bin/ffu|9e7507b489ef8cdbc3c0a8d71e988727c44777aa
-vendor/etc/firmware/01AD-483238553632333031414D5220202020-D003.bin|516309bb7438524b2e4555cc3dcd452d94ea1b92
+vendor/bin/ffu|fe10f3c8d9e45831af0f10966e6d7c30a79f9fad
 
 # FINGERPRINT
 vendor/bin/hw/fpc_fingerprint@2.1_HIDL-service

@@ -142,6 +142,9 @@ lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 lib/com.qualcomm.qti.dpm.api@1.0.so
 lib64/com.qualcomm.qti.dpm.api@1.0.so
 
+# FFU
+etc/firmware/ufs/01AD-483238553632333031414D5220202020-D003.bin|516309bb7438524b2e4555cc3dcd452d94ea1b92
+
 # FINGERPRINT_EXTENSION
 etc/permissions/com.fingerprints.extension.xml
 -framework/com.fingerprints.extension.jar
