@@ -401,6 +401,7 @@ etc/customization/modem/amss_fsg_lilac_vodafone_uk_volte_vowifi_tar.mbn
 etc/customization/modem/amss_fsg_lilac_wind_canada_tar.mbn
 
 # LOCATION
+etc/permissions/com.qualcomm.location.xml
 etc/permissions/privapp-permissions-com.qualcomm.location.xml
 
 # MSS
