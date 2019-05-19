@@ -403,6 +403,8 @@ etc/customization/modem/amss_fsg_lilac_wind_canada_tar.mbn
 # LOCATION
 etc/permissions/com.qualcomm.location.xml
 etc/permissions/privapp-permissions-com.qualcomm.location.xml
+etc/permissions/izat.xt.srv.xml
+framework/izat.xt.srv.jar
 
 # MSS
 bin/mssconfig
