@@ -141,6 +141,10 @@ lib64/libsys-utils-system.so
 lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
 # DPM
+etc/permissions/com.qti.dpmframework.xml
+etc/permissions/dpmapi.xml
+framework/com.qti.dpmframework.jar
+framework/dpmapi.jar
 lib/com.qualcomm.qti.dpm.api@1.0.so
 lib64/com.qualcomm.qti.dpm.api@1.0.so
 
