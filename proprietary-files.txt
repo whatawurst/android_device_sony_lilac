@@ -550,6 +550,10 @@ bin/scd
 lib/vendor.semc.system.idd@1.0.so
 lib64/vendor.semc.system.idd@1.0.so
 
+# SEMC_RIL
+etc/permissions/com.sonyericsson.android.semcrilextension.xml
+framework/semcrilextension.jar
+
 # SEMC_SECD
 lib64/vendor.somc.hardware.security.secd@1.0.so
 
