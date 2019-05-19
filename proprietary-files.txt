@@ -121,6 +121,8 @@ lib/libMiscTaWrapper.so
 lib64/libMiscTaWrapper.so
 
 # DISPLAY
+etc/permissions/com.qti.snapdragon.sdk.display.xml
+framework/com.qti.snapdragon.sdk.display.jar
 lib/hw/libdisplay.default.so:vendor/lib/hw/libdisplay.default.so
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so
 lib/vendor.display.color@1.0.so
