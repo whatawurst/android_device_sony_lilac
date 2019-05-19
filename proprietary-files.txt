@@ -416,6 +416,7 @@ etc/permissions/embms.xml
 etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 etc/sysconfig/qti_whitelist.xml
+framework/QtiTelephonyServicelibrary.jar
 -framework/qcrilhook.jar
 framework/embmslibrary.jar
 framework/qti-telephony-common.jar
