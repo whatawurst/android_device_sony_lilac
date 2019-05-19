@@ -769,6 +769,7 @@ vendor/lib/kobjeventd/touch_cover.so
 vendor/lib64/kobjeventd/touch_cover.so
 
 # LIGHT
+vendor/etc/permissions/android.hardware.light.xml
 vendor/bin/hw/vendor.semc.hardware.light@1.0-service
 vendor/etc/init/vendor.semc.hardware.light@1.0-service.rc
 vendor/lib/vendor.semc.hardware.light@1.0.so
