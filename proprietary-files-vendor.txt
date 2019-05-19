@@ -1136,6 +1136,10 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 vendor/lib64/vendor.somc.hardware.radio@1.0.so
 vendor/radio/qcril_database/qcril.db
+vendor/radio/qcril_database/upgrade/upgrade/2_version_add_wps_config.sql
+vendor/radio/qcril_database/upgrade/upgrade/1_version_intro.sql
+vendor/radio/qcril_database/upgrade/upgrade/0_initial.sql
+vendor/radio/qcril_database/upgrade/upgrade/3_version_update_wps_config.sql
 
 # RADIO_IMS
 vendor/bin/ims_rtp_daemon
