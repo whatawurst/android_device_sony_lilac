@@ -37,6 +37,7 @@ priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libspf.so|133c7e94bb6810de64
 
 # CAMERA
 bin/cacaoserver
+etc/init/cacaoserver.rc
 lib/libcacao_client.so
 lib/libcacao_pal.so
 lib/libcacao_process_ctrl_gateway.so
