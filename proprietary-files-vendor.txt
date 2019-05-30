@@ -625,70 +625,7 @@ vendor/firmware/tzhdcp.b06
 vendor/firmware/tzhdcp.b07
 vendor/firmware/tzhdcp.mdt
 
-# FFU
-vendor/bin/ffu|fe10f3c8d9e45831af0f10966e6d7c30a79f9fad
-
-# FINGERPRINT
-vendor/bin/hw/fpc_fingerprint@2.1_HIDL-service
-vendor/etc/init/fpc_fingerprint@2.1_HIDL-service.rc
-vendor/firmware/tzfingerprint.b00
-vendor/firmware/tzfingerprint.b01
-vendor/firmware/tzfingerprint.b02
-vendor/firmware/tzfingerprint.b03
-vendor/firmware/tzfingerprint.b04
-vendor/firmware/tzfingerprint.b05
-vendor/firmware/tzfingerprint.b06
-vendor/firmware/tzfingerprint.b07
-vendor/firmware/tzfingerprint.mdt
-vendor/lib/lib_fpc_tac_shared.so
-vendor/lib64/lib_fpc_tac_shared.so
-
-# FINGERPRINT_EXTENSION
-vendor/lib64/com.fingerprints.extension@1.0.so
-
-# GRAPHICS_ADRENO
-vendor/lib/egl/eglSubDriverAndroid.so|4b14f0a47090c851adfe6e50bcc078f74f91dd33
-vendor/lib/egl/libEGL_adreno.so|f6f748b3b96513beffb7fa2b8bdedbbd80ffc320
-vendor/lib/egl/libGLESv1_CM_adreno.so|0930a64d8889c184de31a085539e1b8b28520a31
-vendor/lib/egl/libGLESv2_adreno.so|8d998b3fd38024168ec1563cd77f1609c0d3139c
-vendor/lib/egl/libq3dtools_adreno.so|a2506b94eb0fe3c2bccc7c8e6d8b8d21bd314ae8
-vendor/lib/egl/libQTapGLES.so|7641cd4f894d86f53394bcdc421ecae254afaf30
-vendor/lib/egl/libq3dtools_esx.so
-vendor/lib/hw/vulkan.msm8998.so|2431c6927e16895fc08139928d79eaec8289cae1
-vendor/lib/libadreno_utils.so|9930d4a99e10bdc821e3609695100248d36b3913
-vendor/lib/libbccQTI.so|aa1220cad9df3c39c0c14c4a36546342cc518ad1
-vendor/lib/libC2D2.so|a110bf0568eef9e49b251b7750cf6e51c3c85969
-vendor/lib/libc2d30_bltlib.so|e9767a3e4e674d42f23f5482471d38973e038d45
-vendor/lib/libCB.so|14eb9fce1ae64278e9111b683406aa51ace6839e
-vendor/lib/libgsl.so|665a6668c528cbf0681e266ddf0e3e78977cafe8
-vendor/lib/libllvm-glnext.so|b36766427dec8e380161c9713852318af91ce0ff
-vendor/lib/libllvm-qcom.so|f0e234bbb1cd2e1e3eabba6266aa386b6253d4cb
-vendor/lib/libOpenCL.so|fbf2d8e82973ea44583f1ca6a624163759167a73
-vendor/lib/librs_adreno_sha1.so|c0eb317f51c7f5995e27719b50c2aa18d6224379
-vendor/lib/librs_adreno.so|a55840ae19e21c81948e2cba576bbd58a1ca836e
-vendor/lib/libRSDriver_adreno.so|fcffcda22b58c3d4386c8bd516058867b15106f1
-vendor/lib64/egl/eglSubDriverAndroid.so|0cf3c7717ada28a99036114ff21b97695d136a47
-vendor/lib64/egl/libEGL_adreno.so|687b2e53dc5080c05d84da9ec707cf0c31de4d9b
-vendor/lib64/egl/libGLESv1_CM_adreno.so|95497830d4e08c02a3b6d82bc7623f926d2ef9ed
-vendor/lib64/egl/libGLESv2_adreno.so|1b7b599f9b2a83e0a4230e9e6123764ad4eb8a68
-vendor/lib64/egl/libq3dtools_adreno.so|4bd18c19a4d8376311983303b0971a7aa1334897
-vendor/lib64/egl/libQTapGLES.so|dac820eea4d54f98f7e20a49b82404de6f09743b
-vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/hw/vulkan.msm8998.so|3be022c667878484c483a5bb64c59389d6be7701
-vendor/lib64/libadreno_utils.so|c2a2afcee56cad745ad5444c3385fb74c0fb9ff2
-vendor/lib64/libbccQTI.so|be1ae3a075c42dcb19bc6e1ecd7374f9aeae083c
-vendor/lib64/libC2D2.so|724684ac0e167bc729cbdea1ee9e21da248cfd58
-vendor/lib64/libc2d30_bltlib.so|e950f918802d3d3e656ab4f0fe731bb60e1b357e
-vendor/lib64/libCB.so|51011d698915fa496c0f3aff66e85ffd5aeaddaf
-vendor/lib64/libgsl.so|f45d67c2bb1dc10609ae2936256834c225b26334
-vendor/lib64/libllvm-glnext.so|79d75150f25c7bed46d8b01fe73eeec21dd91d7c
-vendor/lib64/libllvm-qcom.so|0926cc1965f44273bf84d98a82bf8402e86750a7
-vendor/lib64/libOpenCL.so|1e78c9b98378803703835a3e1cbfabf43318f341
-vendor/lib64/librs_adreno_sha1.so|127c236b706034d35c039fc06a87e4ce0d440f7d
-vendor/lib64/librs_adreno.so|58e697ffe5c4b76942118d4b3ca43464db7a4924
-vendor/lib64/libRSDriver_adreno.so|38c235631783ad242bbfc791260b77fd363395dd
-
-# GRAPHICS_FW
+# GRAPHICS
 vendor/firmware/a225_pfp.fw
 vendor/firmware/a225_pm4.fw
 vendor/firmware/a225p5_pm4.fw
@@ -717,6 +654,69 @@ vendor/firmware/a540_zap.b01
 vendor/firmware/a540_zap.b02
 vendor/firmware/a540_zap.elf
 vendor/firmware/a540_zap.mdt
+vendor/lib/egl/eglSubDriverAndroid.so
+vendor/lib/egl/libEGL_adreno.so
+vendor/lib/egl/libGLESv1_CM_adreno.so
+vendor/lib/egl/libGLESv2_adreno.so
+vendor/lib/egl/libQTapGLES.so
+vendor/lib/egl/libq3dtools_adreno.so
+vendor/lib/egl/libq3dtools_esx.so
+vendor/lib/hw/vulkan.msm8998.so
+vendor/lib/libC2D2.so
+vendor/lib/libCB.so
+vendor/lib/libOpenCL.so
+vendor/lib/libadreno_utils.so
+vendor/lib/libc2d30_bltlib.so
+vendor/lib/libgsl.so
+vendor/lib/libllvm-glnext.so
+vendor/lib/libllvm-qcom.so
+vendor/lib64/egl/eglSubDriverAndroid.so
+vendor/lib64/egl/libEGL_adreno.so
+vendor/lib64/egl/libGLESv1_CM_adreno.so
+vendor/lib64/egl/libGLESv2_adreno.so
+vendor/lib64/egl/libQTapGLES.so
+vendor/lib64/egl/libq3dtools_adreno.so
+vendor/lib64/egl/libq3dtools_esx.so
+vendor/lib64/hw/vulkan.msm8998.so
+vendor/lib64/libC2D2.so
+vendor/lib64/libCB.so
+vendor/lib64/libOpenCL.so
+vendor/lib64/libadreno_utils.so
+vendor/lib64/libc2d30_bltlib.so
+vendor/lib64/libgsl.so
+vendor/lib64/libllvm-glnext.so
+vendor/lib64/libllvm-qcom.so
+
+# GRAPHICS_RENDERSCRIPT
+vendor/lib/libRSDriver_adreno.so
+vendor/lib/libbccQTI.so
+vendor/lib/librs_adreno.so
+vendor/lib/librs_adreno_sha1.so
+vendor/lib64/libRSDriver_adreno.so
+vendor/lib64/libbccQTI.so
+vendor/lib64/librs_adreno.so
+vendor/lib64/librs_adreno_sha1.so
+
+# FFU
+vendor/bin/ffu|fe10f3c8d9e45831af0f10966e6d7c30a79f9fad
+
+# FINGERPRINT
+vendor/bin/hw/fpc_fingerprint@2.1_HIDL-service
+vendor/etc/init/fpc_fingerprint@2.1_HIDL-service.rc
+vendor/firmware/tzfingerprint.b00
+vendor/firmware/tzfingerprint.b01
+vendor/firmware/tzfingerprint.b02
+vendor/firmware/tzfingerprint.b03
+vendor/firmware/tzfingerprint.b04
+vendor/firmware/tzfingerprint.b05
+vendor/firmware/tzfingerprint.b06
+vendor/firmware/tzfingerprint.b07
+vendor/firmware/tzfingerprint.mdt
+vendor/lib/lib_fpc_tac_shared.so
+vendor/lib64/lib_fpc_tac_shared.so
+
+# FINGERPRINT_EXTENSION
+vendor/lib64/com.fingerprints.extension@1.0.so
 
 # IDD
 vendor/bin/hw/vendor.semc.system.idd@1.0-service
