@@ -25,10 +25,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.core_ctl_min_cpu=2 \
     ro.vendor.qti.core_ctl_max_cpu=4
 
-### Radio DPM
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.dpm.feature=3
-
 # Nfc
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.nfc.port=I2C \
