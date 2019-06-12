@@ -243,7 +243,6 @@ bin/startup-logger
 etc/init/startup-logger.rc
 
 # LIGHT
-framework/android.hardware.light-V2.0-java.jar
 lib/vendor.semc.hardware.light@1.0.so
 lib64/vendor.semc.hardware.light@1.0.so
 
