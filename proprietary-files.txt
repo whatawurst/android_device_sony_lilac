@@ -286,6 +286,7 @@ etc/customization/modem/amss_fsg_lilac_entel_pe_ims_tar.mbn
 etc/customization/modem/amss_fsg_lilac_etisalat_ae_ims_tar.mbn
 etc/customization/modem/amss_fsg_lilac_fareastone_tw_ims_tar.mbn
 etc/customization/modem/amss_fsg_lilac_freedom_ca_ims_tar.mbn
+etc/customization/modem/amss_fsg_lilac_free_france_tar.mbn
 etc/customization/modem/amss_fsg_lilac_gteb_ims_tar.mbn
 etc/customization/modem/amss_fsg_lilac_hutch_austria_tar.mbn
 etc/customization/modem/amss_fsg_lilac_hutch_austria_volte_vowifi_tar.mbn
