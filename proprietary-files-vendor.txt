@@ -198,7 +198,6 @@ vendor/lib64/vendor.qti.voiceprint@1.0.so
 # BLUETOOTH
 vendor/bin/btnvtool
 vendor/bin/hci_qcomm_init
-vendor/bin/wcnss_filter
 vendor/lib/libbtnv.so
 vendor/lib64/libbtnv.so
 
