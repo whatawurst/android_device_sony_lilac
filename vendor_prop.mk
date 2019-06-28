@@ -33,3 +33,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.nfc.on.default=false \
     ro.hardware.nfc_nci=nqx.default \
     ro.vendor.nfc.ko=pn553
+
+# OEM Unlock reporting
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    ro.oem_unlock_supported=1
