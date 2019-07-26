@@ -37,3 +37,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # OEM Unlock reporting
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.oem_unlock_supported=1
+
+# Radio
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.radio.block_allow_data=1
