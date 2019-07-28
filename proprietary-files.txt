@@ -1,3 +1,7 @@
+# ADSP
+lib/libseemore.so
+lib64/libseemore.so
+
 # BLUETOOTH
 lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
@@ -52,44 +56,12 @@ lib64/libcacao_client.so
 lib64/libcacao_pal.so
 
 # CAMERA_POSTPROCESSING
-lib/libchromaflash.so:vendor/lib/libchromaflash.so
-lib/libjni_imageutil.so:vendor/lib/libjni_imageutil.so
-lib/libjni_snapcammosaic.so:vendor/lib/libjni_snapcammosaic.so
-lib/libjni_snapcamtinyplanet.so:vendor/lib/libjni_snapcamtinyplanet.so
-lib/liboptizoom.so:vendor/lib/liboptizoom.so
-lib/libscveBlobDescriptor.so:vendor/lib/libscveBlobDescriptor.so
-lib/libscveBlobDescriptor_stub.so:vendor/lib/libscveBlobDescriptor_stub.so
-lib/libscveCommon.so:vendor/lib/libscveCommon.so
-lib/libscveCommon_stub.so:vendor/lib/libscveCommon_stub.so
-lib/libscveFaceRecognition.so:vendor/lib/libscveFaceRecognition.so
-lib/libscveObjectSegmentation.so:vendor/lib/libscveObjectSegmentation.so
-lib/libscveObjectTracker.so:vendor/lib/libscveObjectTracker.so
-lib/libscveObjectTracker_stub.so:vendor/lib/libscveObjectTracker_stub.so
-lib/libscvePanorama.so:vendor/lib/libscvePanorama.so
-lib/libscvePanorama_lite.so:vendor/lib/libscvePanorama_lite.so
-lib/libseemore.so:vendor/lib/libseemore.so
-lib/libubifocus.so:vendor/lib/libubifocus.so
-lib64/libchromaflash.so:vendor/lib64/libchromaflash.so
-lib64/libjni_gallery_eglfence.so:vendor/lib64/libjni_gallery_eglfence.so
-lib64/libjni_gallery_filters.so:vendor/lib64/libjni_gallery_filters.so
-lib64/libjni_gallery_jpegstream.so:vendor/lib64/libjni_gallery_jpegstream.so
-lib64/libjni_imageutil.so:vendor/lib64/libjni_imageutil.so
-lib64/libjni_pacprocessor.so:vendor/lib64/libjni_pacprocessor.so
-lib64/libjni_snapcammosaic.so:vendor/lib64/libjni_snapcammosaic.so
-lib64/libjni_snapcamtinyplanet.so:vendor/lib64/libjni_snapcamtinyplanet.so
-lib64/liboptizoom.so:vendor/lib64/liboptizoom.so
-lib64/libscveBlobDescriptor.so:vendor/lib64/libscveBlobDescriptor.so
-lib64/libscveBlobDescriptor_stub.so:vendor/lib64/libscveBlobDescriptor_stub.so
-lib64/libscveCommon.so:vendor/lib64/libscveCommon.so
-lib64/libscveCommon_stub.so:vendor/lib64/libscveCommon_stub.so
-lib64/libscveFaceRecognition.so:vendor/lib64/libscveFaceRecognition.so
-lib64/libscveObjectSegmentation.so:vendor/lib64/libscveObjectSegmentation.so
-lib64/libscveObjectTracker.so:vendor/lib64/libscveObjectTracker.so
-lib64/libscveObjectTracker_stub.so:vendor/lib64/libscveObjectTracker_stub.so
-lib64/libscvePanorama.so:vendor/lib64/libscvePanorama.so
-lib64/libscvePanorama_lite.so:vendor/lib64/libscvePanorama_lite.so
-lib64/libseemore.so:vendor/lib64/libseemore.so
-lib64/libubifocus.so:vendor/lib64/libubifocus.so
+lib/libjni_imageutil.so
+lib/libjni_snapcammosaic.so
+lib/libjni_snapcamtinyplanet.so
+lib64/libjni_imageutil.so
+lib64/libjni_snapcammosaic.so
+lib64/libjni_snapcamtinyplanet.so
 
 # CLEANLOSTFOUND
 etc/cleanlostfound.sh
@@ -125,7 +97,6 @@ lib64/libMiscTaWrapper.so
 # DISPLAY
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 framework/com.qti.snapdragon.sdk.display.jar
-lib/hw/libdisplay.default.so:vendor/lib/hw/libdisplay.default.so
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so
 lib/vendor.display.color@1.0.so
 lib/vendor.display.color@1.1.so
@@ -133,7 +104,6 @@ lib/vendor.display.color@1.2.so
 lib/vendor.display.postproc@1.0.so
 lib/libsys-utils-system.so
 lib/vendor.qti.hardware.qdutils_disp@1.0.so
-lib64/hw/libdisplay.default.so:vendor/lib64/hw/libdisplay.default.so
 lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so
 lib64/vendor.display.color@1.0.so
 lib64/vendor.display.color@1.1.so

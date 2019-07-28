@@ -11,7 +11,7 @@ vendor/lib/libfastcrc.so
 vendor/lib/libfastcvadsp_stub.so
 vendor/lib/libfastcvopt.so
 vendor/lib/libfastrpc_utf_stub.so
-vendor/lib/libscveFaceLandmarks.so
+vendor/lib/libseemore.so
 vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so
 vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so
 vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_skel.so
@@ -34,7 +34,7 @@ vendor/lib64/libfastcrc.so
 vendor/lib64/libfastcvadsp_stub.so
 vendor/lib64/libfastcvopt.so
 vendor/lib64/libfastrpc_utf_stub.so
-vendor/lib64/libscveFaceLandmarks.so
+vendor/lib64/libseemore.so
 
 # AUDIO
 vendor/etc/acdbdata/Fluid/Fluid_Bluetooth_cal.acdb
@@ -382,7 +382,6 @@ vendor/lib/libmmcamera2_cpp_module.so
 vendor/lib/libmmcamera2_mct.so
 vendor/lib/libmmcamera2_pp_buf_mgr.so
 vendor/lib/libmmcamera_dbg.so
-vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_interface.so
 vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmjpeg.so
@@ -394,6 +393,7 @@ vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
+vendor/lib/libscveFaceLandmarks.so
 vendor/lib/libsomc_alfort.so
 vendor/lib/libsomc_alfortlp.so
 vendor/lib/libsomc_alfortlpserv.so
@@ -442,7 +442,9 @@ vendor/lib/vendor.somc.hardware.camera.provider@1.0.so
 vendor/lib64/libcameralight.so
 vendor/lib64/libcammw_util.so
 vendor/lib64/libdualcameraddm.so
+vendor/lib64/libmmcamera_dbg.so
 vendor/lib64/libmmcamera_tintless_algo.so
+vendor/lib64/libscveFaceLandmarks.so
 
 # CAMERA_CACAO
 vendor/lib/vendor.somc.hardware.camera.cacao@1.0.so
@@ -453,6 +455,34 @@ vendor/lib/vendor.somc.hardware.camera.cacao@3.1.so
 vendor/lib/libcacao_common.so
 vendor/lib/libcacao_process_ctrl.so
 vendor/lib64/libcacao_common.so
+
+# CAMERA_POSTPROCESSING
+vendor/lib/libchromaflash.so
+vendor/lib/liboptizoom.so
+vendor/lib/libscveBlobDescriptor.so
+vendor/lib/libscveBlobDescriptor_stub.so
+vendor/lib/libscveCommon.so
+vendor/lib/libscveCommon_stub.so
+vendor/lib/libscveFaceRecognition.so
+vendor/lib/libscveObjectSegmentation.so
+vendor/lib/libscveObjectTracker.so
+vendor/lib/libscveObjectTracker_stub.so
+vendor/lib/libscvePanorama.so
+vendor/lib/libscvePanorama_lite.so
+vendor/lib/libubifocus.so
+vendor/lib64/libchromaflash.so
+vendor/lib64/liboptizoom.so
+vendor/lib64/libscveBlobDescriptor.so
+vendor/lib64/libscveBlobDescriptor_stub.so
+vendor/lib64/libscveCommon.so
+vendor/lib64/libscveCommon_stub.so
+vendor/lib64/libscveFaceRecognition.so
+vendor/lib64/libscveObjectSegmentation.so
+vendor/lib64/libscveObjectTracker.so
+vendor/lib64/libscveObjectTracker_stub.so
+vendor/lib64/libscvePanorama.so
+vendor/lib64/libscvePanorama_lite.so
+vendor/lib64/libubifocus.so
 
 # CHARGER
 vendor/bin/charge_service
@@ -538,7 +568,9 @@ vendor/etc/qdcm_calib_data_8.xml
 vendor/etc/ad_calib.cfg
 vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
+vendor/lib/hw/libdisplay.default.so
 vendor/lib/libdisp-aba.so
+vendor/lib64/hw/libdisplay.default.so
 vendor/lib64/libdisp-aba.so
 
 # DISPLAY_COLOR
