@@ -100,9 +100,3 @@ persist.keyprovd.suntory.prov=false
 camera.aux.packagelist=org.codeaurora.snapcam,org.cyanogenmod.snap
 persist.camera.camera2=true
 persist.camera.is_type=3
-
-## Assertive Display
-ro.qcom.ad=1
-ro.vendor.display.ad=1
-ro.vendor.display.sensortype=2
-ro.vendor.display.ad.sdr_calib_data=/vendor/etc/ad_calib.cfg
