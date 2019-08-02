@@ -561,16 +561,12 @@ vendor/bin/cnss-daemon
 
 # DISPLAY
 vendor/bin/mm-pp-dpps
-vendor/bin/hw/display_cb
-vendor/etc/init/init.display_cb.rc
 vendor/etc/qdcm_calib_data_5.xml
 vendor/etc/qdcm_calib_data_8.xml
 vendor/etc/ad_calib.cfg
 vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
-vendor/lib/hw/libdisplay.default.so
 vendor/lib/libdisp-aba.so
-vendor/lib64/hw/libdisplay.default.so
 vendor/lib64/libdisp-aba.so
 
 # DISPLAY_COLOR
