@@ -190,9 +190,6 @@
          in darkness (although they may not be visible in a bright room). -->
     <integer name="config_screenBrightnessDark">1</integer>
 
-    <!-- Whether device supports double tap to wake -->
-    <bool name="config_supportDoubleTapWake">false</bool>
-
     <string name="config_mms_user_agent">SonyG8441</string>
 
     <!-- MMS user agent prolfile url -->
