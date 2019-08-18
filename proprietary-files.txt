@@ -400,6 +400,7 @@ lib/libxt_native.so
 lib64/liblocationservice_jni.so
 lib64/libxt_native.so
 -priv-app/com.qualcomm.location/com.qualcomm.location.apk
+-priv-app/xtra_t_app/xtra_t_app.apk|44f518c2f1c3e812d0868db50821aa4fe83411db
 
 # MSS
 bin/mssconfig
