@@ -642,6 +642,8 @@ vendor/lib64/libwvtee.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 
 # DRM_HDCP
+vendor/bin/hdcp1prov
+vendor/bin/hdcp2p2prov
 vendor/firmware/tzhdcp.b00
 vendor/firmware/tzhdcp.b01
 vendor/firmware/tzhdcp.b02
@@ -651,6 +653,18 @@ vendor/firmware/tzhdcp.b05
 vendor/firmware/tzhdcp.b06
 vendor/firmware/tzhdcp.b07
 vendor/firmware/tzhdcp.mdt
+vendor/lib/libhdcp1prov.so
+vendor/lib/libhdcp2p2prov.so
+vendor/lib/libhdcprx_module.so
+vendor/lib/libhdcptx_module.so
+vendor/lib/libmm-hdcpmgr.so
+vendor/lib/libstagefright_hdcp.so
+vendor/lib64/libhdcp1prov.so
+vendor/lib64/libhdcp2p2prov.so
+vendor/lib64/libhdcprx_module.so
+vendor/lib64/libhdcptx_module.so
+vendor/lib64/libmm-hdcpmgr.so
+vendor/lib64/libstagefright_hdcp.so
 
 # GRAPHICS
 vendor/firmware/a225_pfp.fw
@@ -872,12 +886,17 @@ vendor/etc/init/mlog_qmi_service.rc
 vendor/bin/qns
 
 # QSEECOMD
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/bin/qseecomd
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/etc/gpfspath_oem_config.xml
+vendor/lib/libGPreqcancel.so
+vendor/lib/libGPreqcancel_svc.so
 vendor/lib/libGPTEE_vendor.so
 vendor/lib/libGPQTEEC_vendor.so
 vendor/lib/libQSEEComAPI.so
 vendor/lib/libSecureUILib.so
+vendor/lib/libStDrvInt.so
 vendor/lib/libbase64.so
 vendor/lib/libcppf.so
 vendor/lib/libdiag.so
@@ -886,6 +905,8 @@ vendor/lib/libdrmtime.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libqisl.so
 vendor/lib/librpmb.so
+vendor/lib/libsecureui.so
+vendor/lib/libsecureui_svcsock.so
 vendor/lib/libsi.so
 vendor/lib/libspl.so
 vendor/lib/libssd.so
@@ -1406,20 +1427,12 @@ vendor/bin/wifidisplayhalservice
 vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so
 vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so
-vendor/lib/libhdcprx_module.so
-vendor/lib/libhdcptx_module.so
-vendor/lib/libmm-hdcpmgr.so
 vendor/lib/libmmosal_proprietary.so
-vendor/lib/libstagefright_hdcp.so
 vendor/lib/libwfdcommonutils_proprietary.so
 vendor/lib/libwfdhaldsmanager.so
 vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdmmservice.so
 vendor/lib/libwfdmodulehdcpsession.so
 vendor/lib/hw/com.qualcomm.qti.wifidisplayhal@1.0-impl.so
-vendor/lib64/libhdcprx_module.so
-vendor/lib64/libhdcptx_module.so
-vendor/lib64/libmm-hdcpmgr.so
 vendor/lib64/libmmosal_proprietary.so
-vendor/lib64/libstagefright_hdcp.so
 vendor/lib64/libwfdhdcpcp.so

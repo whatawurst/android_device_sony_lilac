@@ -423,7 +423,11 @@ framework/qti-telephony-common.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 
 # QSEECOMD
+lib/libGPTEE_system.so
+lib/libsecureui_svcsock_system.so
 lib/vendor.qti.hardware.tui_comm@1.0.so
+lib64/libGPTEE_system.so
+lib64/libsecureui_svcsock_system.so
 lib64/vendor.qti.hardware.tui_comm@1.0.so
 
 # QTI_ANT
@@ -593,5 +597,43 @@ bin/updatemiscta
 etc/init/updatemiscta.rc
 
 # WIFIDISPLAY
+bin/wfdservice
+etc/init/wfdservice.rc
+etc/wfdconfig.xml
+-framework/WfdCommon.jar
+lib/extractors/libmmparser.so
 lib/com.qualcomm.qti.wifidisplayhal@1.0.so
+lib/libFileMux.so
+lib/libOmxMux.so
+lib/libmmosal.so
+lib/libmmparser_lite.so
+lib/libmmrtpdecoder.so
+lib/libmmrtpencoder.so
+lib/libwfdavenhancements.so
+lib/libwfdclient.so
+lib/libwfdcodecv4l2.so
+lib/libwfdcommonutils.so
+lib/libwfdconfigutils.so
+lib/libwfdmminterface.so
+lib/libwfdmmsink.so
+lib/libwfdmmsrc.so
+lib/libwfdnative.so
+lib/libwfdrtsp.so
+lib/libwfdservice.so
+lib/libwfdsm.so
+lib/libwfduibcinterface.so
+lib/libwfduibcsink.so
+lib/libwfduibcsinkinterface.so
+lib/libwfduibcsrc.so
+lib/libwfduibcsrcinterface.so
+lib64/extractors/libmmparser.so
 lib64/com.qualcomm.qti.wifidisplayhal@1.0.so
+lib64/libFileMux.so
+lib64/libOmxMux.so
+lib64/libmmosal.so
+lib64/libmmparser_lite.so
+lib64/libmmrtpdecoder.so
+lib64/libmmrtpencoder.so
+lib64/libwfdclient.so
+lib64/libwfdnative.so
+-priv-app/WfdService/WfdService.apk
