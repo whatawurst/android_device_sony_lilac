@@ -63,10 +63,6 @@ lib64/libjni_imageutil.so
 lib64/libjni_snapcammosaic.so
 lib64/libjni_snapcamtinyplanet.so
 
-# CLEANLOSTFOUND
-etc/cleanlostfound.sh
-etc/init/cleanlostfound.rc
-
 # CND
 lib/vendor.qti.ims.rcsconfig@1.0.so
 lib/vendor.qti.hardware.data.latency@1.0.so
@@ -572,10 +568,8 @@ lib64/vendor.somc.hardware.miscta@1.0.so
 # SSR
 bin/bt_ssr_dumper
 bin/ssr_dumper
-etc/init.ssr_level.sh
 etc/ssrdumper_config.xml
 etc/ssrdumper_target.xml
-etc/init/ssr_dumper.rc
 lib/libdumpframework.so
 lib/libsnappy.so
 lib/libtlcore.so
