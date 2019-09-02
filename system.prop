@@ -19,6 +19,7 @@ persist.hwc.enable_vds=1
 sys.hwc_disable_hdr=1
 
 # Display Properties as per treble compliance
+vendor.gralloc.disable_ubwc=0
 vendor.gralloc.enable_fb_ubwc=1
 vendor.display.perf_hint_window=50
 

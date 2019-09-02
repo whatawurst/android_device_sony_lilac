@@ -2,6 +2,10 @@
 PRODUCT_PROPERTY_OVERRIDES += \
     camera.disable_zsl_mode=1
 
+# Display
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sf.lcd_density=320
+
 # Enable xfrm support
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.service.xrfm.supported=true \
