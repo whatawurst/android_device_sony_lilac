@@ -862,7 +862,6 @@ vendor/lib64/libvpplibrary.so
 
 # MSM
 vendor/bin/msm_irqbalance
-vendor/etc/msm_irqbalance.conf
 
 # NFC
 vendor/lib/libpn553_fw.so
