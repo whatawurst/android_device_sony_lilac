@@ -29,15 +29,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.core_ctl_min_cpu=2 \
     ro.vendor.qti.core_ctl_max_cpu=4
 
-# Nfc
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.nfc.port=I2C \
-    ro.nfc.se.sim.enable=true \
-    ro.nfc.se.smx.enable=false \
-    ro.nfc.on.default=false \
-    ro.hardware.nfc_nci=nqx.default \
-    ro.vendor.nfc.ko=pn553
-
 # OEM Unlock reporting
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.oem_unlock_supported=1
