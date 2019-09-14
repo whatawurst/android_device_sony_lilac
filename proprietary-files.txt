@@ -593,7 +593,6 @@ etc/init/updatemiscta.rc
 # WIFIDISPLAY
 bin/wfdservice
 etc/init/wfdservice.rc
-etc/wfdconfig.xml
 -framework/WfdCommon.jar
 lib/extractors/libmmparser.so
 lib/com.qualcomm.qti.wifidisplayhal@1.0.so
