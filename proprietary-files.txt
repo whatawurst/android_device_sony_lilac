@@ -1,7 +1,3 @@
-# ADSP
-lib/libseemore.so
-lib64/libseemore.so
-
 # BLUETOOTH
 lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
@@ -128,6 +124,18 @@ lib64/libdpmframework.so
 lib64/libdpmtcm.so
 -priv-app/dpmserviceapp/dpmserviceapp.apk
 
+# DSP
+lib/libadsprpc_system.so
+lib/libcdsprpc_system.so
+lib/libmdsprpc_system.so
+lib/libsdsprpc_system.so
+lib/libseemore.so
+lib64/libadsprpc_system.so
+lib64/libcdsprpc_system.so
+lib64/libmdsprpc_system.so
+lib64/libsdsprpc_system.so
+lib64/libseemore.so
+
 # FFU
 etc/firmware/ufs/01AD-483238553632333031414D5220202020-D003.bin|516309bb7438524b2e4555cc3dcd452d94ea1b92
 
@@ -203,6 +211,10 @@ etc/permissions/com.sonyericsson.idd.xml
 etc/permissions/com.sonymobile.getmore.api.xml
 framework/com.sonyericsson.idd_impl.jar
 framework/com.sonymobile.getmore.api.jar
+
+# GRAPHICS
+lib/libOpenCL_system.so
+lib64/libOpenCL_system.so
 
 # IDD
 bin/startup-logger
@@ -434,13 +446,23 @@ lib64/com.qualcomm.qti.ant@1.0.so
 etc/permissions/qti_libpermissions.xml
 etc/permissions/qti_permissions.xml
 
+# QTI_DRM
+lib/libQTEEConnector_system.so
+lib/libseccam.so
+lib/libFidoCrypto_system.so
+lib/libFidoCryptoJNI.so
+lib/libGPQTEEC_system.so
+lib/vendor.qti.hardware.qteeconnector@1.0.so
+lib64/libQTEEConnector_system.so
+lib64/libseccam.so
+lib64/libFidoCrypto_system.so
+lib64/libFidoCryptoJNI.so
+lib64/libGPQTEEC_system.so
+lib64/vendor.qti.hardware.qteeconnector@1.0.so
+
 # QTI_ESEPOWERMANAGER
 lib/vendor.qti.esepowermanager@1.0.so
 lib64/vendor.qti.esepowermanager@1.0.so
-
-# QTI_QTEECONNECTOR
-lib/vendor.qti.hardware.qteeconnector@1.0.so
-lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # QTI_GNSS
 lib/vendor.qti.gnss@1.0.so
@@ -564,6 +586,16 @@ lib64/vendor.somc.hardware.security.secd@1.0.so
 # SOMC_MISCTA
 lib/vendor.somc.hardware.miscta@1.0.so
 lib64/vendor.somc.hardware.miscta@1.0.so
+
+# SENSORS
+lib/libqmi_cci_system.so
+lib/libsensor1.so
+lib/libsensor_reg.so
+lib/libsensor_test.so
+lib64/libqmi_cci_system.so
+lib64/libsensor1.so
+lib64/libsensor_reg.so
+lib64/libsensor_test.so
 
 # SSR
 bin/bt_ssr_dumper
