@@ -51,21 +51,8 @@ persist.ims.disableUserAgent=1
 ro.product.first_api_level=26
 
 ### SENSORS
-# Settings to enable sensors
-#Device Orientation sensor
-ro.vendor.sensors.dev_ori=true
-#Persistent Motion Detector
-ro.vendor.sensors.pmd=true
-#Stationary Detector
-ro.vendor.sensors.sta_detect=true
-#Motion Detector
-ro.vendor.sensors.mot_detect=true
 #Device Position Classifier
 ro.vendor.sensors.dpc=true
-#MultiShake sensor
-ro.vendor.sensors.multishake=true
-#support sensor directchannel reporting
-persist.vendor.sensors.direct_channel=true
 
 # Enable IZAT OptInApp overlay
 persist.vendor.overlay.izat.optin=rro
