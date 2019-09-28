@@ -1,7 +1,7 @@
 # system prop for lilac
 
 ### USB
-ro.usb.pid_suffix=1F4
+ro.vendor.usb.pid_suffix=1F4
 
 ### DISPLAY
 # HWComposer
