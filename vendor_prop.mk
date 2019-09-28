@@ -6,6 +6,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320
 
+# Disable HDR
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.display.hwc_disable_hdr=1
+
 # Enable xfrm support
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.service.xrfm.supported=true \
