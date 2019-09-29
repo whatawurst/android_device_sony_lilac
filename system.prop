@@ -4,42 +4,10 @@
 ro.vendor.usb.pid_suffix=1F4
 
 ### DISPLAY
-# HWComposer
-debug.sf.enable_hwc_vds=1
-debug.sf.hw=1
-debug.gralloc.enable_fb_ubwc=1
-debug.sf.latch_unsignaled=1
-
-# Enable VDS WFD solution
-persist.hwc.enable_vds=1
-
 # Skip HDR Tone map on Lilac
 sys.hwc_disable_hdr=1
 
-# Display Properties as per treble compliance
-vendor.gralloc.disable_ubwc=0
-vendor.gralloc.enable_fb_ubwc=1
-vendor.display.perf_hint_window=50
-
-#Property to enable display default color mode
-vendor.display.enable_default_color_mode=1
-
-# Gamut
-ro.sys.colorgamut.supported=true
-persist.sys.colorgamut.mode=1
-
-### BLUETOOTH
-#system prop for A4WP profile support
-ro.bluetooth.a4wp=false
-
-#system prop for wipower support
-ro.bluetooth.emb_wp_mode=true
-ro.bluetooth.wipower=true
-
 ### RADIO
-# System props for telephony
-ro.com.android.dataroaming=false
-persist.ims.disableUserAgent=1
 # This will be set by loading
 # /oem/system-properties/config.prop
 # ro.telephony.default_network=9
@@ -47,10 +15,6 @@ persist.ims.disableUserAgent=1
 ### API
 # First released API level
 ro.product.first_api_level=26
-
-### SENSORS
-#Device Position Classifier
-ro.vendor.sensors.dpc=true
 
 ##### Add values MiscTA #####
 # /system/etc/prop.default
@@ -66,11 +30,3 @@ ro.semc.version.fs=GENERIC
 ro.semc.version.fs_revision=47.2.A.10.107
 ro.semc.product.name=Xperia XZ1 Compact
 ro.semc.product.device=G84
-
-### KEYPROVD
-# FIDO key provision state and version
-persist.keyprovd.fido.prov=false
-persist.keyprovd.fido.version=0
-
-## CAMERA
-vendor.camera.aux.packagelist=org.codeaurora.snapcam,org.cyanogenmod.snap
