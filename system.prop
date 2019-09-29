@@ -74,5 +74,3 @@ persist.keyprovd.fido.version=0
 
 ## CAMERA
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,org.cyanogenmod.snap
-persist.camera.camera2=true
-persist.camera.is_type=3
