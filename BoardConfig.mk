@@ -55,3 +55,7 @@ BOARD_IMS_CAMERA := true
 
 ### VNDK
 BOARD_VNDK_VERSION := current
+
+### SYSTEM PROPS
+# Add device-specific ones
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
