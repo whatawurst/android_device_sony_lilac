@@ -140,8 +140,11 @@ vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
 vendor/lib/librebuffering.so
 vendor/lib/libsmwrapper.so
+vendor/lib/libsonydseehxwrapper.so
 vendor/lib/libsurround_3mic_proc.so
+vendor/lib/libtinycompress_vendor.so
 vendor/lib/libznr.so
+vendor/lib/hw/audio.primary.msm8998.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
@@ -158,6 +161,9 @@ vendor/lib64/libaudioalsa.so
 -vendor/lib64/libaudio_log_utils.so
 vendor/lib64/libqtigef.so
 vendor/lib64/librebuffering.so
+vendor/lib64/libsonydseehxwrapper.so
+vendor/lib64/libtinycompress_vendor.so
+vendor/lib64/hw/audio.primary.msm8998.so
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcvirt.so
