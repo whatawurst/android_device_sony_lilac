@@ -596,27 +596,27 @@ vendor/lib64/vendor.display.color@1.1.so
 vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
-# DISPLAY_DRM
-vendor/lib/libsdedrm.so|14659302ccd3df6929debd931a1a7258739ca144
-vendor/lib64/libsdedrm.so|dfc54b03ea50147b7143966a5c1a4df2710d2205
+# DISPLAY_DRM - from DRG - QKQ1.190828.002
+vendor/lib/libsdedrm.so|b603b6beaa50d49604ab2ebe0977a9ef79252b20
+vendor/lib64/libsdedrm.so|2add69c575f5745d0db2bbe8dfb7f75f9dc03ce6
 
-# DISPLAY_HDR
-vendor/lib/libhdr_tm.so|17705b090e4e8b487a39071b2f46a45324d611a6
-vendor/lib64/libhdr_tm.so|a44d285a08aa30ef90e791c646b9c12a697a30b2
+# DISPLAY_HDR - from DRG - QKQ1.190828.002
+vendor/lib/libhdr_tm.so|8d253c28c1fd976ac009088e36d483c16566f9a5
+vendor/lib64/libhdr_tm.so|1e74de5b505c8f742f1fb0379725ec9f5fd53282
 
-# DISPLAY_SDM
-vendor/lib/libqseed3.so|c60e08f5efa1e9aea339a7a5a6dccdc2d107f530
-vendor/lib/libsdm-color.so|8e083bb2a20ecf76bf96e303134cbaa9ce46be81
-vendor/lib/libsdm-diag.so|e0455e9dd0e2378a3f770eb914aa11e612d594eb
--vendor/lib/libsdm-disp-vndapis.so|f81628ddf7fff00f5e316956ed3b50941932c7de
-vendor/lib/libsdmextension.so|3104df6a013e53b972227ed132aa683ec7303746
-vendor/lib/libtinyxml2_1.so|20fea724b7a9f94530833cfdc841049104a0ffa3
-vendor/lib64/libqseed3.so|f95dd7b55de9401ce2f568e3ec18493daa5a6bfe
-vendor/lib64/libsdm-color.so|1a9b68e5f2f09d37c2fa83907a6a70c7adb081f5
-vendor/lib64/libsdm-diag.so|25bab19a8c4453b3d20e3e1a71a0e8d3675b17b4
--vendor/lib64/libsdm-disp-vndapis.so|8ac59a32a2601a8a4b0d3b097ed02f1279f3c6b7
-vendor/lib64/libsdmextension.so|c4a416cb8c0f5dc87bee8494d70247cf049224b9
-vendor/lib64/libtinyxml2_1.so|9d5179eda8ce70b9a4014b144f9d23d33509fddc
+# DISPLAY_SDM - from DRG - QKQ1.190828.002
+vendor/lib/libqseed3.so|f1c5c5e2db7cf1bf1cd6782af3476ec721c525e7
+vendor/lib/libsdm-color.so|2856bf71af603076b23d4c206dacba7c82350387
+vendor/lib/libsdm-diag.so|b1813c5639553537ccda31b2e44b5d4a85eb2adc
+-vendor/lib/libsdm-disp-vndapis.so|15a98ef885dbd29935b1107d7a2988ae495abb87
+vendor/lib/libsdmextension.so|37d5fca198c8e8526d6a4cb95f9c4bdf719e0efd
+vendor/lib/libtinyxml2_1.so|f54f81359c78715315bc24678c34c129413e6c92
+vendor/lib64/libqseed3.so|24ae4dfe5d9fa27a858b64dfafd1c713da6e6fde
+vendor/lib64/libsdm-color.so|ed022cfcc1546c11b82991986e0a938464400858
+vendor/lib64/libsdm-diag.so|6eb99b83036f917070393fa067eaebc50a5ff307
+-vendor/lib64/libsdm-disp-vndapis.so|ba4978c373f9892d884d07c4cf25dba9d73fda1f
+vendor/lib64/libsdmextension.so|264c00a0920d291700b2948b9337037684986921
+vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
 
 # DPM
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
