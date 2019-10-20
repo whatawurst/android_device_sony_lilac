@@ -122,7 +122,7 @@ lib64/libdpmctmgr.so
 lib64/libdpmfdmgr.so
 lib64/libdpmframework.so
 lib64/libdpmtcm.so
--priv-app/dpmserviceapp/dpmserviceapp.apk
+-priv-app/dpmserviceapp/dpmserviceapp.apk|83dfeb1e156bb03358cedbebf6edc1556524df06
 
 # DSP
 lib/libadsprpc_system.so
@@ -474,7 +474,7 @@ lib64/vendor.qti.gnss@2.0.so
 lib64/vendor.qti.gnss@2.1.so
 
 # QTI_IMS
--app/uceShimService/uceShimService.apk
+-app/uceShimService/uceShimService.apk|13257ec9eafe9499f21335fa81f77634e29fe24a
 etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
 etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
 etc/permissions/com.qualcomm.qti.imscmservice.xml
