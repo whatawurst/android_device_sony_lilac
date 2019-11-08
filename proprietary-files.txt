@@ -399,7 +399,6 @@ etc/customization/modem/amss_fsg_lilac_wind_canada_tar.mbn
 # LOCATION
 etc/permissions/com.qti.location.sdk.xml
 etc/permissions/com.qualcomm.location.xml
-etc/permissions/privapp-permissions-com.qualcomm.location.xml
 etc/permissions/izat.xt.srv.xml
 framework/com.qti.location.sdk.jar
 framework/izat.xt.srv.jar
@@ -407,8 +406,6 @@ lib/liblocationservice_jni.so
 lib/libxt_native.so
 lib64/liblocationservice_jni.so
 lib64/libxt_native.so
--priv-app/com.qualcomm.location/com.qualcomm.location.apk
--priv-app/xtra_t_app/xtra_t_app.apk|44f518c2f1c3e812d0868db50821aa4fe83411db
 
 # MSS
 bin/mssconfig
