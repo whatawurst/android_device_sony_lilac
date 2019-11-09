@@ -10,7 +10,7 @@ sys.hwc_disable_hdr=1
 ### RADIO
 # This will be set by loading
 # /oem/system-properties/config.prop
-# ro.telephony.default_network=9
+ro.telephony.default_network=9
 
 ### API
 # First released API level
@@ -30,3 +30,20 @@ ro.semc.version.fs=GENERIC
 ro.semc.version.fs_revision=47.2.A.11.228
 ro.semc.product.name=Xperia XZ1 Compact
 ro.semc.product.device=G84
+
+# /oem/cust.prop
+ro.product.brand=Sony
+ro.product.name=G8441
+ro.build.fingerprint=Sony/G8441/G8441:9/47.2.A.11.228/3311891731:user/release-keys
+
+######################## Customized property values #########################
+ro.semc.version.cust=1310-4373
+ro.semc.version.cust_revision=R3C
+ro.somc.customerid=436
+ro.oem.key1=1310-4373
+#############################################################################
+
+# /oem/config.prop
+######################## Customized property values #########################
+ro.cst.prm=1310-4373:R3C
+#############################################################################
