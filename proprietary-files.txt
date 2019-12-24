@@ -627,6 +627,7 @@ lib/extractors/libmmparser.so
 lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 lib/libFileMux.so
 lib/libOmxMux.so
+lib/libmediaextractor.so
 lib/libmmosal.so
 lib/libmmparser_lite.so
 lib/libmmrtpdecoder.so
@@ -652,6 +653,7 @@ lib64/extractors/libmmparser.so
 lib64/com.qualcomm.qti.wifidisplayhal@1.0.so
 lib64/libFileMux.so
 lib64/libOmxMux.so
+lib64/libmediaextractor.so
 lib64/libmmosal.so
 lib64/libmmparser_lite.so
 lib64/libmmrtpdecoder.so
