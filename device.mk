@@ -11,7 +11,7 @@ $(call inherit-product, vendor/microg/microg-vendor.mk)
 endif
 
 ### DALVIK
-$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 DEVICE_PATH := device/sony/lilac
 
