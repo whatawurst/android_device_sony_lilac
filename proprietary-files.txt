@@ -107,7 +107,7 @@ lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 # DPM
 bin/dpmd
 etc/customization/settings/defaults/dpm.conf:etc/dpm.conf
-#etc/init/dpmd.rc
+etc/init/dpmd.rc
 etc/permissions/com.qti.dpmframework.xml
 etc/permissions/dpmapi.xml
 framework/com.qti.dpmframework.jar
@@ -122,7 +122,7 @@ lib64/libdpmctmgr.so
 lib64/libdpmfdmgr.so
 lib64/libdpmframework.so
 lib64/libdpmtcm.so
-#-priv-app/dpmserviceapp/dpmserviceapp.apk
+-priv-app/dpmserviceapp/dpmserviceapp.apk
 
 # DSP
 lib/libadsprpc_system.so
