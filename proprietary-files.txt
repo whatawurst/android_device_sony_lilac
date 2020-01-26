@@ -225,7 +225,7 @@ lib/vendor.semc.hardware.light@1.0.so
 lib64/vendor.semc.hardware.light@1.0.so
 
 # MODEM
-bin/sony-modem-switcher
+bin/sony-modem-switcher|756e104c91a9ff2d3b6654f832c422dc93fe2942
 etc/customization/modem/amss_fs_empty.mbn
 etc/customization/modem/amss_fsg_lilac_a1_austria_volte_vowifi_tar.mbn
 etc/customization/modem/amss_fsg_lilac_airtel_in_ims_tar.mbn
