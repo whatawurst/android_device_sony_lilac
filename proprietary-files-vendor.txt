@@ -144,7 +144,7 @@ vendor/lib/libsonydseehxwrapper.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/libtinycompress_vendor.so
 vendor/lib/libznr.so
-vendor/lib/hw/audio.primary.msm8998.so
+vendor/lib/hw/audio.primary.msm8998.so|fba0f0d3e13da5451e730a49e060880d41635a88
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
@@ -163,7 +163,7 @@ vendor/lib64/libqtigef.so
 vendor/lib64/librebuffering.so
 vendor/lib64/libsonydseehxwrapper.so
 vendor/lib64/libtinycompress_vendor.so
-vendor/lib64/hw/audio.primary.msm8998.so
+vendor/lib64/hw/audio.primary.msm8998.so|1c3107144efb446dee865d9f36bfbbe4892b6d6c
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcvirt.so
@@ -999,7 +999,7 @@ vendor/lib/libgdtap.so
 vendor/lib/libgeofence.so
 vendor/lib/libgnss.so
 vendor/lib/libgnsspps.so
-vendor/lib/libgps.utils.so
+vendor/lib/libgps.utils.so|dcd4a3e9bb91e11904b068afc3581b5ef99a3731
 vendor/lib/libizat_client_api.so
 vendor/lib/libizat_core.so
 vendor/lib/liblbs_core.so
@@ -1035,7 +1035,7 @@ vendor/lib64/libgdtap.so
 vendor/lib64/libgeofence.so
 vendor/lib64/libgnss.so
 vendor/lib64/libgnsspps.so
-vendor/lib64/libgps.utils.so
+vendor/lib64/libgps.utils.so|9b2bfc1ca1a3ff570642bcc862d565d9d1a0509e
 vendor/lib64/libizat_client_api.so
 vendor/lib64/libizat_core.so
 vendor/lib64/liblbs_core.so
