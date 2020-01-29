@@ -5,6 +5,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit device configuration
 $(call inherit-product, device/sony/lilac/device.mk)
 
+# Product API level
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
+
 ### BOOTANIMATION
 # vendor/lineage/config/common_full_phone.mk
 TARGET_SCREEN_HEIGHT := 1280
