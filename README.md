@@ -4,7 +4,7 @@ Device configuration for Sony Xperia XZ1 Compact (lilac)
 Description
 -----------
 
-This repository is for LineageOS 15.1 on Sony Xperia XZ1 Compact (lilac).
+This repository is for LineageOS 17.1 on Sony Xperia XZ1 Compact (lilac).
 
 How to build LineageOS
 ----------------------
@@ -16,7 +16,7 @@ How to build LineageOS
 
 * Initialize the repo:
 
-        repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
+        repo init -u git://github.com/LineageOS/android.git -b lineage-17.1
 
 * Create a local manifest:
 
@@ -25,13 +25,13 @@ How to build LineageOS
         <?xml version="1.0" encoding="UTF-8"?>
         <manifest>
             <!-- SONY -->
-            <project name="cryptomilk/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" />
-            <project name="cryptomilk/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" />
-            <project name="cryptomilk/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" />
-            <project name="cryptomilk/android_device_sony_lilac" path="device/sony/lilac" remote="github" />
+            <project name="cryptomilk/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="lineage-17.1" />
+            <project name="cryptomilk/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" revision="lineage-17.1" />
+            <project name="cryptomilk/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" revision="lineage-17.1" />
+            <project name="cryptomilk/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="lineage-17.1" />
 
             <!-- Pinned blobs for lilac -->
-            <project name="cryptomilk/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" />
+            <project name="cryptomilk/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" revision="lineage-17.1" />
         </manifest>
 
 * Sync the repo:
