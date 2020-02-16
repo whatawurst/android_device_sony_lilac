@@ -4,10 +4,12 @@ vendor/lib/libadsp_default_listener.so
 vendor/lib/libadsp_hvx_callback_skel.so
 vendor/lib/libadsp_hvx_stub.so
 vendor/lib/libadsprpc.so
+vendor/lib/libcdsprpc.so
 vendor/lib/libfastcrc.so
 vendor/lib/libfastcvadsp_stub.so
 vendor/lib/libfastcvopt.so
 vendor/lib/libfastrpc_utf_stub.so
+vendor/lib/libmdsprpc.so
 vendor/lib/libseemore.so
 vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so
 vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so
@@ -20,17 +22,21 @@ vendor/lib/rfsa/adsp/libdspCV_skel.so
 vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
 vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 vendor/lib/rfsa/adsp/libsomc_alfortlpserv_skel.so
 vendor/lib/rfsa/adsp/libsomc_sumomolpserv_skel.so
 vendor/lib/rfsa/adsp/libvpp_frc.so
 vendor/lib/rfsa/adsp/libvpp_svc_skel.so
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
+vendor/lib64/libcdsprpc.so
 vendor/lib64/libfastcrc.so
 vendor/lib64/libfastcvadsp_stub.so
 vendor/lib64/libfastcvopt.so
 vendor/lib64/libfastrpc_utf_stub.so
+vendor/lib64/libmdsprpc.so
 vendor/lib64/libseemore.so
 
 # AUDIO
@@ -191,11 +197,19 @@ vendor/etc/sony_effect/znr_param_48k_SubSoiCam.tbl
 # AUDIO_SOUNDTRIGGER
 vendor/lib/hw/sound_trigger.primary.msm8998.so
 vendor/lib/libadiertac.so
-vendor/lib/libaudcal.so
+vendor/lib/libgcs.so
+vendor/lib/libgcs-calwrapper.so
+vendor/lib/libgcs-ipc.so
+vendor/lib/libgcs-osal.so
+vendor/lib/libmulawdec.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
 vendor/lib64/hw/sound_trigger.primary.msm8998.so
 vendor/lib64/libadiertac.so
-vendor/lib64/libaudcal.so
+vendor/lib64/libgcs.so
+vendor/lib64/libgcs-calwrapper.so
+vendor/lib64/libgcs-ipc.so
+vendor/lib64/libmulawdec.so
+vendor/lib64/libgcs-osal.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
 # BLUETOOTH
@@ -850,6 +864,7 @@ vendor/lib/libOmxApeDec.so
 vendor/lib/libOmxApeDecSw.so
 vendor/lib/libOmxDsdDec.so
 vendor/lib/libOmxEvrcDec.so
+vendor/lib/libOmxG711Dec.so
 vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libOmxVpp.so
@@ -871,6 +886,7 @@ vendor/lib64/libOmxAmrwbplusDec.so
 vendor/lib64/libOmxApeDec.so
 vendor/lib64/libOmxApeDecSw.so
 vendor/lib64/libOmxEvrcDec.so
+vendor/lib64/libOmxG711Dec.so
 vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libOmxVpp.so
 vendor/lib64/libOmxWmaDec.so
@@ -1142,6 +1158,7 @@ vendor/lib/libnetmgr.so
 vendor/lib/libnetmgr_common.so
 vendor/lib/libpdmapper.so
 vendor/lib/libpdnotifier.so
+vendor/lib/libqcci_legacy.so
 vendor/lib/libqcmaputils.so
 vendor/lib/libqdp.so
 vendor/lib/libqmi.so
@@ -1180,6 +1197,7 @@ vendor/lib64/libnetmgr_common.so
 vendor/lib64/libnlnetmgr.so
 vendor/lib64/libpdmapper.so
 vendor/lib64/libpdnotifier.so
+vendor/lib64/libqcci_legacy.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libqdp.so
 vendor/lib64/libqmi.so
@@ -1389,7 +1407,6 @@ vendor/lib/libhbtpdsp.so
 vendor/lib/libhbtpfrmwk.so
 vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so
 vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
-vendor/lib64/libfastrpc_utf_stub.so
 vendor/lib64/libhbtpclient.so
 vendor/lib64/libhbtpdsp.so
 vendor/lib64/libhbtpfrmwk.so
