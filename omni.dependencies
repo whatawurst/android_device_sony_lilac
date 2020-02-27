@@ -1,0 +1,32 @@
+[
+  {
+    "remote":       "omnirom",
+    "repository":   "android_vendor_qcom_opensource_commonsys",
+    "target_path":  "vendor/qcom/opensource/commonsys",
+    "revision":     "android-10"
+  },
+  {
+    "remote":       "omnirom",
+    "repository":   "android_device_qcom_caf-sepolicy",
+    "target_path":  "device/qcom/caf-sepolicy",
+    "revision":     "android-10"
+  },
+  {
+    "remote":       "github",
+    "repository":   "cryptomilk/android_kernel_sony_msm8998",
+    "target_path":  "kernel/sony/msm8998",
+    "revision":     "lineage-17.1"
+  },
+  {
+    "remote":       "github",
+    "repository":   "cryptomilk/android_device_sony_yoshino-common",
+    "target_path":  "device/sony/yoshino-common",
+    "revision":     "twrp-10.0"
+  },
+  {
+    "remote":       "github",
+    "repository":   "cryptomilk/android_vendor_sony_lilac",
+    "target_path":  "vendor/sony/lilac",
+    "revision":     "lineage-17.1"
+  }
+]
