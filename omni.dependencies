@@ -6,6 +6,12 @@
     "revision":     "android-9.0"
   },
   {
+    "remote":       "omnirom",
+    "repository":   "android_device_qcom_caf-sepolicy",
+    "target_path":  "device/qcom/sepolicy",
+    "revision":     "android-9.0"
+  },
+  {
     "remote":       "github",
     "repository":   "cryptomilk/android_kernel_sony_msm8998",
     "target_path":  "kernel/sony/msm8998",
