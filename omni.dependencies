@@ -15,7 +15,7 @@
     "remote":       "github",
     "repository":   "cryptomilk/android_kernel_sony_msm8998",
     "target_path":  "kernel/sony/msm8998",
-    "revision":     "lineage-16.0"
+    "revision":     "lineage-17.1"
   },
   {
     "remote":       "github",
