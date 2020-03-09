@@ -1,7 +1,3 @@
-# Display
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=320
-
 # Disable HDR
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.hwc_disable_hdr=1
