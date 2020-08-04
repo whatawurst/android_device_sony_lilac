@@ -484,7 +484,7 @@ lib64/vendor.qti.gnss@2.0.so
 lib64/vendor.qti.gnss@2.1.so
 
 # QTI_IMS
--app/uceShimService/uceShimService.apk|13257ec9eafe9499f21335fa81f77634e29fe24a
+-app/uceShimService/uceShimService.apk|b7258471c7e0f590a0c53890fe0f7dbb89b72f66
 etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
 etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
 etc/permissions/com.qualcomm.qti.imscmservice.xml
