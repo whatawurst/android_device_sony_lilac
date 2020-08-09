@@ -31,8 +31,6 @@ priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libarcsoft_handsigns.so|1a404edfb
 priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libhandsigns_jni.so|9e3d163d1aea8878ff84ddb6f06cbb0c65610054
 priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libimage_converter.so|a196d0504d27f2eab598ad3822c36d68c5074057
 priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libmpbase.so|941457f34769d5cbf1ff33b13596307689317fc3
-priv-app/SemcCameraUI-xxhdpi-release/oat/arm64/SemcCameraUI-xxhdpi-release.odex|c8f95fc17fa72d494dccbbd101142b8bc48a6b4d
-priv-app/SemcCameraUI-xxhdpi-release/oat/arm64/SemcCameraUI-xxhdpi-release.vdex|a5cdf8b42677b157eeca2afcb86a434d84a699cc
 -priv-app/SomcMovieCreator-release/SomcMovieCreator-release.apk
 -priv-app/SoundPhotoCamera-xhdpi-release/SoundPhotoCamera-xhdpi-release.apk
 priv-app/SoundPhotoCamera-xhdpi-release/lib/armeabi/libmpo.so|dc60e4ca74b544f656897017f58114dc7835e65b
