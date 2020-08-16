@@ -114,25 +114,26 @@ lib64/vendor.display.postproc@1.0.so
 lib64/libsys-utils-system.so
 lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
-# DPM
-bin/dpmd
+# DPM - from cheeseburger - QKQ1.191014.012
 etc/customization/settings/defaults/dpm.conf:etc/dpm.conf
-etc/init/dpmd.rc
-etc/permissions/com.qti.dpmframework.xml
-etc/permissions/dpmapi.xml
-framework/com.qti.dpmframework.jar
-framework/dpmapi.jar
-lib/com.qualcomm.qti.dpm.api@1.0.so
-lib/libdpmctmgr.so
-lib/libdpmfdmgr.so
-lib/libdpmframework.so
-lib/libdpmtcm.so
-lib64/com.qualcomm.qti.dpm.api@1.0.so
-lib64/libdpmctmgr.so
-lib64/libdpmfdmgr.so
-lib64/libdpmframework.so
-lib64/libdpmtcm.so
--priv-app/dpmserviceapp/dpmserviceapp.apk|83dfeb1e156bb03358cedbebf6edc1556524df06
+framework/tcmclient.jar|6ef9ca98f67c144fc8ae941bb3a47f99cbd93098
+product/bin/dpmd|fc5f8692c9710aae101b450bd0fc418e58be6552
+product/etc/init/dpmd.rc|7f95195a89fddce06b93006a737701270e91f669
+product/etc/permissions/com.qti.dpmframework.xml|4613f8b8629d0b823e6aaab45d399ac30da06c09
+product/etc/permissions/dpmapi.xml|0991b3069308620cfcad53873e9f09af181b981d
+product/framework/com.qti.dpmframework.jar|7adf5e0e96c155acfe66c7256e06e48c1ee35d13
+product/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
+product/lib/com.qualcomm.qti.dpm.api@1.0.so|50a6e8edcad48708d0b0cac98e7f9be98bdea225
+product/lib/libdpmctmgr.so|356e4749df6be3d0530293dbbab6e7c543079427
+product/lib/libdpmfdmgr.so|657b3a471fdae7f78cc87e6991cc6e869b68047e
+product/lib/libdpmframework.so|134e2415d303670c75c32f961392aa5aa076ccdc
+product/lib/libdpmtcm.so|a2c628ac174a20174f8a9770e5bac587442839fd
+product/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
+product/lib64/libdpmctmgr.so|b2a31f356a2c675867f32769a0af7848e2969e83
+product/lib64/libdpmfdmgr.so|63f1bff925f290ed2582630c35698b4e6290307a
+product/lib64/libdpmframework.so|82075c8a5516724fdd6a1f693b3b8e84831c1234
+product/lib64/libdpmtcm.so|445bb375f0782d39ea355a4582bb4ab19d85fe87
+-product/priv-app/dpmserviceapp/dpmserviceapp.apk|93b74be6e29ce05de6eae340b02168696dc4b44d
 
 # DSP
 lib/libadsprpc_system.so
