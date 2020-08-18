@@ -61,14 +61,6 @@ lib64/libjni_imageutil.so
 lib64/libjni_snapcammosaic.so
 lib64/libjni_snapcamtinyplanet.so
 
-# CND
-lib/vendor.qti.ims.rcsconfig@1.0.so
-lib/vendor.qti.hardware.data.latency@1.0.so
-lib/vendor.qti.latency@2.0.so
-lib64/vendor.qti.ims.rcsconfig@1.0.so
-lib64/vendor.qti.hardware.data.latency@1.0.so
-lib64/vendor.qti.latency@2.0.so
-
 # CNE
 etc/permissions/cneapiclient.xml
 etc/permissions/com.quicinc.cne.xml
@@ -84,7 +76,11 @@ framework/com.quicinc.cne.server-V2.0-java.jar
 framework/com.quicinc.cne.server-V2.1-java.jar
 framework/com.quicinc.cne.server-V2.2-java.jar
 lib/com.quicinc.cne.server@1.0.so
+lib/vendor.qti.hardware.data.latency@1.0.so
+lib/vendor.qti.latency@2.0.so
 lib64/com.quicinc.cne.server@1.0.so
+lib64/vendor.qti.hardware.data.latency@1.0.so
+lib64/vendor.qti.latency@2.0.so
 -priv-app/CNEService/CNEService.apk|d8579ab4633111f5473b3be8c9da487504908167
 
 # CustomizationSelector
