@@ -403,16 +403,20 @@ etc/customization/modem/amss_fsg_lilac_vodafone_uk_tar.mbn
 etc/customization/modem/amss_fsg_lilac_vodafone_uk_volte_vowifi_tar.mbn
 etc/customization/modem/amss_fsg_lilac_wind_canada_tar.mbn
 
-# LOCATION
-etc/permissions/com.qti.location.sdk.xml
-etc/permissions/com.qualcomm.location.xml
-etc/permissions/izat.xt.srv.xml
-framework/com.qti.location.sdk.jar
-framework/izat.xt.srv.jar
-lib/liblocationservice_jni.so
-lib/libxt_native.so
-lib64/liblocationservice_jni.so
-lib64/libxt_native.so
+# LOCATION - from cheeseburger - QKQ1.191014.012
+# Disabe the QCOM location app
+etc/permissions/com.qti.location.sdk.xml|cb68a566bd77dcc75bb7547199d528289fac01cb
+etc/permissions/com.qualcomm.location.xml|1d36e7cf8e16813aa13ee6b3fca8d8687b543828
+etc/permissions/com.qualcomm.qti.izattools.xml|5322f31201ffb8ab62d141beb24bc880c7aed8c8
+etc/permissions/izat.xt.srv.xml|a0f460056f27b5495a4d6e959eecf0e429c42a57
+#etc/permissions/privapp-permissions-com.qualcomm.location.xml|2dc7fba818bdf582bfea849a74f4b312d90745c9
+framework/com.qti.location.sdk.jar|02a546607bc3d9febd0bbe629de03fe506f9ef73
+framework/izat.xt.srv.jar|98ffd12c789af16d186a4a04c0703a23dc27e347
+lib/liblocationservice_jni.so|5fa75177684f0c089ec00931db16d7eec4696a30
+lib/libxt_native.so|377ded7de921ab4d2198cf32aa7a2ba083989aaf
+lib64/liblocationservice_jni.so|4ba677d9e479e508299f5ebad543b6f09f03a671
+lib64/libxt_native.so|d023ae9678d7954285ad61903d73cac14a86e3ce
+#-priv-app/com.qualcomm.location/com.qualcomm.location.apk|f85e01dfa5be70f1d34c185e4af044398da3fb08
 
 # MSS
 bin/mssconfig
@@ -468,17 +472,19 @@ lib64/vendor.qti.hardware.qteeconnector@1.0.so
 lib/vendor.qti.esepowermanager@1.0.so
 lib64/vendor.qti.esepowermanager@1.0.so
 
-# QTI_GNSS
-lib/vendor.qti.gnss@1.0.so
-lib/vendor.qti.gnss@1.1.so
-lib/vendor.qti.gnss@1.2.so
-lib/vendor.qti.gnss@2.0.so
-lib/vendor.qti.gnss@2.1.so
-lib64/vendor.qti.gnss@1.0.so
-lib64/vendor.qti.gnss@1.1.so
-lib64/vendor.qti.gnss@1.2.so
-lib64/vendor.qti.gnss@2.0.so
-lib64/vendor.qti.gnss@2.1.so
+# QTI_GNSS - from cheeseburger - QKQ1.191014.012
+lib/vendor.qti.gnss@1.0.so|e97bacbf50d01e58fa94b8ddae41db496adab714
+lib/vendor.qti.gnss@1.1.so|69e91c372b2bf81e1134292b29ca3bf71aa53d80
+lib/vendor.qti.gnss@1.2.so|af94b86b606a8bc31327592788a0ca2f4933fc43
+lib/vendor.qti.gnss@2.0.so|d096f8a23dcad8625239cda91e234040ad90afd4
+lib/vendor.qti.gnss@2.1.so|ce2336d0112c975e45bd240048f05e1b8ff6ba02
+lib/vendor.qti.gnss@3.0.so|a84260d500b3f065353e77759517483b628a46ce
+lib64/vendor.qti.gnss@1.0.so|0f9cd900de9144d3d77f13b7eee292d5c74fcf33
+lib64/vendor.qti.gnss@1.1.so|fa9bd02c0acf9a3bc694b9349cf19a88f0db57c1
+lib64/vendor.qti.gnss@1.2.so|f70035b17f3bad9f4c50a95930d928b5c6df6702
+lib64/vendor.qti.gnss@2.0.so|7f6717ddf0c82f56a16e7428df5f791a6ca52dd4
+lib64/vendor.qti.gnss@2.1.so|1420869a83af19215eeec765b32bbfd209bb05a6
+lib64/vendor.qti.gnss@3.0.so|8aed1c3bd1453ad3ca268008e9ec47e7e2afb5f5
 
 # QTI_IMS
 -app/uceShimService/uceShimService.apk|b7258471c7e0f590a0c53890fe0f7dbb89b72f66
