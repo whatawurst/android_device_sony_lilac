@@ -992,8 +992,6 @@ vendor/bin/slim_daemon|1e675c72f933380f6651d1499bc9e01682a0e5a1
 vendor/bin/xtra-daemon|600a4bc326790927b74eddeb4abf60d5bf06ecdc
 vendor/bin/xtwifi-client|4562b09149e55ad5480bbd4ac1fc6e46efd807a8
 vendor/bin/xtwifi-inet-agent|45a5db235eb12c322b9ef65797d1650772fbb0b6
-vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml|8d7eafd68db9bbe7ec7a5c4d547f026869766081
-vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml|9b2f6691d6c224bcb9ab9a0d57adfb9e52f1b53e
 vendor/etc/apdr.conf|b43b3d32d442436945c36fddcf2259021d98c324
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/flp.conf|8c8642685c225fa0b715c284481018a527dae451
