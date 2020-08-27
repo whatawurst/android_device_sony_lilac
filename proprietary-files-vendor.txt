@@ -623,7 +623,6 @@ vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
 # DPM - from cheeseburger - QKQ1.191014.012
 vendor/bin/dpmQmiMgr|9cf5eb47699ee1c1659da36e92a160370a029819
-vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so|dc065a4622e9db1a7867fe231307df2e65b84443
 vendor/lib/libdpmqmihal.so|4a9ef4a45141900b11277459a366953f1ace7f20
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ab5d46cbf14ce90ab44aaab4dc1520378c568033
