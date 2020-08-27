@@ -1006,6 +1006,7 @@ vendor/lib/hw/vendor.qti.gnss@3.0-impl.so|4b15eb025dfc1e1b499b4ecd20fd0b609cbcbd
 vendor/lib/libbatching.so|65c13b7ea5aa53188532799657f60d06e2437542
 vendor/lib/libdataitems.so|9c579a67069fba08ef50f08c88827c3e1b0ca974
 vendor/lib/libgdtap.so|6c35ab1bed3e8b3eec71717629320bc70efed9e6
+vendor/lib/libgarden.so|3b342f9b6d273b532532dfbd5025f60e334521ee
 vendor/lib/libgeofencing.so|300de1411ead6757be872a177d894e7811a08f32
 vendor/lib/libgnss.so|88c800f9311c2cfadb836eaaf3357e5dc5ae4953
 vendor/lib/libgnsspps.so|6cc81073fb1d3d4be73f426c1e03e1fe24b28e7f
@@ -1022,6 +1023,7 @@ vendor/lib/liblowi_client.so|26f9755926ea814acac777264e826644bfe2cfa4
 vendor/lib/liblowi_wifihal.so|7da3bf312d86d14ab2bb3b1d3256d7a46435c23f
 vendor/lib/libqdma_file_agent.so|74eea7303b55cb800692fdf69c766dc669a8e14f
 vendor/lib/libslimclient.so|ac6294eb121fc9f4c5888ca3e4a3ffe455fbc43f
+vendor/lib/libsynergy_loc_api.so|65405e26ae802eb036777688662d72c9cdeea398
 vendor/lib/libxtadapter.so|1088348a7fef916c43a00e55148cbce1f0bc5d18
 vendor/lib/vendor.qti.gnss@1.0.so|6f02b7a52801c2004b14b0af1f6242eec2942ea5
 vendor/lib/vendor.qti.gnss@1.1.so|ce1c87fae277f40346bd018d3e90012712e7c380
@@ -1034,6 +1036,8 @@ vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so|451870d51d5206532a52c65623
 vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so|c1b8d6a36ab8788041aab9d94032b501f557ec92
 vendor/lib64/libbatching.so|3e7222946d1a5a5a62225be92e2d06213bb710d0
 vendor/lib64/libdataitems.so|2063d505ba8ea53ff3c7cca7b0f54b92170d87b2
+vendor/lib64/libgarden.so|79045b9fcec94149e581dd7dce28777d30df8866
+vendor/lib64/libgarden_haltests_e2e.so|c1d668b27edacccc8d733744301a1979e4cd9dcb
 vendor/lib64/libgdtap.so|499851c947dd5d6a209a93490ee0cf0f9929a99d
 vendor/lib64/libgeofencing.so|de64be696b21a5d4d0807386182ff0d50b54d2f2
 vendor/lib64/libgnss.so|49eec415573d8f87b5a8d97754b676ab397c7ce5
@@ -1051,6 +1055,7 @@ vendor/lib64/liblowi_client.so|1b6ee23fc683f842cf5b4ebf91c59ade3131bb6b
 vendor/lib64/liblowi_wifihal.so|5a4a47fa5fc2041b4cef0abc4287a49ac8591fbc
 vendor/lib64/libqdma_file_agent.so|bb7b35dae09848f2fceddaac17344d2b7ef4e944
 vendor/lib64/libslimclient.so|c00f10285f08ab19d8679750a12a415284035f10
+vendor/lib64/libsynergy_loc_api.so|5c5498e11e8394ad2f78acab36dc97edaede9eb3
 vendor/lib64/libxtadapter.so|00b79ffff6504fe4db1d62fa08c167eef59ccf9a
 vendor/lib64/vendor.qti.gnss@1.0.so|cab0039ed66d87772a5ba6617c39c5ccd0e3f1b2
 vendor/lib64/vendor.qti.gnss@1.1.so|f42d12f0787564b0b80f505d36429004714ef893
