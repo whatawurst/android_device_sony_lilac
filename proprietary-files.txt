@@ -90,6 +90,7 @@ lib64/vendor.qti.latency@2.0.so
 
 # CustomizationSelector
 etc/permissions/com.sonymobile.miscta.xml
+etc/public.libraries-sony.txt
 framework/com.sonymobile.miscta_impl.jar
 lib/libMiscTAApi.sony.so
 lib64/libMiscTAApi.sony.so
