@@ -573,9 +573,9 @@ framework/semcrilextension.jar
 # SEMC_SECD
 lib64/vendor.somc.hardware.security.secd@1.0.so
 
-# SOMC_MISCTA
-lib/vendor.somc.hardware.miscta@1.0.so
-lib64/vendor.somc.hardware.miscta@1.0.so
+# SOMC_MISCTA - from tama - 52.1.A.3.49
+lib/vendor.somc.hardware.miscta@1.0.so|4a968e39a9ad5a6bedb36a61f12f3e4a649745c8
+lib64/vendor.somc.hardware.miscta@1.0.so|3349b02e83ec7fe7d7b1cbc698fbc52e156c3642
 
 # SENSORS
 lib/libqmi_cci_system.so

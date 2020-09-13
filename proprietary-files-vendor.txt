@@ -1363,8 +1363,8 @@ vendor/bin/ssr_diag
 vendor/bin/ssr_setup
 vendor/bin/subsystem_ramdump
 
-# TAD
-vendor/bin/tad
+# TAD - from tama - 52.1.A.3.49
+vendor/bin/tad|0fe3daaa4a4dace32944ebb8daf52fdffdcfac8a
 
 # THERMAL
 vendor/bin/hw/vendor.semc.hardware.thermal@1.0-service
@@ -1435,10 +1435,10 @@ vendor/etc/firmware/tztpm.b06
 vendor/etc/firmware/tztpm.b07
 vendor/etc/firmware/tztpm.mdt
 
-# UDATEMISCTA
-vendor/bin/hw/vendor.somc.hardware.miscta@1.0-service
-vendor/etc/init/vendor.somc.hardware.miscta@1.0-service.rc
-vendor/lib64/vendor.somc.hardware.miscta@1.0.so
+# MISCTA - from tama - 52.1.A.3.49
+vendor/bin/hw/vendor.somc.hardware.miscta@1.0-service|c84f3140577daf0119b7782662540785a9b54dde
+vendor/etc/init/vendor.somc.hardware.miscta@1.0-service.rc|666428a82ff6c43b3a765825c160ed32106080b8
+vendor/lib64/vendor.somc.hardware.miscta@1.0.so|4ebf19d447872c7af28bed0aff965187d634f8cb
 
 # WIFI
 vendor/bin/hw/vendor.somc.hardware.wifi@2.0-service
