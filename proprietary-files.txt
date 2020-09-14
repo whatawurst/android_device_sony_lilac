@@ -79,12 +79,17 @@ framework/vendor.qti.data.factory-V1.0-java.jar
 framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar
 framework/vendor.qti.hardware.data.latency-V1.0-java.jar
 framework/vendor.qti.hardware.data.qmi-V1.0-java.jar
+framework/vendor.qti.ims.rcsconfig-V1.0-java.jar
 framework/vendor.qti.latency-V2.0-java.jar
 lib/com.quicinc.cne.server@1.0.so
+lib/vendor.qti.hardware.data.dynamicdds@1.0.so
 lib/vendor.qti.hardware.data.latency@1.0.so
+lib/vendor.qti.ims.rcsconfig@1.0.so
 lib/vendor.qti.latency@2.0.so
 lib64/com.quicinc.cne.server@1.0.so
+lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 lib64/vendor.qti.hardware.data.latency@1.0.so
+lib64/vendor.qti.ims.rcsconfig@1.0.so
 lib64/vendor.qti.latency@2.0.so
 -priv-app/CNEService/CNEService.apk|d8579ab4633111f5473b3be8c9da487504908167
 
@@ -475,7 +480,6 @@ framework/com.qualcomm.qti.imscmservice-V2.0-java.jar:product/framework/com.qual
 framework/com.qualcomm.qti.imscmservice-V2.1-java.jar:product/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar
 framework/com.qualcomm.qti.uceservice-V2.0-java.jar:product/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
 framework/vendor.qti.ims.callinfo-V1.0-java.jar:product/framework/vendor.qti.ims.callinfo-V1.0-java.jar
-framework/vendor.qti.ims.rcsconfig-V1.0-java.jar:product/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar
 lib/com.qualcomm.qti.imscmservice@1.0.so:product/lib/com.qualcomm.qti.imscmservice@1.0.so
 lib/com.qualcomm.qti.imscmservice@2.0.so:product/lib/com.qualcomm.qti.imscmservice@2.0.so
 lib/com.qualcomm.qti.imscmservice@2.1.so:product/lib/com.qualcomm.qti.imscmservice@2.1.so
@@ -489,13 +493,11 @@ lib/libdiag_system.so:product/lib/libdiag_system.so
 lib/libimscamera_jni.so:product/lib/libimscamera_jni.so
 lib/libimsmedia_jni.so:product/lib/libimsmedia_jni.so
 lib/librcc.so:product/lib/librcc.so
-lib/vendor.qti.hardware.data.dynamicdds@1.0.so:product/lib/vendor.qti.hardware.data.dynamicdds@1.0.so
 lib/vendor.qti.hardware.radio.ims@1.0.so:product/lib/vendor.qti.hardware.radio.ims@1.0.so
 lib/vendor.qti.hardware.radio.ims@1.1.so:product/lib/vendor.qti.hardware.radio.ims@1.1.so
 lib/vendor.qti.hardware.radio.ims@1.2.so:product/lib/vendor.qti.hardware.radio.ims@1.2.so
 lib/vendor.qti.hardware.radio.ims@1.3.so:product/lib/vendor.qti.hardware.radio.ims@1.3.so
 lib/vendor.qti.ims.callinfo@1.0.so:product/lib/vendor.qti.ims.callinfo@1.0.so
-lib/vendor.qti.ims.rcsconfig@1.0.so:product/lib/vendor.qti.ims.rcsconfig@1.0.so
 lib/vendor.qti.imsrtpservice@1.0.so:product/lib/vendor.qti.imsrtpservice@1.0.so
 lib64/com.qualcomm.qti.imscmservice@1.0.so:product/lib64/com.qualcomm.qti.imscmservice@1.0.so
 lib64/com.qualcomm.qti.imscmservice@2.0.so:product/lib64/com.qualcomm.qti.imscmservice@2.0.so
@@ -510,13 +512,11 @@ lib64/libdiag_system.so:product/lib64/libdiag_system.so
 lib64/libimscamera_jni.so:product/lib64/libimscamera_jni.so
 lib64/libimsmedia_jni.so:product/lib64/libimsmedia_jni.so
 lib64/librcc.so:product/lib64/librcc.so
-lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:product/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so
 lib64/vendor.qti.hardware.radio.ims@1.0.so:product/lib64/vendor.qti.hardware.radio.ims@1.0.so
 lib64/vendor.qti.hardware.radio.ims@1.1.so:product/lib64/vendor.qti.hardware.radio.ims@1.1.so
 lib64/vendor.qti.hardware.radio.ims@1.2.so:product/lib64/vendor.qti.hardware.radio.ims@1.2.so
 lib64/vendor.qti.hardware.radio.ims@1.3.so:product/lib64/vendor.qti.hardware.radio.ims@1.3.so
 lib64/vendor.qti.ims.callinfo@1.0.so:product/lib64/vendor.qti.ims.callinfo@1.0.so
-lib64/vendor.qti.ims.rcsconfig@1.0.so:product/lib64/vendor.qti.ims.rcsconfig@1.0.so
 lib64/vendor.qti.imsrtpservice@1.0.so:product/lib64/vendor.qti.imsrtpservice@1.0.so
 -priv-app/ims/ims.apk:product/priv-app/ims/ims.apk
 
