@@ -1034,6 +1034,7 @@ vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc|8e0b0596a13b8d653e6f541
 vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so|fbec8b82bb7ab00338d21db8b9ac18e7b0523441
 vendor/lib/hw/vendor.qti.gnss@3.0-impl.so|4b15eb025dfc1e1b499b4ecd20fd0b609cbcbda5
 vendor/lib/libbatching.so|65c13b7ea5aa53188532799657f60d06e2437542
+vendor/lib/libcacertclient.so|b5ae01fcf87d864b2a05e37f04b5aa355325feae
 vendor/lib/libdataitems.so|9c579a67069fba08ef50f08c88827c3e1b0ca974
 vendor/lib/libgdtap.so|6c35ab1bed3e8b3eec71717629320bc70efed9e6
 vendor/lib/libgarden.so|3b342f9b6d273b532532dfbd5025f60e334521ee
@@ -1043,6 +1044,7 @@ vendor/lib/libgnsspps.so|6cc81073fb1d3d4be73f426c1e03e1fe24b28e7f
 vendor/lib/libgps.utils.so|03e221b8512e6c47f263a512fb204feef6298ec9
 vendor/lib/libizat_client_api.so|d5d4fc16fbfa6b667a2f2b7ebdb4315c116dcd81
 vendor/lib/libizat_core.so|530afe69cc55543f74c24863f54fd571a7f6fbc6
+vendor/lib/libjnihelper.so|95c4bac60e7a0fc76f4a28747b9907a0d98e8370
 vendor/lib/liblbs_core.so|25438a0e1a6436c06bf74b71e32dddac31b9c0ac
 vendor/lib/libloc_api_v02.so|a96ea80b66b1d26ebbc20c3da16b05eb1cf1028f
 vendor/lib/libloc_core.so|2cd191d9ef7a19c1a683c353a7531825c2dff0d9
@@ -1065,6 +1067,7 @@ vendor/lib/vendor.qti.gnss@3.0-service.so|80fdea615686ba07be777bf5a87992259697b1
 vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so|451870d51d5206532a52c6562373f1a5c097006c
 vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so|c1b8d6a36ab8788041aab9d94032b501f557ec92
 vendor/lib64/libbatching.so|3e7222946d1a5a5a62225be92e2d06213bb710d0
+vendor/lib64/libcacertclient.so|e04aa49d3b3b4534f5eb2b1ccea69ff8fee0182c
 vendor/lib64/libdataitems.so|2063d505ba8ea53ff3c7cca7b0f54b92170d87b2
 vendor/lib64/libgarden.so|79045b9fcec94149e581dd7dce28777d30df8866
 vendor/lib64/libgarden_haltests_e2e.so|c1d668b27edacccc8d733744301a1979e4cd9dcb
@@ -1075,6 +1078,7 @@ vendor/lib64/libgnsspps.so|0204de9be4c7a3858781c9691f2b8165465519dd
 vendor/lib64/libgps.utils.so|a29016fe7b00f7edcee5f88ef63fc16306e1dc55
 vendor/lib64/libizat_client_api.so|f7b08f61c2db7c95679361d1fbfd7d731781d6fe
 vendor/lib64/libizat_core.so|e9d8864625c33c3e72ec681d017cedf6399ea191
+vendor/lib64/libjnihelper.so|27ca93bf0e40267d0a077c906a6d9409f50254bb
 vendor/lib64/liblbs_core.so|8924e0de1b27103537887b1786bb08f54026107f
 vendor/lib64/libloc_api_v02.so|eadd2875be54db3fcd9547ec659d90f69bae2bc9
 vendor/lib64/libloc_core.so|fc5f428b523bca93058a3a8aaa1ed9d50bcb6ce6
