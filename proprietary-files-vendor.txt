@@ -1205,7 +1205,6 @@ vendor/lib/vendor.qti.hardware.radio.uim@1.0.so
 vendor/lib/vendor.qti.hardware.radio.uim@1.1.so
 vendor/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-vendor/lib/vendor.somc.hardware.radio@1.0.so
 vendor/lib64/libconfigdb.so
 vendor/lib64/libdsutils.so
 vendor/lib64/liblqe.so
@@ -1244,7 +1243,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
-vendor/lib64/vendor.somc.hardware.radio@1.0.so
 vendor/radio/qcril_database/qcril.db
 vendor/radio/qcril_database/upgrade/upgrade/2_version_add_wps_config.sql
 vendor/radio/qcril_database/upgrade/upgrade/1_version_intro.sql
