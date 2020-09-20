@@ -831,7 +831,6 @@ vendor/lib64/hw/lights.default.so
 vendor/lib64/libsys-utils.so
 
 # IPA
-vendor/bin/ipacm-diag
 vendor/firmware/ipa_fws.b00
 vendor/firmware/ipa_fws.b01
 vendor/firmware/ipa_fws.b02
