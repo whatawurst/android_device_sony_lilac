@@ -54,6 +54,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <string name="gps.supl_ver">0x20000</string>
         <string name="gps.lpp_profile">2</string>
         <string name="gps.a_glonass_pos_protocol_select">2</string>
+
+        <!-- Enable SS over UT by default-->
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
     </carrier_config>
 
     <!--
