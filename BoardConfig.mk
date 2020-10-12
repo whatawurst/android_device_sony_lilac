@@ -13,8 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-### INHERIT FROM YOSHIRO
-include device/sony/yoshino/BoardConfigPlatform.mk
+### INHERIT FROM YOSHINO-COMMON
+include device/sony/yoshino-common/BoardConfigPlatform.mk
 include vendor/sony/lilac/BoardConfigVendor.mk
 
 DEVICE_PATH := device/sony/lilac

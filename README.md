@@ -26,8 +26,7 @@ How to build LineageOS
         <manifest>
             <!-- SONY -->
             <project name="whatawurst/android_kernel_sony_msm8998" path="kernel/sony/msm8998" remote="github" revision="lineage-17.1" />
-            <project name="whatawurst/android_device_sony_common-treble" path="device/sony/common-treble" remote="github" revision="lineage-17.1" />
-            <project name="whatawurst/android_device_sony_yoshino" path="device/sony/yoshino" remote="github" revision="lineage-17.1" />
+            <project name="whatawurst/android_device_sony_yoshino-common" path="device/sony/yoshino-common" remote="github" revision="lineage-17.1" />
             <project name="whatawurst/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="lineage-17.1" />
 
             <!-- Pinned blobs for lilac -->

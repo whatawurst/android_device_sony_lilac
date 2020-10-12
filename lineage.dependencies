@@ -4,11 +4,7 @@
     "target_path": "kernel/sony/msm8998"
   },
   {
-    "repository": "whatawurst/android_device_sony_common-treble",
-    "target_path": "device/sony/common-treble"
-  },
-  {
-    "repository": "whatawurst/android_device_sony_yoshino",
-    "target_path": "device/sony/yoshino"
+    "repository": "whatawurst/android_device_sony_yoshino-common",
+    "target_path": "device/sony/yoshino-common"
   }
 ]
