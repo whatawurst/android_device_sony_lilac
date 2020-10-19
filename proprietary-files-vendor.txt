@@ -1389,7 +1389,7 @@ vendor/lib64/vendor.semc.hardware.thermal@1.0.so
 vendor/lib64/hw/thermal.somc.so
 
 # TIME
--vendor/app/TimeService/TimeService.apk;:timeservice_app_cert-legacy-um
+-vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 -vendor/lib/libtime_genoff.so
 -vendor/lib64/libtime_genoff.so
