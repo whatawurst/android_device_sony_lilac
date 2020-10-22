@@ -1447,6 +1447,10 @@ vendor/bin/hw/vendor.somc.hardware.miscta@1.0-service|c84f3140577daf0119b7782662
 vendor/etc/init/vendor.somc.hardware.miscta@1.0-service.rc|666428a82ff6c43b3a765825c160ed32106080b8
 vendor/lib64/vendor.somc.hardware.miscta@1.0.so|4ebf19d447872c7af28bed0aff965187d634f8cb
 
+# VR - from cheeseburger - QKQ1.191014.012
+vendor/lib/hw/vr.msm8998.so|4e973825e5d1d1e950d6295d4a3efa43686ec661
+vendor/lib64/hw/vr.msm8998.so|9d7eee4527c6634503e44b3db848a4d3447522ac
+
 # WIFI
 vendor/bin/hw/vendor.somc.hardware.wifi@2.0-service
 vendor/etc/init/vendor.somc.hardware.wifi@2.0-service.rc
