@@ -22,6 +22,9 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(DEVICE_PATH)/overlay/packages/apps/CarrierConfig
+
 ifeq ($(WITH_TWRP),true)
 include $(DEVICE_PATH)/device/init.mk
 else # WITH_TWRP
