@@ -26,7 +26,7 @@ priv-app/CameraPanorama-release/lib/arm64/libmorpho_jpeg_io.so|a34ec70211e6f2094
 priv-app/CameraPanorama-release/lib/arm64/libmorpho_memory_allocator.so|f07bb0dc2c2141674668125a38e6c375a9359047
 priv-app/CameraPanorama-release/lib/arm64/libmorpho_panorama_gp2.so|cfa20065f3596bbdb06789ffeff6743f2bc0b37c
 priv-app/CameraPanorama-release/lib/arm64/libmorpho_sensor_fusion.so|7314bb37bf466d26e9edb50961c0464a8d24bb76
--priv-app/SemcCameraUI-xxhdpi-release/SemcCameraUI-xxhdpi-release.apk|863b862703e208c8d39c5c84bc40f075577b3430
+-priv-app/SemcCameraUI-xxhdpi-release/SemcCameraUI-xxhdpi-release.apk|bf271e8f8ecebb1197b7bc4de3c13b351defc637
 priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libarcsoft_handsigns.so|1a404edfbcf6bd54d4afdb3ac5b143bba489ed21
 priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libhandsigns_jni.so|9e3d163d1aea8878ff84ddb6f06cbb0c65610054
 priv-app/SemcCameraUI-xxhdpi-release/lib/arm64/libimage_converter.so|a196d0504d27f2eab598ad3822c36d68c5074057
