@@ -193,5 +193,5 @@
     <string name="config_mms_user_agent">SonyG8441</string>
 
     <!-- MMS user agent prolfile url -->
-    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.sonymobile.com/G8441R4711.xml</string>
+    <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.sonymobile.com/G8441R4721.xml</string>
 </resources>
