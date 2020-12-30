@@ -46,22 +46,6 @@ write_makefiles "$MY_DIR"/proprietary-files.txt true
 write_makefiles "$MY_DIR"/proprietary-files-vendor.txt true
 #write_makefiles "$MY_DIR"/proprietary-files-rootfs.txt
 
-# Remove entry for Sony stock camera from Android.bp
-sed -zi 's/\nandroid_app_import {\n\tname: "SemcCameraUI-xxhdpi-release",\n\towner: "sony",\n\tapk: "proprietary\/priv-app\/SemcCameraUI-xxhdpi-release\/SemcCameraUI-xxhdpi-release.apk",\n\tcertificate: "platform",\n\tdex_preopt: {\n\t\tenabled: false,\n\t},\n\tprivileged: true,\n}\n//g' "$ANDROIDBP"
-
-# Add Sony stock camera to Android.mk for dex preopting
-cat << EOF >> "$ANDROIDMK"
-include \$(CLEAR_VARS)
-LOCAL_MODULE := SemcCameraUI-xxhdpi-release
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/priv-app/SemcCameraUI-xxhdpi-release/SemcCameraUI-xxhdpi-release.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
-include \$(BUILD_PREBUILT)
-
-EOF
-
 # Blobs for TWRP data decryption
 cat << EOF >> "$BOARDMK"
 ifeq (\$(WITH_TWRP),true)
