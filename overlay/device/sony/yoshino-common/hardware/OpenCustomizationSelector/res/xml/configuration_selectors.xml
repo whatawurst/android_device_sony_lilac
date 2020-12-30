@@ -145,12 +145,60 @@
     <configuration config_id="326">
         <sim_config_id>S58.1</sim_config_id>
     </configuration>
+    <configuration config_id="341">
+        <sim_config_id>S523.1</sim_config_id>
+        <sim_config_id>S523.2</sim_config_id>
+        <sim_config_id>S523.3</sim_config_id>
+        <sim_config_id>S523.4</sim_config_id>
+        <sim_config_id>S523.5</sim_config_id>
+        <sim_config_id>S523.6</sim_config_id>
+        <sim_config_id>S523.7</sim_config_id>
+        <sim_config_id>S523.8</sim_config_id>
+        <sim_config_id>S523.9</sim_config_id>
+        <sim_config_id>S523.10</sim_config_id>
+        <sim_config_id>S523.11</sim_config_id>
+        <sim_config_id>S523.12</sim_config_id>
+        <sim_config_id>S523.13</sim_config_id>
+        <sim_config_id>S523.14</sim_config_id>
+        <sim_config_id>S523.15</sim_config_id>
+        <sim_config_id>S523.16</sim_config_id>
+        <sim_config_id>S523.17</sim_config_id>
+        <sim_config_id>S523.18</sim_config_id>
+        <sim_config_id>S523.19</sim_config_id>
+        <sim_config_id>S523.20</sim_config_id>
+        <sim_config_id>S523.21</sim_config_id>
+        <sim_config_id>S523.22</sim_config_id>
+    </configuration>
     <configuration config_id="348">
         <sim_config_id>S8760.1</sim_config_id>
     </configuration>
     <configuration config_id="350">
         <sim_config_id>S8626.2</sim_config_id>
         <sim_config_id>S8626.4</sim_config_id>
+    </configuration>
+    <configuration config_id="358">
+        <sim_config_id>S523.45</sim_config_id>
+        <sim_config_id>S523.46</sim_config_id>
+        <sim_config_id>S523.47</sim_config_id>
+        <sim_config_id>S523.48</sim_config_id>
+        <sim_config_id>S523.49</sim_config_id>
+        <sim_config_id>S523.50</sim_config_id>
+        <sim_config_id>S523.51</sim_config_id>
+        <sim_config_id>S523.52</sim_config_id>
+        <sim_config_id>S523.53</sim_config_id>
+        <sim_config_id>S523.54</sim_config_id>
+        <sim_config_id>S523.55</sim_config_id>
+        <sim_config_id>S523.56</sim_config_id>
+        <sim_config_id>S523.57</sim_config_id>
+        <sim_config_id>S523.58</sim_config_id>
+        <sim_config_id>S523.59</sim_config_id>
+        <sim_config_id>S523.60</sim_config_id>
+        <sim_config_id>S523.61</sim_config_id>
+        <sim_config_id>S523.62</sim_config_id>
+        <sim_config_id>S523.63</sim_config_id>
+        <sim_config_id>S523.64</sim_config_id>
+        <sim_config_id>S523.65</sim_config_id>
+        <sim_config_id>S523.66</sim_config_id>
     </configuration>
     <configuration config_id="404">
         <sim_config_id>S221.4</sim_config_id>

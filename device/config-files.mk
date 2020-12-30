@@ -53,8 +53,10 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/config/modem/310/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/310/modem.conf \
     $(DEVICE_PATH)/config/modem/311/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/311/modem.conf \
     $(DEVICE_PATH)/config/modem/326/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/326/modem.conf \
+    $(DEVICE_PATH)/config/modem/341/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/341/modem.conf \
     $(DEVICE_PATH)/config/modem/348/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/348/modem.conf \
     $(DEVICE_PATH)/config/modem/350/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/350/modem.conf \
+    $(DEVICE_PATH)/config/modem/358/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/358/modem.conf \
     $(DEVICE_PATH)/config/modem/404/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/404/modem.conf \
     $(DEVICE_PATH)/config/modem/408/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/408/modem.conf \
     $(DEVICE_PATH)/config/modem/415/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/415/modem.conf \
