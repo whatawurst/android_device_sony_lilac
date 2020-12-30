@@ -260,4 +260,25 @@
         <sim_config_id>S366.7</sim_config_id>
         <sim_config_id>S366.19</sim_config_id>
     </configuration>
+    <configuration config_id="901">
+        <sim_config_id>S175.1</sim_config_id>
+    </configuration>
+    <configuration config_id="903">
+        <sim_config_id>S273.1</sim_config_id>
+    </configuration>
+    <configuration config_id="906">
+        <sim_config_id>S176.1</sim_config_id>
+    </configuration>
+    <configuration config_id="909">
+        <sim_config_id>S174.1</sim_config_id>
+    </configuration>
+    <configuration config_id="910">
+        <sim_config_id>S206.1</sim_config_id>
+    </configuration>
+    <configuration config_id="911">
+        <sim_config_id>S23.1</sim_config_id>
+    </configuration>
+    <configuration config_id="915">
+        <sim_config_id>S26.1</sim_config_id>
+    </configuration>
 </configurations>
