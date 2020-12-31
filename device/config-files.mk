@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/config/modem/308/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/308/modem.conf \
     $(DEVICE_PATH)/config/modem/310/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/310/modem.conf \
     $(DEVICE_PATH)/config/modem/311/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/311/modem.conf \
+    $(DEVICE_PATH)/config/modem/318/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/318/modem.conf \
     $(DEVICE_PATH)/config/modem/326/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/326/modem.conf \
     $(DEVICE_PATH)/config/modem/341/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/341/modem.conf \
     $(DEVICE_PATH)/config/modem/348/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/348/modem.conf \
@@ -84,4 +85,6 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/config/modem/909/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/909/modem.conf \
     $(DEVICE_PATH)/config/modem/910/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/910/modem.conf \
     $(DEVICE_PATH)/config/modem/911/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/911/modem.conf \
-    $(DEVICE_PATH)/config/modem/915/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/915/modem.conf
+    $(DEVICE_PATH)/config/modem/915/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/915/modem.conf \
+    $(DEVICE_PATH)/config/modem/928/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/928/modem.conf \
+    $(DEVICE_PATH)/config/modem/929/modem.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/customization/modem/929/modem.conf
