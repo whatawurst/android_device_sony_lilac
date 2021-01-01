@@ -17,7 +17,7 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 ANDROID_ROOT="${MY_DIR}/../../.."
 
-HELPER="${ANDROID_ROOT}/tools/extract-utils/extract_utils.sh"
+HELPER="${ANDROID_ROOT}/vendor/omni/build/tools/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
@@ -77,20 +77,20 @@ fi
 # Fix product path
 #
 
-DEVICE_ROOT="${ANDROID_ROOT}"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary/
+#DEVICE_ROOT="${ANDROID_ROOT}"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary/
 
-function fix_product_path () {
-    sed -i \
-        's/\/system\/framework\//\/system\/product\/framework\//g' \
-        "${DEVICE_ROOT}"/"$1"
-}
+#function fix_product_path () {
+#    sed -i \
+#        's/\/system\/framework\//\/system\/product\/framework\//g' \
+#        "${DEVICE_ROOT}"/"$1"
+#}
 
-fix_product_path product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
-fix_product_path product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
-fix_product_path product/etc/permissions/com.qualcomm.qti.imscmservice.xml
-fix_product_path product/etc/permissions/embms.xml
-fix_product_path product/etc/permissions/lpa.xml
-fix_product_path product/etc/permissions/qcrilhook.xml
-fix_product_path product/etc/permissions/telephonyservice.xml
+#fix_product_path product/etc/permissions/com.qualcomm.qti.imscmservice-V2.0-java.xml
+#fix_product_path product/etc/permissions/com.qualcomm.qti.imscmservice-V2.1-java.xml
+#fix_product_path product/etc/permissions/com.qualcomm.qti.imscmservice.xml
+#fix_product_path product/etc/permissions/embms.xml
+#fix_product_path product/etc/permissions/lpa.xml
+#fix_product_path product/etc/permissions/qcrilhook.xml
+#fix_product_path product/etc/permissions/telephonyservice.xml
 
 "${MY_DIR}"/setup-makefiles.sh
