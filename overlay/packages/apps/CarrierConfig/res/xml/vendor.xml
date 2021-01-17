@@ -57,6 +57,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
 
         <!-- Enable SS over UT by default -->
         <boolean name="carrier_supports_ss_over_ut_bool" value="true" />
+
+        <!-- Don't allow disabling 4g calling/VoLTE -->
+        <boolean name="editable_enhanced_4g_lte_bool" value="false" />
     </carrier_config>
 
     <!--
