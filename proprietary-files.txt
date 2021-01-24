@@ -508,22 +508,6 @@ lib64/vendor.qti.ims.callinfo@1.0.so:product/lib64/vendor.qti.ims.callinfo@1.0.s
 lib64/vendor.qti.imsrtpservice@1.0.so:product/lib64/vendor.qti.imsrtpservice@1.0.so
 -priv-app/ims/ims.apk:product/priv-app/ims/ims.apk
 
-# QTI_PERF - from cheeseburger - QKQ1.191014.012
-bin/perfservice|582218fafe38dd23bd704b0575108b74ea8a5917
-etc/init/perfservice.rc|81b7d732069783873184c4f51710236ee6139e49
-lib/libqti-iopd-client_system.so|1a36a807a75dde4bcfed713924aca675f5c11558
-lib/libqti-perfd-client_system.so|c021b1c1065161a15c2202747ef6738e89cd1b7b
-lib/libqti-util_system.so|3df0aa4365a085ab64ff1ae226bf724d0815aa25
-lib/libqti_performance.so|2a9f885d001661a1a5b8543c4d592afef34f7662
-lib/vendor.qti.hardware.iop@1.0.so|f522603e1b741ff8dcf643e8fe9ce407316dfbe4
-lib/vendor.qti.hardware.iop@2.0.so|f522603e1b741ff8dcf643e8fe9ce407316dfbe4
-lib64/libqti-iopd-client_system.so|661639804da84141fd783fd9dfc90394de8febf7
-lib64/libqti-perfd-client_system.so|4390474d5549c02f53911243c972968244f29391
-lib64/libqti-util_system.so|c3717d35a42c9d38e2ba18dac6756e3e9845d84f
-lib64/libqti_performance.so|2a6bfefe6eb7a68f0774774f5de7f363885c3d87
-lib64/vendor.qti.hardware.iop@1.0.so|3f738546cbdebf7d7a769568c4c5b43f3d8e2c54
-lib64/vendor.qti.hardware.iop@2.0.so|f40ce3fe82f85dba57df0185cc42e491da585329
-
 # QTI_QTEECONNECTOR
 lib/vendor.qti.hardware.qteeconnector@1.0.so
 lib64/vendor.qti.hardware.qteeconnector@1.0.so
