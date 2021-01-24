@@ -1133,40 +1133,6 @@ vendor/lib64/libkeymasterutils.so
 
 # QTI_PERF - from cheeseburger - QKQ1.191014.012
 vendor/bin/energy-awareness|468d5fc803ac4a97ee23f8908feaadd015f96f77
-vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|147d7fd68525eed0be630694c74774cdceca1393
-vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
-vendor/etc/perf/commonresourceconfigs.xml|e567fd3f0d9d9bcc8ef63de374e9942695d9407d
-vendor/etc/perf/perfboostsconfig.xml|e1bf339ef22cbeb85d5f98bd67ab1946ae73999a
-vendor/etc/perf/perfconfigstore.xml|760248b82c4f1ad8b0e7ed1924d2b198229e118d
-vendor/etc/perf/perf-profile0.conf|02204355bf29ceb0460cd53e6716552bb9d9b05f
-vendor/etc/perf/perf-profile1.conf|4056b772f2790ffd2f466275be8f03e4a796b55c
-vendor/etc/perf/perf-profile2.conf|341790cfe6d82602ef354b821c5cfdec0dad76e3
-vendor/etc/perf/perf-profile3.conf|eb70ebc87c8a079b0706fa7ac1fb02ff60a7bdc5
-vendor/etc/perf/perf-profile4.conf|530f7ab890fa9ca44e90944deb1a66ef79613c5e
-vendor/etc/perf/perf-profile5.conf|55d67b5afb0cc56e4fe5e9515226be346c9daefc
-vendor/etc/perf/perf-profile6.conf|910a193b8425bbe0080f746d6788e66986b2e762
-vendor/etc/perf/targetconfig.xml|460d39ad0a0e7c54a94ba92647ea2b995fc0fe18
-vendor/etc/perf/targetresourceconfigs.xml|4f674836df32fd51e2bc09f3b56af7ad1a6021a0
-vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so|7e02d7cf199b1eabdc7713b656ee67638c9af6f2
-vendor/lib/libperfconfig.so|362aab990f8acb08867edf0fef04c953fe81f88d
-vendor/lib/libperfgluelayer.so|500a68089bbbda8bae53459c7adeed4048dce3fd
-vendor/lib/libqti-iopd-client.so|85c8b84858f16772c335fa26c2721e15ecbbde8b
-vendor/lib/libqti-perfd-client.so|2c488bc54a6ba25c6dab51dcb538efe6b0ae2b86
-vendor/lib/libqti-perfd.so|00303023659e29c52fb0776f332404ea55042c9b
-vendor/lib/libqti-util.so|4c77c24bd8db8d80eddea739b2a7809e78613e06
-vendor/lib/libqti-utils.so|e746bce39736f7febb4f1b8d7e3957aec50d3acd
-vendor/lib/vendor.qti.hardware.iop@1.0.so|42ed3e60adb821b5691d5fcd29375d6f9ccadbcc
-vendor/lib/vendor.qti.hardware.iop@2.0.so|41ef7cfb9381ad6850b737798908c44587ef8b9b
-vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so|fd2bcbc1f9c46fea6e8af477a909a35b38e8cfa0
-vendor/lib64/libperfgluelayer.so|4c95e08abc1cef5b39db06579d8f9faceb8f23d4
-vendor/lib64/libperfconfig.so|769b0a3bcf7c4cd41f938634b6c84335c7b3a518
-vendor/lib64/libqti-iopd-client.so|fc9878267908f9843882891f902c4d37fee760dd
-vendor/lib64/libqti-perfd-client.so|0c2b82b5e5df6e0efb03ace4a259eb63487dd2b6
-vendor/lib64/libqti-perfd.so|51820f80213cef02692d8ee1f766ee7f6da4c0eb
-vendor/lib64/libqti-util.so|9f5f18d548e3c3b39fbfe0ad078ea7ad4399b70e
-vendor/lib64/libqti-utils.so|267d837082fccc851f827b229a1c876c09bac552
-vendor/lib64/vendor.qti.hardware.iop@1.0.so|14d7dc7d928d6bd8758f955f45dd97d4e40e4606
-vendor/lib64/vendor.qti.hardware.iop@2.0.so|3e3fefb8ed943e09fc09c8a6dd6cc7991cb8f2e5
 
 # QTI_QTEECONNECTOR
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
