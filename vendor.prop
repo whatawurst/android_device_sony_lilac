@@ -1,0 +1,5 @@
+# Disable HDR
+vendor.display.hwc_disable_hdr=1
+
+# Radio
+persist.vendor.radio.block_allow_data=1
