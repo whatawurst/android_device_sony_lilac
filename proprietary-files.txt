@@ -1,3 +1,6 @@
+# AUDIO
+etc/audio_policy.conf
+
 # BLUETOOTH
 lib/com.qualcomm.qti.bluetooth_audio@1.0.so
 lib64/com.qualcomm.qti.bluetooth_audio@1.0.so
