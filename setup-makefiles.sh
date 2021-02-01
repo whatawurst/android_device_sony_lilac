@@ -34,12 +34,5 @@ write_headers
 write_makefiles "${MY_DIR}"/proprietary-files.txt true
 write_makefiles "${MY_DIR}"/proprietary-files-vendor.txt true
 
-# Blobs for TWRP data decryption
-if [ "${WITH_TWRP}" = "true" ]; then
-cat << EOF >> "${BOARDMK}"
-TARGET_RECOVERY_DEVICE_DIRS += vendor/$VENDOR/$DEVICE/proprietary
-EOF
-fi
-
 # Finish
 write_footers

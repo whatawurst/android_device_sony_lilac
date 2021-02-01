@@ -28,8 +28,4 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(DEVICE_PATH)/overlay/packages/apps/CarrierConfig
 
-ifeq ($(WITH_TWRP),true)
-include $(DEVICE_PATH)/device/init.mk
-else # WITH_TWRP
 include $(DEVICE_PATH)/device/*.mk
-endif # WITH_TWRP
