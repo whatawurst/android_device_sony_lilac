@@ -1,5 +1,3 @@
-# system prop for lilac
-
 ### USB
 ro.vendor.usb.pid_suffix=1F4
 
