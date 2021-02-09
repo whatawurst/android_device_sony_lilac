@@ -517,16 +517,12 @@ lib/libqti-util_system.so|3df0aa4365a085ab64ff1ae226bf724d0815aa25
 lib/libqti_performance.so|2a9f885d001661a1a5b8543c4d592afef34f7662
 lib/vendor.qti.hardware.iop@1.0.so|f522603e1b741ff8dcf643e8fe9ce407316dfbe4
 lib/vendor.qti.hardware.iop@2.0.so|f522603e1b741ff8dcf643e8fe9ce407316dfbe4
-lib/vendor.qti.hardware.perf@1.0.so|14433f3baf7e760208f3e6ebbcb5583c5cfbf91c
-lib/vendor.qti.hardware.perf@2.0.so|67fbeed3fce2a6521f9c1d39b6cab1cd1550bd2a
 lib64/libqti-iopd-client_system.so|661639804da84141fd783fd9dfc90394de8febf7
 lib64/libqti-perfd-client_system.so|4390474d5549c02f53911243c972968244f29391
 lib64/libqti-util_system.so|c3717d35a42c9d38e2ba18dac6756e3e9845d84f
 lib64/libqti_performance.so|2a6bfefe6eb7a68f0774774f5de7f363885c3d87
 lib64/vendor.qti.hardware.iop@1.0.so|3f738546cbdebf7d7a769568c4c5b43f3d8e2c54
 lib64/vendor.qti.hardware.iop@2.0.so|f40ce3fe82f85dba57df0185cc42e491da585329
-lib64/vendor.qti.hardware.perf@1.0.so|125a5c14b4e768ef7ce1d89abee9b2421f17b7ba
-lib64/vendor.qti.hardware.perf@2.0.so|d4f082dcf0fedec3376144f91bc163c3c863ebd4
 
 # QTI_QTEECONNECTOR
 lib/vendor.qti.hardware.qteeconnector@1.0.so
