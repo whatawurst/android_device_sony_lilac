@@ -1,0 +1,20 @@
+# mount point    fstype    device            [device2]   fstype2
+/boot            emmc      /dev/block/bootdevice/by-name/boot              flags=slotselect
+/system          ext4      /dev/block/bootdevice/by-name/system            flags=slotselect
+/system_image    emmc      /dev/block/bootdevice/by-name/system            flags=slotselect
+/vendor          ext4      /dev/block/bootdevice/by-name/vendor            flags=slotselect;display="Vendor";backup=1
+/vendor_image    emmc      /dev/block/bootdevice/by-name/vendor            flags=slotselect
+/oem             ext4      /dev/block/bootdevice/by-name/oem               flags=display="OEM";backup=1;
+/cache           ext4      /dev/block/bootdevice/by-name/cache
+/data            ext4      /dev/block/bootdevice/by-name/userdata          flags=fileencryption=ice
+/recovery        emmc      /dev/block/bootdevice/by-name/FOTAKernel        flags=backup=1;display="FOTAKernel";
+/dsp             ext4      /dev/block/bootdevice/by-name/dsp
+/misc            emmc      /dev/block/bootdevice/by-name/misc
+/firmware        vfat      /dev/block/bootdevice/by-name/modem             flags=display="Firmware";mounttodecrypt;fsflags=ro,context=u:object_r:firmware_file:s0;
+/bt_firmware     vfat      /dev/block/bootdevice/by-name/bluetooth         flags=display="BT Firmware";mounttodecrypt;fsflags=ro,context=u:object_r:firmware_file:s0;
+/efs1            emmc      /dev/block/bootdevice/by-name/modemst1          flags=backup=1;display=EFS
+/efs2            emmc      /dev/block/bootdevice/by-name/modemst2          flags=backup=1;subpartitionof=/efs1
+/mnt/vendor/persist         ext4      /dev/block/bootdevice/by-name/persist
+
+/sdcard1         auto      /dev/block/mmcblk0p1    /dev/block/mmcblk0      flags=display="Micro SDcard";storage;wipeingui;removable
+/usb-otg         auto      /dev/block/sdg1         /dev/block/sdg          flags=display="USB OTG";storage;wipeingui;removable
