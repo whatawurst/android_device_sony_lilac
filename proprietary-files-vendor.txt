@@ -1136,6 +1136,7 @@ vendor/bin/energy-awareness|468d5fc803ac4a97ee23f8908feaadd015f96f77
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|147d7fd68525eed0be630694c74774cdceca1393
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
 vendor/etc/perf/commonresourceconfigs.xml|e567fd3f0d9d9bcc8ef63de374e9942695d9407d
+vendor/etc/perf/perfboostsconfig.xml|e1bf339ef22cbeb85d5f98bd67ab1946ae73999a
 vendor/etc/perf/perfconfigstore.xml|760248b82c4f1ad8b0e7ed1924d2b198229e118d
 vendor/etc/perf/perf-profile0.conf|02204355bf29ceb0460cd53e6716552bb9d9b05f
 vendor/etc/perf/perf-profile1.conf|4056b772f2790ffd2f466275be8f03e4a796b55c
