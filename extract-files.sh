@@ -80,10 +80,4 @@ fix_product_path product/etc/permissions/lpa.xml
 fix_product_path product/etc/permissions/qcrilhook.xml
 fix_product_path product/etc/permissions/telephonyservice.xml
 
-#
-# Don't add Sony camera service to camera-daemon tasks
-#
-
-sed -i 's/\/dev\/cpuset\/camera-daemon\/tasks //g' "${DEVICE_ROOT}"/vendor/etc/init/vendor.somc.hardware.camera.provider@1.0-service.rc
-
 "${MY_DIR}"/setup-makefiles.sh
