@@ -25,9 +25,6 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
 
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(DEVICE_PATH)/overlay/packages/apps/CarrierConfig
-
 ### POWER
 TARGET_USE_CUSTOM_POWERHINT := true
 
