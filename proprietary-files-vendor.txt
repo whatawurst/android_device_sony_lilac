@@ -1328,9 +1328,6 @@ vendor/lib64/vendor.somc.hardware.security.secd@1.0.so
 vendor/bin/sct_service
 vendor/etc/init/sct_service.rc
 
-# SEC_CONFIG
-vendor/etc/sec_config
-
 # SENSORS
 vendor/bin/sensors.qti
 vendor/etc/sensors/hals.conf
