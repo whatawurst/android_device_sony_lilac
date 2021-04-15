@@ -643,13 +643,13 @@ vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib/libsdedrm.so|089227205f43da5a974897f680238270ee49f562
 vendor/lib64/libsdedrm.so|f007903083a95cba32372df7404cbf0d39abe2a7
 
-# DISPLAY_GRALLOC - modified source-built
-vendor/lib/hw/gralloc.default.so|b177999c37c500aa47765964779e4899d8782e4e
-vendor/lib/hw/gralloc.msm8998.so|a108343aa918af3100fd33eee4b68cbd11275881
-vendor/lib/libqdMetaData.so|3d65565ce22fc2cead960d1a5ed8d1cb5f84b81e
-vendor/lib64/hw/gralloc.default.so|2e4dc4540f78f857c316f871ddccfad28baafd40
-vendor/lib64/hw/gralloc.msm8998.so|4b74a4a5c2c8765dc81d912bf6a9049b78b440e6
-vendor/lib64/libqdMetaData.so|43014c90174093011dc982b32efc5fc11891eba0
+# DISPLAY_GRALLOC
+vendor/lib/hw/gralloc.default.so|f245d2a6624e0f0fa501add5f405ffe811a4ef2c
+vendor/lib/hw/gralloc.msm8998.so|52dec8a00298a3096cfac7fa62ef10efd641b76e
+vendor/lib/libqdMetaData.so|19dbe9a16251fcf21b6c65198acbe85ab0bbbd8d
+vendor/lib64/hw/gralloc.default.so|7d9ed576cd15fb199e13203a391df4747b72454f
+vendor/lib64/hw/gralloc.msm8998.so|e0da90c598f44454fd6077e6fa84092361c11e83
+vendor/lib64/libqdMetaData.so|84cac8c2b78cca0988fbf53b3b670bf1bc11a635
 
 # DISPLAY_HDR - from cheeseburger - QKQ1.191014.012
 vendor/lib/libhdr_tm.so|e69119603bff4a039242eead65279b3faf29ffa0
