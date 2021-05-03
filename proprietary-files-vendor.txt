@@ -883,7 +883,6 @@ vendor/lib64/vendor.semc.hardware.light@1.0.so
 # MEDIA
 vendor/etc/seccomp_policy/mediacodec.policy
 vendor/etc/seccomp_policy/mediaextractor.policy
-vendor/etc/media_profiles_V1_0.xml|7e8b7c97c8c79fbe9d9ef84428c42803d318e39b
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libFlacSwDec.so
