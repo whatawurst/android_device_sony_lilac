@@ -177,7 +177,6 @@ vendor/lib64/soundfx/libqcvirt.so
 # AUDIO_CONFIGS
 vendor/etc/a2dp_audio_policy_configuration.xml
 vendor/etc/audio_effects.xml
-vendor/etc/audio_output_policy.conf
 vendor/etc/audio_platform_info.xml
 vendor/etc/audio_policy_volumes.xml
 vendor/etc/audio_tuning_mixer.txt 
