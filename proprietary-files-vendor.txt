@@ -642,14 +642,6 @@ vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib/libsdedrm.so|089227205f43da5a974897f680238270ee49f562
 vendor/lib64/libsdedrm.so|f007903083a95cba32372df7404cbf0d39abe2a7
 
-# DISPLAY_GRALLOC - modified source-built
-vendor/lib/hw/gralloc.default.so|b177999c37c500aa47765964779e4899d8782e4e
-vendor/lib/hw/gralloc.msm8998.so|a108343aa918af3100fd33eee4b68cbd11275881
-vendor/lib/libqdMetaData.so|3d65565ce22fc2cead960d1a5ed8d1cb5f84b81e
-vendor/lib64/hw/gralloc.default.so|2e4dc4540f78f857c316f871ddccfad28baafd40
-vendor/lib64/hw/gralloc.msm8998.so|4b74a4a5c2c8765dc81d912bf6a9049b78b440e6
-vendor/lib64/libqdMetaData.so|43014c90174093011dc982b32efc5fc11891eba0
-
 # DISPLAY_HDR - from cheeseburger - QKQ1.191014.012
 vendor/lib/libhdr_tm.so|e69119603bff4a039242eead65279b3faf29ffa0
 vendor/lib64/libhdr_tm.so|ac4c943ba0c9793e53fc0b4eecf78ebb90eb28bf
