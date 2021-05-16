@@ -814,14 +814,6 @@ vendor/lib64/lib_fpc_tac_shared.so
 vendor/lib64/com.fingerprints.extension@1.0.so
 
 # IDD
-vendor/bin/hw/vendor.semc.system.idd@1.0-service
-vendor/bin/idd-logreader
-vendor/bin/iddd
-vendor/etc/idd.conf
-vendor/etc/iddd.conf
-vendor/etc/init/vendor.semc.system.idd@1.0-service.rc
-vendor/etc/security/idd_config.pem
-vendor/etc/security/idd_report.pem
 vendor/lib/libidd.so
 vendor/lib/libprotobuf-c.so
 vendor/lib/vendor.semc.system.idd@1.0.so
