@@ -1329,11 +1329,6 @@ vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.finger-pickup.so
 vendor/lib64/sensors.ssc.so
 
-# SSR (subsystem restart)
-vendor/bin/ssr_diag
-vendor/bin/ssr_setup
-vendor/bin/subsystem_ramdump
-
 # TAD - from tama - 52.1.A.3.49
 vendor/bin/tad|0fe3daaa4a4dace32944ebb8daf52fdffdcfac8a
 
