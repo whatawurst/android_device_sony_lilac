@@ -213,18 +213,12 @@ etc/firmware/tztpm.b07
 etc/firmware/tztpm.mdt
 
 # FRAMEWORK_DEPENDENCIES
-etc/permissions/com.sonyericsson.idd.xml
 etc/permissions/com.sonymobile.getmore.api.xml
-framework/com.sonyericsson.idd_impl.jar
 framework/com.sonymobile.getmore.api.jar
 
 # GRAPHICS
 lib/libOpenCL_system.so
 lib64/libOpenCL_system.so
-
-# IDD
-bin/startup-logger
-etc/init/startup-logger.rc
 
 # LIGHT
 lib/vendor.semc.hardware.light@1.0.so
