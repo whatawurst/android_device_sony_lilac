@@ -689,9 +689,11 @@ vendor/firmware/tzwvcpybuf.b06
 vendor/firmware/tzwvcpybuf.b07
 vendor/firmware/tzwvcpybuf.mdt
 vendor/lib/libwvhidl.so
+vendor/lib/libminksocket.so
 vendor/lib/libwvtee.so
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so
+vendor/lib64/libminksocket.so
 vendor/lib64/libwvtee.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 
