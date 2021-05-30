@@ -251,7 +251,7 @@
       "PowerHint": "VR_MODE",
       "Node": "GPUMinFreq",
       "Duration": 0,
-      "Value": "515000000"
+      "Value": "414000000"
     },
     {
       "PowerHint": "VR_MODE",
@@ -539,7 +539,7 @@
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMinFreq",
       "Duration": 0,
-      "Value": "515000000"
+      "Value": "414000000"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
