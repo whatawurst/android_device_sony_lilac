@@ -1414,17 +1414,3 @@ vendor/etc/wifi/fstman.ini
 vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/lib64/vendor.somc.hardware.wifi.supplicant@2.0.so
 vendor/lib64/vendor.somc.hardware.wifi@2.0.so
-
-# WIFIDISPLAY - from mata - QP1A.190711.148
-vendor/bin/wifidisplayhalservice|845b5e359d006ecb3a4c3bd72841be0ff081754d
-vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc|04e463342cbba4c0e9c311a18238f95dec9359fd
-vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so|b8c2f8054277b327ec1cc4dafdc727f9e07956f5
-vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so|882569a70daed88c55a717454a98483a9924c533
-vendor/lib/libmmosal_proprietary.so|d45ffb6b13a6fea602f6eb68665c53295750b438
-vendor/lib/libwfdcommonutils_proprietary.so|fefd94630199dbcb8ffc522eb2f02fdeed0ace65
-vendor/lib/libwfdhaldsmanager.so|9411565d99b6340d36d2cbca7f00d136106b21e6
-vendor/lib/libwfdhdcpcp.so|b51d6cd0ed7838200a0fc5e93144a8352922d2a9
-vendor/lib/libwfdmmservice.so|ae4e690dfda60111d3cd61259ccf13a9c562beb2
-vendor/lib/libwfdmodulehdcpsession.so|85c76302658c3bbd9c35ea4d4b2e6ffba08b770e
-vendor/lib64/libmmosal_proprietary.so|3908070b1756cce4b519bc30ebe02f2af211efc7
-vendor/lib64/libwfdhdcpcp.so|03c05652a41db0709effacc6d8cea627fb2492f4
