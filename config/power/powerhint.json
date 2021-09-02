@@ -455,7 +455,7 @@
       "PowerHint": "CAMERA_STREAMING",
       "Node": "PMQoSCpuDmaLatency",
       "Duration": 1000,
-      "Value": "44"
+      "Value": "2c"
     },
     {
       "PowerHint": "CAMERA_SHOT",
