@@ -18,6 +18,10 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 DEVICE_PATH := device/sony/lilac
 
+# Soong
+PRODUCT_SOONG_NAMESPACES += \
+    $(DEVICE_PATH)
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
