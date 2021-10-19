@@ -13,6 +13,9 @@ ifeq ($(WITH_MICROG),true)
 $(call inherit-product, vendor/microg/microg-vendor.mk)
 endif
 
+### APEX
+PRODUCT_COMPRESSED_APEX := false
+
 ### DALVIK
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
