@@ -374,7 +374,6 @@ etc/init/mssconfig.rc
 # QCRIL_RADIO
 app/QtiTelephonyService/QtiTelephonyService.apk:product/app/QtiTelephonyService/QtiTelephonyService.apk
 app/embms/embms.apk:product/app/embms/embms.apk:product/app/embms/embms.apk
-app/datastatusnotification/datastatusnotification.apk:product/app/datastatusnotification/datastatusnotification.apk
 etc/permissions/embms.xml:product/etc/permissions/embms.xml
 etc/permissions/lpa.xml:product/etc/permissions/lpa.xml
 etc/permissions/qcrilhook.xml:product/etc/permissions/qcrilhook.xml
