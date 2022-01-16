@@ -667,7 +667,6 @@ vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ab5d46cbf14ce90ab44aaab4dc1520378c5
 vendor/lib64/libdpmqmihal.so|d5b8330b56d7e0c036b00a817754748bf3137774
 
 # DRM
-vendor/bin/wvkbd
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
 vendor/firmware/tzwidevine.b00
