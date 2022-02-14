@@ -921,13 +921,11 @@ vendor/etc/libnfc-nxp-octopus.conf
 vendor/etc/libnfc-nxp.conf
 vendor/lib/libpn553_fw.so
 
-# PERIPHERAL_MANAGER
-vendor/bin/pm-proxy
-vendor/bin/pm-service
-vendor/lib/libperipheral_client.so
-vendor/lib/libspcom.so
-vendor/lib64/libperipheral_client.so
-vendor/lib64/libspcom.so
+# PERIPHERAL_MANAGER - from jasmine - QKQ1.190910.002
+vendor/bin/pm-proxy|bc4e972e3fe595b973197efe5114da8ff4339a59
+vendor/bin/pm-service|b0f77edfe04a3cc6284738196c0044e676d5eeb3
+vendor/lib/libperipheral_client.so|836411f7b88afe296b3f3090aab70fc5700ba434
+vendor/lib64/libperipheral_client.so|a0dd574c8af3135adae10ef49065fa765906db7a
 
 # QMI
 vendor/bin/mlog_qmi_service
