@@ -935,6 +935,13 @@ vendor/etc/init/mlog_qmi_service.rc
 # QNS
 vendor/bin/qns
 
+# QRTR
+vendor/bin/qrtr-cfg
+vendor/bin/qrtr-lookup
+vendor/bin/qrtr-ns
+vendor/lib/libqrtr.so
+vendor/lib64/libqrtr.so
+
 # QSEECOMD
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/bin/qseecomd
