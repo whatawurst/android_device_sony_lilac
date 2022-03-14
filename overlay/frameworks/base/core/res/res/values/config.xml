@@ -194,4 +194,14 @@
 
     <!-- MMS user agent prolfile url -->
     <string name="config_mms_user_agent_profile_url" translatable="false">http://uaprof.sonymobile.com/G8441R4721.xml</string>
+
+    <!-- An array of arrays of side fingerprint sensor properties relative to each display.
+         Note: this value is temporary and is expected to be queried directly
+         from the HAL in the future. -->
+    <array name="config_sfps_sensor_props_0" translatable="false">
+        <item>local:0</item>
+        <item>950</item>
+        <item>540</item>
+        <item>250</item>
+    </array>
 </resources>
