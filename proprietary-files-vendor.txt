@@ -494,9 +494,9 @@ vendor/bin/chargemon_shutdown
 vendor/bin/hvdcp_opti
 
 # CNE
--vendor/app/CACertService/CACertService.apk|f5396931385d4e07045a69443548e6b815df283e
--vendor/app/CneApp/CneApp.apk|a42452546375a535d9c3a26d64b2720187513eb5
--vendor/app/IWlanService/IWlanService.apk|d04d5e23dab99c1d16f1dde79430b5463a788e94
+vendor/app/CACertService/CACertService.apk|f5396931385d4e07045a69443548e6b815df283e
+vendor/app/CneApp/CneApp.apk|a42452546375a535d9c3a26d64b2720187513eb5
+vendor/app/IWlanService/IWlanService.apk|d04d5e23dab99c1d16f1dde79430b5463a788e94
 vendor/bin/cnd|0feb5ad5f26b1d7bd11e050fddbb804a51c7f13b
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml
@@ -1169,7 +1169,7 @@ vendor/lib64/vendor.semc.hardware.thermal@1.0.so
 vendor/lib64/hw/thermal.somc.so
 
 # TIME
--vendor/app/TimeService/TimeService.apk
+vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 -vendor/lib/libtime_genoff.so
 -vendor/lib64/libtime_genoff.so
