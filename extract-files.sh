@@ -80,4 +80,13 @@ fix_product_path product/etc/permissions/lpa.xml
 fix_product_path product/etc/permissions/qcrilhook.xml
 fix_product_path product/etc/permissions/telephonyservice.xml
 
+#
+# Add shims to lib-imsvideocodec.so
+#
+
+"${PATCHELF}" --add-needed "libui_shim.so" "${DEVICE_ROOT}"/product/lib/lib-imsvideocodec.so
+"${PATCHELF}" --add-needed "libgui_shim.so" "${DEVICE_ROOT}"/product/lib/lib-imsvideocodec.so
+"${PATCHELF}" --add-needed "libui_shim.so" "${DEVICE_ROOT}"/product/lib64/lib-imsvideocodec.so
+"${PATCHELF}" --add-needed "libgui_shim.so" "${DEVICE_ROOT}"/product/lib64/lib-imsvideocodec.so
+
 "${MY_DIR}"/setup-makefiles.sh
