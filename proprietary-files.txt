@@ -20,16 +20,11 @@ lib/vendor.somc.hardware.camera.cacao@3.0.so
 lib/vendor.somc.hardware.camera.cacao@3.1.so
 lib/vendor.somc.hardware.camera.device@1.0.so
 lib/vendor.somc.hardware.camera.provider@1.0.so
-lib64/libcacao_client.so
-lib64/libcacao_pal.so
 
 # CAMERA_POSTPROCESSING
 lib/libjni_imageutil.so
 lib/libjni_snapcammosaic.so
 lib/libjni_snapcamtinyplanet.so
-lib64/libjni_imageutil.so
-lib64/libjni_snapcammosaic.so
-lib64/libjni_snapcamtinyplanet.so
 
 # CNE - from cheeseburger - QKQ1.191014.012
 etc/cne/Nexus/ATT/ATT_profiles.xml|33e568627fd3f94dc45bca1c01ad10e6d8fb5b52
@@ -51,20 +46,6 @@ product/framework/vendor.qti.hardware.factory-V1.1-java.jar|efd795189c1e9526ddad
 product/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar|35873839789c5ea96fe9d982cde93ab1a4f6f5c7
 product/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar|071f43cb01fe69af464b3a7760f6855f4e281ade
 product/framework/vendor.qti.latency-V2.0-java.jar|6c056d1d2c3a5070fca60e6174b60974a4c9cd22
-product/lib/vendor.qti.data.factory@1.0.so|9e9011e59618d5055ddb94ddb50c03c1b580ba7d
-product/lib/vendor.qti.data.factory@2.0.so|9a888f751e23ab6da56f46b1dc187380715c213a
-product/lib/vendor.qti.data.factory@2.1.so|ae2986e8c7fec0434b0c036a1b790df34fb8b679
-product/lib/vendor.qti.data.slm@1.0.so|be58e6e7ae2fab1f22be1d84bfe255ddd6433754
-product/lib/vendor.qti.hardware.data.connection@1.0.so|cb56b4c2447ccd6d984043f985641e4a73d7ed26
-product/lib/vendor.qti.hardware.data.connection@1.1.so|972757cb87aab2a346405e47743e22ffd461686a
-product/lib/vendor.qti.hardware.data.dynamicdds@1.0.so|d3f518a419c3f326e8ee9828433548fe3873fc0c
-product/lib/vendor.qti.hardware.data.latency@1.0.so|1fd6aae2cfe950b8e46390d4d65bb3bc0c7c19a9
-product/lib/vendor.qti.hardware.data.iwlan@1.0.so|264662318643378572385cb03b6d7dbe39e2152f
-product/lib/vendor.qti.hardware.factory@1.0.so|cfc30f77da05650064d3d835fae135dbfb181604
-product/lib/vendor.qti.hardware.factory@1.1.so|e12c2451954a9cdb3acf9768d04fd5ba4881a70d
-product/lib/vendor.qti.ims.rcsconfig@1.0.so|3a6f266c9ca1a66eab40ce696f728e7e77a1a04f
-product/lib/vendor.qti.ims.rcsconfig@1.1.so|8f949fd05eead167a0181d5ad92260bc15e8cd75
-product/lib/vendor.qti.latency@2.0.so|21068296e7da07801e940988fcc376f93c7f4b64
 product/lib64/vendor.qti.data.factory@1.0.so|048b26a8e72c92635d65b7c491d84ccf9f7fa075
 product/lib64/vendor.qti.data.factory@2.0.so|3d394f6124db5ad1987c67737bbc30d4d761cecb
 product/lib64/vendor.qti.data.factory@2.1.so|a311260fce9e7627548decfff5198da6730ccac1
@@ -92,13 +73,6 @@ lib64/libMiscTaWrapper.so
 # DISPLAY
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 framework/com.qti.snapdragon.sdk.display.jar
-lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so
-lib/vendor.display.color@1.0.so
-lib/vendor.display.color@1.1.so
-lib/vendor.display.color@1.2.so
-lib/vendor.display.postproc@1.0.so
-lib/libsys-utils-system.so
-lib/vendor.qti.hardware.qdutils_disp@1.0.so
 lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so
 lib64/vendor.display.color@1.0.so
 lib64/vendor.display.color@1.1.so
@@ -116,11 +90,6 @@ product/etc/permissions/com.qti.dpmframework.xml|4613f8b8629d0b823e6aaab45d399ac
 product/etc/permissions/dpmapi.xml|0991b3069308620cfcad53873e9f09af181b981d
 product/framework/com.qti.dpmframework.jar|7adf5e0e96c155acfe66c7256e06e48c1ee35d13
 product/framework/dpmapi.jar|4696df9793ad676b305d53b5d7ce65ecf74771ad
-product/lib/com.qualcomm.qti.dpm.api@1.0.so|50a6e8edcad48708d0b0cac98e7f9be98bdea225
-product/lib/libdpmctmgr.so|356e4749df6be3d0530293dbbab6e7c543079427
-product/lib/libdpmfdmgr.so|657b3a471fdae7f78cc87e6991cc6e869b68047e
-product/lib/libdpmframework.so|fb465f761b65870b97efc10a253c063ac960459a
-product/lib/libdpmtcm.so|a2c628ac174a20174f8a9770e5bac587442839fd
 product/lib64/com.qualcomm.qti.dpm.api@1.0.so|a70cfc1be3e06cde6318d6969e114429fe1950bb
 product/lib64/libdpmctmgr.so|b2a31f356a2c675867f32769a0af7848e2969e83
 product/lib64/libdpmfdmgr.so|63f1bff925f290ed2582630c35698b4e6290307a
@@ -448,7 +417,6 @@ lib64/libGPQTEEC_system.so
 lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # QTI_ESEPOWERMANAGER
-lib/vendor.qti.esepowermanager@1.0.so
 lib64/vendor.qti.esepowermanager@1.0.so
 
 # QTI_IMS
@@ -460,10 +428,6 @@ framework/com.qualcomm.qti.imscmservice-V2.0-java.jar:product/framework/com.qual
 framework/com.qualcomm.qti.imscmservice-V2.1-java.jar:product/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar
 framework/com.qualcomm.qti.uceservice-V2.0-java.jar:product/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
 framework/vendor.qti.ims.callinfo-V1.0-java.jar:product/framework/vendor.qti.ims.callinfo-V1.0-java.jar
-lib/com.qualcomm.qti.imscmservice@1.0.so:product/lib/com.qualcomm.qti.imscmservice@1.0.so
-lib/com.qualcomm.qti.imscmservice@2.0.so:product/lib/com.qualcomm.qti.imscmservice@2.0.so
-lib/com.qualcomm.qti.imscmservice@2.1.so:product/lib/com.qualcomm.qti.imscmservice@2.1.so
-lib/com.qualcomm.qti.uceservice@2.0.so:product/lib/com.qualcomm.qti.uceservice@2.0.so
 lib/lib-imscamera.so:product/lib/lib-imscamera.so
 lib/lib-imsvideocodec.so:product/lib/lib-imsvideocodec.so
 lib/lib-imsvt.so:product/lib/lib-imsvt.so
@@ -473,12 +437,6 @@ lib/libdiag_system.so:product/lib/libdiag_system.so
 lib/libimscamera_jni.so:product/lib/libimscamera_jni.so
 lib/libimsmedia_jni.so:product/lib/libimsmedia_jni.so
 lib/librcc.so:product/lib/librcc.so
-lib/vendor.qti.hardware.radio.ims@1.0.so:product/lib/vendor.qti.hardware.radio.ims@1.0.so
-lib/vendor.qti.hardware.radio.ims@1.1.so:product/lib/vendor.qti.hardware.radio.ims@1.1.so
-lib/vendor.qti.hardware.radio.ims@1.2.so:product/lib/vendor.qti.hardware.radio.ims@1.2.so
-lib/vendor.qti.hardware.radio.ims@1.3.so:product/lib/vendor.qti.hardware.radio.ims@1.3.so
-lib/vendor.qti.ims.callinfo@1.0.so:product/lib/vendor.qti.ims.callinfo@1.0.so
-lib/vendor.qti.imsrtpservice@1.0.so:product/lib/vendor.qti.imsrtpservice@1.0.so
 lib64/com.qualcomm.qti.imscmservice@1.0.so:product/lib64/com.qualcomm.qti.imscmservice@1.0.so
 lib64/com.qualcomm.qti.imscmservice@2.0.so:product/lib64/com.qualcomm.qti.imscmservice@2.0.so
 lib64/com.qualcomm.qti.imscmservice@2.1.so:product/lib64/com.qualcomm.qti.imscmservice@2.1.so
@@ -501,19 +459,9 @@ lib64/vendor.qti.imsrtpservice@1.0.so:product/lib64/vendor.qti.imsrtpservice@1.0
 -priv-app/ims/ims.apk:product/priv-app/ims/ims.apk
 
 # QTI_QTEECONNECTOR
-lib/vendor.qti.hardware.qteeconnector@1.0.so
 lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # QTI_RADIO
-lib/vendor.qti.hardware.fm@1.0.so
-lib/vendor.qti.hardware.radio.am@1.0.so
-lib/vendor.qti.hardware.radio.lpa@1.0.so
-lib/vendor.qti.hardware.radio.qcrilhook@1.0.so
-lib/vendor.qti.hardware.radio.qtiradio@1.0.so
-lib/vendor.qti.hardware.radio.uim@1.0.so
-lib/vendor.qti.hardware.radio.uim@1.1.so
-lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so
-lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 lib64/vendor.qti.hardware.fm@1.0.so
 lib64/vendor.qti.hardware.radio.am@1.0.so
 lib64/vendor.qti.hardware.radio.lpa@1.0.so
@@ -541,9 +489,6 @@ lib64/vendor.somc.hardware.miscta@1.0.so|3349b02e83ec7fe7d7b1cbc698fbc52e156c364
 
 # SENSORS
 lib/libqmi_cci_system.so
-lib/libsensor1.so
-lib/libsensor_reg.so
-lib/libsensor_test.so
 lib64/libqmi_cci_system.so
 lib64/libsensor1.so
 lib64/libsensor_reg.so
