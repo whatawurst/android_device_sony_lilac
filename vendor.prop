@@ -1,3 +1,6 @@
+# Bluetooth
+bluetooth.device.default_name=Xperia XZ1 Compact
+
 # Disable HDR
 vendor.display.hwc_disable_hdr=1
 
