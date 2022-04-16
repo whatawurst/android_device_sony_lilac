@@ -8,10 +8,6 @@ sys.hwc_disable_hdr=1
 ### RADIO
 ro.telephony.default_network=9
 
-### API
-# First released API level
-ro.product.first_api_level=26
-
 ##### Add values MiscTA #####
 # /system/etc/prop.default
 ro.semc.version.sw=1307-7511
