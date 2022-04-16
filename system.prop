@@ -6,9 +6,7 @@ ro.vendor.usb.pid_suffix=1F4
 sys.hwc_disable_hdr=1
 
 ### RADIO
-# This will be set by loading
-# /oem/system-properties/config.prop
-# ro.telephony.default_network=9
+ro.telephony.default_network=9
 
 ### API
 # First released API level
