@@ -64,7 +64,7 @@ extract "${MY_DIR}/proprietary-files-vendor.txt" "${SRC}" "${KANG}" --section "$
 # Fix product path
 #
 
-DEVICE_ROOT="${ANDROID_ROOT}"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary/
+DEVICE_ROOT="${ANDROID_ROOT}"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary
 
 function fix_product_path () {
     sed -i \
