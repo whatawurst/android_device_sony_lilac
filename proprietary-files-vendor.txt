@@ -141,7 +141,7 @@ vendor/lib/libadiertac.so
 vendor/lib/libadm.so
 vendor/lib/libaudcal.so
 vendor/lib/libaudioalsa.so
--vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudio_log_utils.so
 vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
 vendor/lib/librebuffering.so
@@ -473,19 +473,6 @@ vendor/lib/libscveObjectTracker_stub.so
 vendor/lib/libscvePanorama.so
 vendor/lib/libscvePanorama_lite.so
 vendor/lib/libubifocus.so
-vendor/lib64/libchromaflash.so
-vendor/lib64/liboptizoom.so
-vendor/lib64/libscveBlobDescriptor.so
-vendor/lib64/libscveBlobDescriptor_stub.so
-vendor/lib64/libscveCommon.so
-vendor/lib64/libscveCommon_stub.so
-vendor/lib64/libscveFaceRecognition.so
-vendor/lib64/libscveObjectSegmentation.so
-vendor/lib64/libscveObjectTracker.so
-vendor/lib64/libscveObjectTracker_stub.so
-vendor/lib64/libscvePanorama.so
-vendor/lib64/libscvePanorama_lite.so
-vendor/lib64/libubifocus.so
 
 # CHARGER
 vendor/bin/charge_service
@@ -590,7 +577,7 @@ vendor/lib64/libhdr_tm.so|ac4c943ba0c9793e53fc0b4eecf78ebb90eb28bf
 vendor/lib64/libqseed3.so|6779aaf96283e244122f4cc76cd3cb750ff14ed5
 vendor/lib64/libsdm-color.so|9bfc08c837db828cbc6a80c9c15c87bfdb62b90c
 vendor/lib64/libsdm-diag.so|db4c495e3e64ea0cbc0d079a2aa16862a9b02192
--vendor/lib64/libsdm-disp-vndapis.so|92fe3602eaaae1847965e8886d2cbef3d0a801f8
+vendor/lib64/libsdm-disp-vndapis.so|92fe3602eaaae1847965e8886d2cbef3d0a801f8
 vendor/lib64/libsdmextension.so|7d0a49fd74e4b4d93a3d379267372ceaa79ca264
 vendor/lib64/libtinyxml2_1.so|70942325afdd14eedcf11b3fbbfbc3d98f42f8dc
 
@@ -813,7 +800,7 @@ vendor/lib/libOmxQcelp13Dec.so
 vendor/lib/libOmxVideoDSMode.so
 vendor/lib/libOmxVpp.so
 vendor/lib/libOmxWmaDec.so
--vendor/lib/libgpustats.so
+vendor/lib/libgpustats.so
 vendor/lib/libmm-color-convertor.so
 vendor/lib/libvpphvx.so
 vendor/lib/libvpplibrary.so
@@ -834,7 +821,7 @@ vendor/lib64/libOmxG711Dec.so
 vendor/lib64/libOmxQcelp13Dec.so
 vendor/lib64/libOmxVpp.so
 vendor/lib64/libOmxWmaDec.so
--vendor/lib64/libgpustats.so
+vendor/lib64/libgpustats.so
 vendor/lib64/libmm-color-convertor.so
 vendor/lib64/libvpphvx.so
 vendor/lib64/libvpplibrary.so
@@ -866,27 +853,7 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/bin/qseecomd
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
 vendor/etc/gpfspath_oem_config.xml
-vendor/lib/libGPreqcancel.so
-vendor/lib/libGPreqcancel_svc.so
-vendor/lib/libGPTEE_vendor.so
-vendor/lib/libGPQTEEC_vendor.so
-vendor/lib/libQSEEComAPI.so
-vendor/lib/libSecureUILib.so
-vendor/lib/libStDrvInt.so
-vendor/lib/libbase64.so
-vendor/lib/libcppf.so
 vendor/lib/libdiag.so
-vendor/lib/libdrmfs.so
-vendor/lib/libdrmtime.so
-vendor/lib/libqisl.so
-vendor/lib/librpmb.so
-vendor/lib/libsecureui.so
-vendor/lib/libsecureui_svcsock.so
-vendor/lib/libsi.so
-vendor/lib/libspl.so
-vendor/lib/libssd.so
-vendor/lib/libtzdrmgenprov.so
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libGPTEE_vendor.so
@@ -1018,7 +985,7 @@ vendor/lib/libdsutils.so
 vendor/lib/libqcci_legacy.so
 vendor/lib/libqdp.so
 vendor/lib/libqmi.so
--vendor/lib/libqmiservices.so
+vendor/lib/libqmiservices.so
 vendor/lib/libqmi_cci.so|081124ffadc5625a4398ed6c9c99d7eefa364324
 vendor/lib/libqmi_client_helper.so
 vendor/lib/libqmi_client_qmux.so
@@ -1039,7 +1006,7 @@ vendor/lib64/libqcci_legacy.so
 vendor/lib64/libqcmaputils.so
 vendor/lib64/libqdp.so
 vendor/lib64/libqmi.so
--vendor/lib64/libqmiservices.so
+vendor/lib64/libqmiservices.so
 vendor/lib64/libqmi_cci.so|f6a69616f54e06dff7e5db25ddd595d96921d979
 vendor/lib64/libqmi_client_helper.so
 vendor/lib64/libqmi_client_qmux.so
@@ -1075,7 +1042,7 @@ vendor/bin/ims_rtp_daemon
 vendor/bin/imsdatadaemon
 vendor/bin/imsqmidaemon
 vendor/bin/imsrcsd
--vendor/lib/libdsi_netctrl.so
+vendor/lib/libdsi_netctrl.so
 vendor/lib/libidl.so
 vendor/lib/libqdi.so
 vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so
@@ -1094,7 +1061,7 @@ vendor/lib64/lib-rtpcore.so
 vendor/lib64/lib-rtpdaemoninterface.so
 vendor/lib64/lib-rtpsl.so
 vendor/lib64/lib-uceservice.so
--vendor/lib64/libdsi_netctrl.so
+vendor/lib64/libdsi_netctrl.so
 vendor/lib64/libidl.so
 vendor/lib64/libqdi.so
 vendor/lib64/lib-siputility.so
@@ -1142,7 +1109,7 @@ vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sensor_def_qcomdev.conf
 vendor/etc/sensors/sensor_def_somc_platform.conf
 vendor/etc/sensors/sensor_def_somc_product.conf
--vendor/lib64/libqmi_common_so.so
+vendor/lib64/libqmi_common_so.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libsensor1.so
 vendor/lib64/libsensor_reg.so
@@ -1161,7 +1128,7 @@ vendor/etc/change.cfg
 vendor/etc/init/vendor.semc.hardware.thermal@1.0-service.rc
 vendor/etc/thermal-engine.conf
 vendor/lib64/libthermal_engine.so
--vendor/lib64/libthermalclient.so
+vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 vendor/lib64/vendor.semc.hardware.thermal@1.0.so
 vendor/lib64/hw/thermal.somc.so
@@ -1169,8 +1136,8 @@ vendor/lib64/hw/thermal.somc.so
 # TIME
 vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
--vendor/lib/libtime_genoff.so
--vendor/lib64/libtime_genoff.so
+vendor/lib/libtime_genoff.so
+vendor/lib64/libtime_genoff.so
 
 # TOUCHBACKLIGHT
 vendor/bin/hw/touchbacklightd
@@ -1187,10 +1154,10 @@ vendor/bin/taimport_vendor
 vendor/bin/ta_qmi_service
 vendor/etc/init/init.taqmi.rc
 vendor/etc/init/taimport_vendor.rc|0551b8c8b99c2182d8504fca241f382aa0c3de2d
--vendor/lib/libmiscta.so
--vendor/lib/libta.so
--vendor/lib64/libmiscta.so
--vendor/lib64/libta.so
+vendor/lib/libmiscta.so
+vendor/lib/libta.so
+vendor/lib64/libmiscta.so
+vendor/lib64/libta.so
 
 # TRIMAREA
 vendor/lib64/libtpm.so
