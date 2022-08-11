@@ -142,7 +142,7 @@ lib64/libsdsprpc_system.so
 lib64/libseemore.so
 
 # FFU
-etc/firmware/ufs/01AD-483238553632333031414D5220202020-D003.bin|516309bb7438524b2e4555cc3dcd452d94ea1b92
+lib/firmware/ufs/01AD-483238553632333031414D5220202020-D003.bin:etc/firmware/ufs/01AD-483238553632333031414D5220202020-D003.bin
 
 # FINGERPRINT_EXTENSION
 etc/permissions/com.fingerprints.extension.xml

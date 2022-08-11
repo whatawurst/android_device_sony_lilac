@@ -134,7 +134,7 @@ vendor/etc/acdbdata/Sony/Sony_yoshino_Hdmi_cal.acdb
 vendor/etc/acdbdata/Sony/Sony_yoshino_Headset_cal.acdb
 vendor/etc/acdbdata/Sony/Sony_yoshino_Speaker_cal.acdb
 vendor/etc/acdbdata/Sony/workspaceFile_Sony_yoshino.qwsp
-vendor/lib/hw/audio.primary.msm8998.so|fba0f0d3e13da5451e730a49e060880d41635a88
+vendor/lib/hw/audio.primary.msm8998.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libqcbassboost.so
 vendor/lib/soundfx/libqcreverb.so
@@ -712,7 +712,7 @@ vendor/lib64/librs_adreno.so
 vendor/lib64/librs_adreno_sha1.so
 
 # FFU
-vendor/bin/ffu|fe10f3c8d9e45831af0f10966e6d7c30a79f9fad
+sbin/ffu:vendor/bin/ffu
 
 # FINGERPRINT
 vendor/bin/hw/fpc_fingerprint@2.1_HIDL-service
@@ -1182,7 +1182,7 @@ vendor/firmware/touch_module_id_0xf1.img
 vendor/bin/ta_qmi_service
 vendor/bin/taimport_vendor
 vendor/etc/init/init.taqmi.rc
-vendor/etc/init/taimport_vendor.rc|0551b8c8b99c2182d8504fca241f382aa0c3de2d
+vendor/etc/init/taimport_vendor.rc
 vendor/lib/libmiscta.so
 vendor/lib/libta.so
 vendor/lib64/libmiscta.so
