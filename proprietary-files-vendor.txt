@@ -1,3 +1,6 @@
+## All proprietary files from this list, unless pinned and noted otherwise,
+## are from Xperia XZ1 Compact (47.2.A.11.228).
+
 # ADSP
 vendor/bin/adsprpcd
 vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so
