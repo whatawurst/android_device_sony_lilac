@@ -990,12 +990,14 @@ vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # RADIO - from SLD_sprout - RKQ1.210607.001-00WW_3_710
+vendor/bin/hw/qcrild|77d0168fbad7db01eec8abd9df25f19c05411eb4
 vendor/bin/ATFWD-daemon|e1d493d251232dc7787e8f9fe76c027830c63855
 vendor/bin/netmgrd|a7e71e2b2fa5d26d5c34f3f51492f2d792dd1388
 vendor/bin/pd-mapper|8eb9717d2ee4da59c64ec89a85bf4e384663322b
 vendor/bin/port-bridge|9312db5658f45206df6d51e78469d2d6a2d72b46
 vendor/bin/rmt_storage|5ee4fca4b5d914e28d0f3ce6a0df273fa14227e0
 vendor/bin/tftp_server|1d9d9378b18d24d966d281fdad54678ea38c524c
+vendor/etc/init/qcrild.rc|17cf4934bf443cf6469d8b3ff622eeb0e4a0aac6
 vendor/etc/data/dsi_config.xml|6b7260635ce43e26f2abce9d14a060ebafae1813
 vendor/etc/data/netmgr_config.xml|2df0b0bfb4a90b77cf83339332a04a0e41ed8fba
 vendor/etc/seccomp_policy/atfwd@2.0.policy|74fdb7d47bdb6d0cb06b13701a96a76c9171ab5d
@@ -1022,14 +1024,17 @@ vendor/lib64/libqmi_encdec.so|a18bb21e5b9b53e3dc8dc45f6e7e65e32a467607
 vendor/lib64/libqmiservices.so|52770edf3e35f5376f3d0a131636f3213c9e59fa
 vendor/lib64/libqrtr.so|b22ee7df87b35ba88b518f0b821cc601cd612183
 vendor/lib64/libqsocket.so|3fa01c9aff6ed96a5ea9886c7696a046c929e339
+vendor/lib64/libril-qc-hal-qmi.so|09865dc82b52325949511f856bab308a791e9e68
+vendor/lib64/libril-qc-logger.so|39fd61a8d9ed802aea046d17204ef88434522980
 vendor/lib64/libril-qc-ltedirectdisc.so|5b8a00483247f743cf92fb93f9a8234f72728dec
-vendor/lib64/libril-qc-qmi-1.so|f2cfd28538b20b7371dd2f00255376cc64ac0cd9
 vendor/lib64/libril-qc-radioconfig.so|ca8594506fd6e0706908bafd3d11ae24a810c3c0
 vendor/lib64/libril-qcril-hook-oem.so|1536b0a3bccdc1dcc06512248c14238a3405aaeb
-vendor/lib64/libril.so|5bd2a7501b8b4d426d1b88772226852670c92831
 vendor/lib64/librilqmiservices.so|249cc6a381ee15b7f705520eca41497b12997b8f
 vendor/lib64/libsettings.so|7a0a3e2f5f085d7212920f6394fc3a2b516683e1
 vendor/lib64/libsystem_health_mon.so|2cc55d78ea00b9fe8af9cd88fd8ef8c31ee5f494
+vendor/lib64/qcrild_librilutils.so|f12ebc05420621d930ffe7f4b4859117e3c9fc35
+vendor/lib64/qtibus.so|cef56e2d40f69b6b6c60b93edb612744395f7359
+vendor/lib64/qtimutex.so|026d9acf29b23ab0419abfe3066bd4c9f13bf7ae
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so|3d84dfd841e6bc918b8e92f3e8f4e45d2051708b
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so|ed5b893fc89f0f754bc0377ee8c02bd0b88157d7
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so|fc4ababd2cc8ff9f1f253194a5998a0596cf83aa
