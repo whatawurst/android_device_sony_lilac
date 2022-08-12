@@ -75,6 +75,10 @@ sed -i 's/\/lib\/firmware\/ufs/\/etc\/firmware\/ufs/g' "${DEVICE_ROOT}"/vendor/b
 # Add a restorecon for /persist/wlan to taimport_vendor.rc
 sed -i '4 a\    restorecon /persist/wlan' "${DEVICE_ROOT}"/vendor/etc/init/taimport_vendor.rc
 
+# Change xml version from 2.0 to 1.0
+sed -i 's/version\=\"2\.0\"/version\=\"1\.0\"/g' "${DEVICE_ROOT}"/product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml
+sed -i 's/version\=\"2\.0\"/version\=\"1\.0\"/g' "${DEVICE_ROOT}"/product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml
+
 #
 # Blobs fixup end
 #
