@@ -37,7 +37,6 @@ vendor/lib64/libadsprpc.so
 vendor/lib64/libcdsprpc.so
 vendor/lib64/libfastcrc.so
 vendor/lib64/libfastcvadsp_stub.so
-vendor/lib64/libfastcvopt.so
 vendor/lib64/libfastrpc_utf_stub.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libseemore.so
@@ -614,7 +613,6 @@ vendor/firmware/tzwvcpybuf.b05
 vendor/firmware/tzwvcpybuf.b06
 vendor/firmware/tzwvcpybuf.b07
 vendor/firmware/tzwvcpybuf.mdt
-vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/libwvhidl.so
 vendor/lib/libwvtee.so
 vendor/lib64/mediadrm/libwvdrmengine.so
