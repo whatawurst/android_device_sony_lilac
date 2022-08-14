@@ -404,7 +404,6 @@ etc/init/mssconfig.rc
 
 # QCRIL_RADIO - from SLD_sprout - RKQ1.210607.001-00WW_3_710
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|692d3d439cdee075729799e571113f6f8fe3e786
-system_ext/app/datastatusnotification/datastatusnotification.apk|21afad94737c029d38f4157a2816613e2c1dded9
 system_ext/app/embms/embms.apk|9b294f447d7b117fed64b431504c5e94561c1615
 system_ext/etc/permissions/embms.xml|22e7474091f9f71f02dd0cfc76cfa8848a46f079
 system_ext/etc/permissions/lpa.xml|616bb190e6020c307049932346e55a7363dfee34
