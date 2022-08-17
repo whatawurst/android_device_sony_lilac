@@ -30,6 +30,7 @@ How to build LineageOS
             <project name="whatawurst/android_device_sony_lilac" path="device/sony/lilac" remote="github" revision="lineage-19.1" />
 
             <!-- blobs for lilac -->
+            <project name="whatawurst/android_vendor_sony_yoshino-common" path="vendor/sony/yoshino-common" remote="github" revision="lineage-19.1" />
             <project name="whatawurst/android_vendor_sony_lilac" path="vendor/sony/lilac" remote="github" revision="lineage-19.1" />
         </manifest>
 
