@@ -486,7 +486,4 @@ vendor/etc/firmware/tztpm.b07
 vendor/etc/firmware/tztpm.mdt
 
 # WIFI
-vendor/bin/hw/vendor.somc.hardware.wifi@2.0-service
 vendor/etc/wifi/bdwlan.bin
-vendor/lib64/vendor.somc.hardware.wifi.supplicant@2.0.so
-vendor/lib64/vendor.somc.hardware.wifi@2.0.so
