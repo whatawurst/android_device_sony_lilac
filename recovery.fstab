@@ -1,0 +1,21 @@
+# Android fstab file.
+# The filesystem that contains the filesystem checker binary (typically /system) cannot
+# specify MF_CHECK, and must come before any filesystems that do specify MF_CHECK
+
+#<src>                                         <mnt_point>              <type>   <mnt_flags and options>                                                                           <fs_mgr_flags>
+/dev/block/bootdevice/by-name/boot             /boot                    emmc     defaults                                                                                          defaults
+/dev/block/bootdevice/by-name/system           /system                  ext4     barrier=1,discard                                                                                 wait,verify
+/dev/block/bootdevice/by-name/vendor           /vendor                  ext4     defaults                                                                                          wait,verify
+/dev/block/bootdevice/by-name/oem              /oem                     ext4     ro,barrier=1                                                                                      wait
+/dev/block/bootdevice/by-name/cache            /cache                   ext4     noatime,nosuid,nodev,barrier=1,data=ordered,noauto_da_alloc,errors=panic                          wait,check,formattable
+/dev/block/bootdevice/by-name/userdata         /data                    ext4     noatime,nosuid,nodev,barrier=1,data=ordered,noauto_da_alloc,errors=panic                          wait,check,formattable,fileencryption=ice,quota
+/dev/block/bootdevice/by-name/FOTAKernel       /recovery                emmc     defaults                                                                                          defaults
+/dev/block/bootdevice/by-name/dsp              /dsp                     ext4     ro,nosuid,nodev,barrier=1                                                                         wait
+/dev/block/bootdevice/by-name/misc             /misc                    emmc     defaults                                                                                          defaults
+/dev/block/bootdevice/by-name/modem            /firmware                vfat     ro,shortname=lower,uid=1000,gid=1000,dmask=227,fmask=337,context=u:object_r:firmware_file:s0      wait
+/dev/block/bootdevice/by-name/bluetooth        /bt_firmware             vfat     ro,shortname=lower,uid=1002,gid=3002,dmask=227,fmask=337,context=u:object_r:bt_firmware_file:s0   wait
+/dev/block/bootdevice/by-name/modemst1         /efs1                    emmc     defaults                                                                                          defaults
+/dev/block/bootdevice/by-name/modemst2         /efs2                    emmc     defaults                                                                                          defaults
+#/dev/block/bootdevice/by-name/persist          /mnt/vendor/persist      ext4     noatime,nosuid,nodev,barrier=1                                                                    wait,check,notrim
+/dev/block/mmcblk0p1                           /sdcard1                 auto     nosuid,nodev                                                                                      wait,voldmanaged=sdcard1:auto
+/dev/block/sdg1                                /usb-otg                 auto     defaults                                                                                          voldmanaged=usb:auto

@@ -15,4 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_lilac.mk
+    $(LOCAL_DIR)/twrp_lilac.mk
+
+COMMON_LUNCH_CHOICES := \
+    twrp_lilac-eng \
+    twrp_lilac-userdebug

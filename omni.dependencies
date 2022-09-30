@@ -1,8 +1,0 @@
-[
-  {
-    "remote": "github",
-    "repository": "TeamWin/android_device_sony_yoshino-common",
-    "target_path": "device/sony/yoshino-common",
-    "revision": "android-9.0"
-  }
-]
