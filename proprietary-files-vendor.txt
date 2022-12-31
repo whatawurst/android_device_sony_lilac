@@ -317,9 +317,6 @@ vendor/firmware/ipa_fws.b01
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
-# KEYPROVD
-vendor/bin/keyprovd
-
 # KOBJEVENTD
 vendor/bin/hw/kobjeventd
 vendor/lib/kobjeventd/touch_cover.so
