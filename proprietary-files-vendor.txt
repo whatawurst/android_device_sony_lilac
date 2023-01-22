@@ -43,7 +43,6 @@ vendor/etc/sony_effect/znr_param_48k_SubSoiCam.tbl
 
 # AUDIO_SOUNDTRIGGER
 vendor/lib/hw/sound_trigger.primary.msm8998.so
-vendor/lib/libadiertac.so
 vendor/lib/libgcs-calwrapper.so
 vendor/lib/libgcs-ipc.so
 vendor/lib/libgcs-osal.so
@@ -414,15 +413,6 @@ vendor/etc/firmware/tzsuntory.b05
 vendor/etc/firmware/tzsuntory.b06
 vendor/etc/firmware/tzsuntory.b07
 vendor/etc/firmware/tzsuntory.mdt
-vendor/etc/firmware/tztpm.b00
-vendor/etc/firmware/tztpm.b01
-vendor/etc/firmware/tztpm.b02
-vendor/etc/firmware/tztpm.b03
-vendor/etc/firmware/tztpm.b04
-vendor/etc/firmware/tztpm.b05
-vendor/etc/firmware/tztpm.b06
-vendor/etc/firmware/tztpm.b07
-vendor/etc/firmware/tztpm.mdt
 
 # SENSORS
 vendor/bin/sensors.qti
