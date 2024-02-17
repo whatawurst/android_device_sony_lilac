@@ -72,6 +72,31 @@ DEVICE_ROOT="${ANDROID_ROOT}"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary
 # Replace libstdc++.so with libstdc++_vendor.so
 "${PATCHELF_0_17_2}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${DEVICE_ROOT}"/vendor/bin/qns
 
+# Use libhidlbase-v32 for select Android P blobs
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib/com.qualcomm.qti.ant@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib/vendor.qti.voiceprint@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib/vendor.semc.hardware.light@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib/vendor.semc.system.idd@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib/vendor.somc.hardware.camera.cacao@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib/vendor.somc.hardware.camera.cacao@2.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib/vendor.somc.hardware.camera.cacao@3.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib/vendor.somc.hardware.camera.cacao@3.1.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib/vendor.somc.hardware.camera.device@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib/vendor.somc.hardware.camera.provider@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib64/com.fingerprints.extension@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib64/com.qualcomm.qti.ant@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib64/vendor.display.color@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib64/vendor.display.color@1.1.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib64/vendor.display.postproc@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib64/vendor.qti.esepowermanager@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib64/vendor.semc.hardware.light@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib64/vendor.semc.hardware.thermal@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib64/vendor.semc.system.idd@1.0.so
+"${PATCHELF}" --replace-needed "libhidlbase.so" "libhidlbase-v32.so" "${DEVICE_ROOT}"/vendor/lib64/vendor.somc.hardware.security.secd@1.0.so
+
 #
 # Blobs fixup end
 #
