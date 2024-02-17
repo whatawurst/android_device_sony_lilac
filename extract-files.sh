@@ -69,6 +69,9 @@ DEVICE_ROOT="${ANDROID_ROOT}"/vendor/"${VENDOR}"/"${DEVICE}"/proprietary
 # Fix referenced set_sched_policy for stock audio hal
 "${PATCHELF}" --replace-needed "libcutils.so" "libprocessgroup.so" "${DEVICE_ROOT}"/vendor/lib/hw/audio.primary.msm8998.so
 
+# Replace libstdc++.so with libstdc++_vendor.so
+"${PATCHELF}" --replace-needed "libstdc++.so" "libstdc++_vendor.so" "${DEVICE_ROOT}"/vendor/bin/qns
+
 #
 # Blobs fixup end
 #
